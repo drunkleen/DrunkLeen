@@ -34,7 +34,7 @@ I am just a beginner <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/
 
 - :telescope: I’m working as a Centralist in a little Security Company.
 - :zap: Exploring Technical Content Writing.
-- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-discord-blue?style=flat&logo=Discord&logoColor=white)](https://discordapp.com/users/DrunkLeen#8784)
+- :mailbox: How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-discord-blue?style=flat&logo=Discord&logoColor=white)](https://discordapp.com/users/DrunkLeen#8784)
 
 
 <img align='right' height='220' style="margin-right:20px" src='assets/img/programmer.png' alt='Programmer'>
