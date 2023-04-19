@@ -20,28 +20,12 @@
 
 
 ### <summary><b> Leen is here! I'm interested in Programming and Network Security.</b></summary>
-<br>                                                                         
-<b>I am just a regular guy from Iran / Living in Germany.</b>
 
+- :zap: I am just a regular guy from Iran / Living in Germany.
 - :telescope: I’m working as a Centralist in a little Security Company.
-- :zap: Exploring Technical Content Writing.
 - :mailbox: You can reach me directly on [Twitter](https://twitter.com/DrunkLeen) and [LinkedIn](https://www.linkedin.com/in/drunkleen/) with @DrunkLeen.
 
-<img align='right' height='120' style="margin-right:20px" src='assets/img/programmer.png' alt='Programmer'>
-
-
-<p align="center">
 <br>
-
-
-
- <summary><b>:hammer_and_wrench: Languages and Tools</b></summary><br>
-<p align="center">
-
-[![My Skills](https://skillicons.dev/icons?i=git,github,python,fastapi,django,flask,linux,stackoverflow,vscode,idea,docker,postgres,postman,ps,ae,pr,au&perline=9)](https://github.com/drunkleen/)
-
-<br>
-
 
 <!-- <details>
 <summary><b>:gear: &nbsp;Git statistics</b></summary>
@@ -58,49 +42,19 @@
 
 
 <!--START_SECTION:waka-->
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                26 commits          ███████░░░░░░░░░░░░░░░░░░   28.89 % 
-🌆 Daytime                16 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.78 % 
-🌃 Evening                10 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
-🌙 Night                  38 commits          ███████████░░░░░░░░░░░░░░   42.22 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Europe/Berlin
-
-💬 Programming Languages: 
-Python                   1 hr 56 mins        ██████████░░░░░░░░░░░░░░░   38.26 % 
-Markdown                 1 hr 43 mins        ████████░░░░░░░░░░░░░░░░░   33.94 % 
-YAML                     47 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.79 % 
-Other                    13 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.39 % 
-JSON                     12 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.98 % 
-
-🔥 Editors: 
-VS Code                  4 hrs 4 mins        ████████████████████░░░░░   80.40 % 
-PyCharmCore              59 mins             █████░░░░░░░░░░░░░░░░░░░░   19.60 % 
-
-💻 Operating System: 
-Windows                  2 hrs 44 mins       ██████████████░░░░░░░░░░░   54.08 % 
-Linux                    2 hrs 19 mins       ███████████░░░░░░░░░░░░░░   45.92 % 
-```
-
-**I Mostly Code in Python** 
-
-```text
-Python                   9 repos             ███████████████░░░░░░░░░░   60.00 % 
-C#                       2 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.33 % 
-HTML                     1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   06.67 % 
-C++                      1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   06.67 % 
-Shell                    1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   06.67 % 
-```
-
-
-
-
- Last Updated on 19/04/2023 22:31:17 UTC
 <!--END_SECTION:waka-->
+
+<img align='right' height='120' style="margin-right:20px" src='assets/img/programmer.png' alt='Programmer'>
+
+
+<p align="center">
+<br>
+
+
+<details>
+ <summary><b>:hammer_and_wrench: Languages and Tools</b></summary><br>
+<p align="center">
+
+[![My Skills](https://skillicons.dev/icons?i=git,github,python,fastapi,django,flask,linux,stackoverflow,vscode,idea,docker,postgres,postman,ps,ae,pr,au&perline=9)](https://github.com/drunkleen/)
+
+</details>
