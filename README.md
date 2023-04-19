@@ -43,7 +43,7 @@
 <br>
 
 
-<details>
+<!-- <details>
 <summary><b>:gear: &nbsp;Git statistics</b></summary>
 <br>
 
@@ -54,7 +54,7 @@
 [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=drunkleen&theme=github_dark#gh-dark-mode-only)](https://github.com/drunkleen/github-readme-stats)
 [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=drunkleen&layout=compact&theme=vue#gh-light-mode-only)](https://github.com/drunkleen/github-readme-stats)
 
-</details>
+</details> -->
 
 
 <!--START_SECTION:waka-->
