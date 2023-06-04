@@ -22,7 +22,6 @@
 ### <summary><b> Leen is here! I'm interested in Programming and Network Security.</b></summary>
 
 - :zap: I am just a regular guy from Iran / Living in Germany.
-- :telescope: I’m working as a Centralist in a little Security Company.
 - :mailbox: You can reach me directly on [Twitter](https://twitter.com/DrunkLeen) and [LinkedIn](https://www.linkedin.com/in/drunkleen/) with @DrunkLeen.
 
 <br>
