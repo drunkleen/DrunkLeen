@@ -57,13 +57,15 @@
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+HTML                     3 hrs 35 mins       ██████████████░░░░░░░░░░░   55.41 % 
+Python                   2 hrs 53 mins       ███████████░░░░░░░░░░░░░░   44.58 % 
+CSS                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+VS Code                  6 hrs 28 mins       █████████████████████████   100.00 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Linux                    6 hrs 28 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -79,7 +81,7 @@ C#                       2 repos             ██░░░░░░░░░�
 
 
 
- Last Updated on 27/08/2023 18:32:49 UTC
+ Last Updated on 28/08/2023 18:32:41 UTC
 <!--END_SECTION:waka-->
 
 <img align='right' height='120' style="margin-right:20px" src='assets/img/programmer.png' alt='Programmer'>
