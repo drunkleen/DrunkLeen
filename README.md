@@ -57,13 +57,14 @@
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+Java                     1 hr 28 mins        ██████████████████████░░░   89.84 % 
+GitIgnore file           9 mins              ███░░░░░░░░░░░░░░░░░░░░░░   10.16 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+IntelliJ                 1 hr 37 mins        █████████████████████████   100.00 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Linux                    1 hr 37 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -79,7 +80,7 @@ C#                       2 repos             ██░░░░░░░░░�
 
 
 
- Last Updated on 16/11/2023 18:34:45 UTC
+ Last Updated on 17/11/2023 18:34:37 UTC
 <!--END_SECTION:waka-->
 
 <img align='right' height='120' style="margin-right:20px" src='assets/img/programmer.png' alt='Programmer'>
