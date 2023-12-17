@@ -57,13 +57,17 @@
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+Java                     1 hr 2 mins         ███████████████████░░░░░░   76.72 % 
+Python                   11 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.21 % 
+Java Properties          7 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   09.07 % 
+spring-boot-configuration0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+IntelliJ                 1 hr 9 mins         █████████████████████░░░░   85.79 % 
+VS Code                  11 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.21 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Linux                    1 hr 21 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -79,7 +83,7 @@ C#                       2 repos             ██░░░░░░░░░�
 
 
 
- Last Updated on 16/12/2023 18:32:43 UTC
+ Last Updated on 17/12/2023 18:33:36 UTC
 <!--END_SECTION:waka-->
 
 <img align='right' height='120' style="margin-right:20px" src='assets/img/programmer.png' alt='Programmer'>
