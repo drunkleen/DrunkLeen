@@ -57,16 +57,13 @@
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Java                     2 hrs 29 mins       ████████████████████░░░░░   81.72 % 
-HTML                     29 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.94 % 
-Java Properties          4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.34 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  3 hrs 3 mins        █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Windows                  1 hr 59 mins        ████████████████░░░░░░░░░   65.51 % 
-Linux                    1 hr 3 mins         █████████░░░░░░░░░░░░░░░░   34.49 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in Python** 
@@ -82,7 +79,7 @@ C#                       2 repos             ██░░░░░░░░░�
 
 
 
- Last Updated on 11/01/2024 18:33:26 UTC
+ Last Updated on 12/01/2024 18:33:57 UTC
 <!--END_SECTION:waka-->
 
 <img align='right' height='120' style="margin-right:20px" src='assets/img/programmer.png' alt='Programmer'>
