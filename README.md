@@ -95,10 +95,9 @@ CSS                      2 repos             █░░░░░░░░░░�
 <br>
 
 
-<details>
+
  <summary><b>:hammer_and_wrench: Languages and Tools</b></summary><br>
 <p align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=git,github,python,fastapi,django,flask,linux,stackoverflow,vscode,idea,docker,postgres,postman,ps,ae,pr,au&perline=9)](https://github.com/drunkleen/)
+[![My Skills](https://skillicons.dev/icons?i=git,github,python,fastapi,django,flask,linux,stackoverflow,vscode,idea,java,spring,postgres,postman,ps,ae,pr,au&perline=9)](https://github.com/drunkleen/)
 
-</details>
