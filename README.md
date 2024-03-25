@@ -100,5 +100,5 @@ Lua                      1 repo              █░░░░░░░░░░�
  <summary><b>:hammer_and_wrench: Languages and Tools</b></summary><br>
 <p align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=git,github,python,fastapi,django,flask,linux,stackoverflow,vscode,idea,java,spring,postgres,postman,ps,ae,pr,au&perline=9)](https://github.com/drunkleen/)
+[![My Skills](https://skillicons.dev/icons?i=git,python,rust,java,fastapi,django,flask,spring,linux,stackoverflow,vscode,idea,postgres,postman,ps,ae,pr,au&perline=9)](https://github.com/drunkleen/)
 
