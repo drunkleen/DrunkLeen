@@ -8,7 +8,7 @@
   <a href="http://telegram.me/rezadfx">
     <img src="https://img.shields.io/badge/Telegram-white?style=for-the-badge&logo=telegram&logoColor=blue" alt=Telegram Badge"/>
   </a>
-  <a href="https://twitter.com/DrunkLeen">
+  <a href="https://discord.com/users/DrunkLeen">
     <img src="https://img.shields.io/badge/Discord-gray?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Badge"/>
   </a>
   <br>
