@@ -19,10 +19,10 @@
 ---
 
 
-### <summary><b> Leen is here! I'm interested in Programming and Network Security.</b></summary>
+### <summary><b> Leen is here! I'm interested in Programming and Network Security</b></summary>
 
-- :zap: I'm just a regular guy with big dreams, excited to make a positive impact in the open-source community!.
-- :mailbox: You can reach me directly on [Twitter/X](https://twitter.com/DrunkLeen) and [LinkedIn](https://www.linkedin.com/in/drunkleen/) with @DrunkLeen.
+- :zap: I'm just a regular guy with big dreams, excited to make a positive impact in the open-source community!
+- :mailbox: You can reach me directly on [Twitter/X](https://twitter.com/DrunkLeen) and [LinkedIn](https://www.linkedin.com/in/drunkleen/) with @DrunkLeen
 
 <br>
 
