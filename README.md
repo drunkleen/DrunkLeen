@@ -57,13 +57,16 @@
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+Go                       25 mins             ███████████████░░░░░░░░░░   60.49 % 
+Other                    14 mins             ████████░░░░░░░░░░░░░░░░░   33.62 % 
+Markdown                 2 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   05.89 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+GoLand                   27 mins             █████████████████░░░░░░░░   66.38 % 
+Neovim                   14 mins             ████████░░░░░░░░░░░░░░░░░   33.62 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Linux                    42 mins             █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -79,7 +82,7 @@ C#                       2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 10/09/2024 18:40:35 UTC
+ Last Updated on 11/09/2024 18:40:32 UTC
 <!--END_SECTION:waka-->
 
 <img align='right' height='120' style="margin-right:20px" src='assets/img/programmer.png' alt='Programmer'>
