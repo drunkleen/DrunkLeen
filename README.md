@@ -91,11 +91,12 @@ Rust                     1 repo              █░░░░░░░░░░�
 
 <p align="center">
 <br>
+<summary><h3><b>:hammer_and_wrench: Stats</b></h3></summary>
+<br>
 
+<h3 align="center">
+  
+![GitHub Stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=drunkleen&theme=tokyonight) [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=drunkleen&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=480)](https://git.io/streak-stats)
+![GitHub Summary](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=drunkleen&theme=tokyonight)
 
-
- <summary><b>:hammer_and_wrench: Languages and Tools</b></summary><br>
-<p align="center">
-
-[![My Skills](https://skillicons.dev/icons?i=git,python,rust,java,fastapi,django,flask,spring,linux,go,neovim,vscode,idea,postgres,postman,ps,pr,arch&perline=9)](https://github.com/drunkleen/)
-
+</h3>
