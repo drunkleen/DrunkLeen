@@ -57,17 +57,13 @@
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Go                       2 hrs 24 mins       ████████████████████░░░░░   78.81 % 
-YAML                     19 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.57 % 
-Bash                     6 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.77 % 
-Makefile                 5 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.04 % 
-templ                    2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.49 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  3 hrs 3 mins        █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-WSL                      3 hrs 3 mins        █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in Python** 
@@ -83,7 +79,7 @@ Lua                      2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 19/02/2025 18:42:27 UTC
+ Last Updated on 20/02/2025 18:42:44 UTC
 <!--END_SECTION:waka-->
 
 <img align='right' height='120' style="margin-right:20px" src='assets/img/programmer.png' alt='Programmer'>
