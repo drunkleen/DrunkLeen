@@ -19,10 +19,14 @@
 ---
 
 
-### <summary><b> Leen is here! I'm interested in Programming and Network Security</b></summary>
 
-- :zap: I'm just a regular guy with big dreams, excited to make a positive impact in the open-source community!
-- :mailbox: You can reach me directly on [Twitter/X](https://twitter.com/DrunkLeen) and [LinkedIn](https://www.linkedin.com/in/drunkleen/) with @DrunkLeen
+### Leen is here! Passionate about Programming and Network Security
+
+-	:zap: Just a regular guy with big dreams, eager to make a meaningful impact in the open-source community!
+-	:mailbox: Feel free to reach out on Twitter/X or LinkedIn (@DrunkLeen).
+-	:mail: Or simply send me an email [anakin@drunkleen.com](mailto:anakin@drunkleen.com)!
+
+
 
 <br>
 
