@@ -24,7 +24,7 @@
 
 -	:zap: Just a regular guy with big dreams, eager to make a meaningful impact in the open-source community!
 -	:mailbox: Feel free to reach out on Twitter/X or LinkedIn (@DrunkLeen).
--	:mail: Or simply send me an email [anakin@drunkleen.com](mailto:anakin@drunkleen.com)!
+-	:email: Or simply send me an email [anakin@drunkleen.com](mailto:anakin@drunkleen.com)!
 
 
 
