@@ -61,13 +61,13 @@
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Java                     27 mins             █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-Cursor                   27 mins             █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Linux                    27 mins             █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in Python** 
@@ -83,7 +83,7 @@ Lua                      2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 28/03/2025 18:46:43 UTC
+ Last Updated on 29/03/2025 18:41:37 UTC
 <!--END_SECTION:waka-->
 
 <img align='right' height='120' style="margin-right:20px" src='assets/img/programmer.png' alt='Programmer'>
