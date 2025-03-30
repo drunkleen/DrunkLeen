@@ -61,13 +61,18 @@
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+Other                    11 mins             ██████████░░░░░░░░░░░░░░░   41.46 % 
+Markdown                 9 mins              ████████░░░░░░░░░░░░░░░░░   33.43 % 
+csh                      5 mins              █████░░░░░░░░░░░░░░░░░░░░   18.48 % 
+TypeScript               1 min               ██░░░░░░░░░░░░░░░░░░░░░░░   06.06 % 
+tmux                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.42 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+VS Code                  23 mins             ████████████████████░░░░░   81.52 % 
+Neovim                   5 mins              █████░░░░░░░░░░░░░░░░░░░░   18.48 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Linux                    28 mins             █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -83,7 +88,7 @@ Lua                      2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 29/03/2025 18:41:37 UTC
+ Last Updated on 30/03/2025 18:41:22 UTC
 <!--END_SECTION:waka-->
 
 <img align='right' height='120' style="margin-right:20px" src='assets/img/programmer.png' alt='Programmer'>
