@@ -45,6 +45,31 @@
 
 
 <!--START_SECTION:waka-->
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                230 commits         ███████░░░░░░░░░░░░░░░░░░   27.35 % 
+🌆 Daytime                189 commits         ██████░░░░░░░░░░░░░░░░░░░   22.47 % 
+🌃 Evening                191 commits         ██████░░░░░░░░░░░░░░░░░░░   22.71 % 
+🌙 Night                  231 commits         ███████░░░░░░░░░░░░░░░░░░   27.47 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Europe/Berlin
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+```
+
 **I Mostly Code in Go** 
 
 ```text
@@ -58,7 +83,7 @@ CSS                      2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 28/09/2025 18:41:40 UTC
+ Last Updated on 29/09/2025 18:46:22 UTC
 <!--END_SECTION:waka-->
 
 <img align='right' height='120' style="margin-right:20px" src='assets/img/programmer.png' alt='Programmer'>
