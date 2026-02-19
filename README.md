@@ -61,13 +61,13 @@
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-hyprlang                 0 secs              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-Neovim                   0 secs              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Linux                    0 secs              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in Go** 
@@ -83,7 +83,7 @@ templ                    1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 18/02/2026 19:27:39 UTC
+ Last Updated on 19/02/2026 19:14:24 UTC
 <!--END_SECTION:waka-->
 
 <img align='right' height='120' style="margin-right:20px" src='assets/img/programmer.png' alt='Programmer'>
