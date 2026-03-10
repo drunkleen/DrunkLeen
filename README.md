@@ -48,10 +48,10 @@
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                292 commits         ███████░░░░░░░░░░░░░░░░░░   26.14 % 
-🌆 Daytime                259 commits         ██████░░░░░░░░░░░░░░░░░░░   23.19 % 
-🌃 Evening                262 commits         ██████░░░░░░░░░░░░░░░░░░░   23.46 % 
-🌙 Night                  304 commits         ███████░░░░░░░░░░░░░░░░░░   27.22 % 
+🌞 Morning                292 commits         ███████░░░░░░░░░░░░░░░░░░   26.16 % 
+🌆 Daytime                259 commits         ██████░░░░░░░░░░░░░░░░░░░   23.21 % 
+🌃 Evening                261 commits         ██████░░░░░░░░░░░░░░░░░░░   23.39 % 
+🌙 Night                  304 commits         ███████░░░░░░░░░░░░░░░░░░   27.24 % 
 ```
 
 
@@ -61,34 +61,35 @@
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Other                    51 mins             ██████░░░░░░░░░░░░░░░░░░░   24.11 % 
-Bash                     45 mins             █████░░░░░░░░░░░░░░░░░░░░   21.20 % 
-TOML                     36 mins             ████░░░░░░░░░░░░░░░░░░░░░   17.32 % 
-Text                     20 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.73 % 
-Markdown                 17 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.14 % 
+Other                    51 mins             ██████░░░░░░░░░░░░░░░░░░░   22.97 % 
+Bash                     45 mins             █████░░░░░░░░░░░░░░░░░░░░   20.20 % 
+TOML                     36 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.50 % 
+Nix                      22 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.06 % 
+Text                     20 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.27 % 
 
 🔥 Editors: 
-VS Code                  2 hrs 2 mins        ██████████████░░░░░░░░░░░   57.71 % 
-Neovim                   1 hr 30 mins        ███████████░░░░░░░░░░░░░░   42.29 % 
+VS Code                  2 hrs 13 mins       ███████████████░░░░░░░░░░   59.71 % 
+Neovim                   1 hr 30 mins        ██████████░░░░░░░░░░░░░░░   40.29 % 
 
 💻 Operating System: 
-Linux                    3 hrs 33 mins       █████████████████████████   100.00 % 
+Linux                    3 hrs 42 mins       █████████████████████████   99.70 % 
+Windows                  0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.30 % 
 ```
 
 **I Mostly Code in Go** 
 
 ```text
-Go                       13 repos            ██████░░░░░░░░░░░░░░░░░░░   23.21 % 
-HTML                     5 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   08.93 % 
-Shell                    4 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   07.14 % 
-Lua                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.57 % 
-templ                    1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.79 % 
+Go                       13 repos            ██████░░░░░░░░░░░░░░░░░░░   23.64 % 
+Rust                     8 repos             ████░░░░░░░░░░░░░░░░░░░░░   14.55 % 
+HTML                     5 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
+Lua                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.64 % 
+templ                    1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.82 % 
 ```
 
 
 
 
- Last Updated on 09/03/2026 19:14:27 UTC
+ Last Updated on 10/03/2026 19:12:53 UTC
 <!--END_SECTION:waka-->
 
 <img align='right' height='120' style="margin-right:20px" src='assets/img/programmer.png' alt='Programmer'>
