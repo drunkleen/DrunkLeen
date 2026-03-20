@@ -48,10 +48,10 @@
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                277 commits         ███████░░░░░░░░░░░░░░░░░░   26.08 % 
-🌆 Daytime                255 commits         ██████░░░░░░░░░░░░░░░░░░░   24.01 % 
-🌃 Evening                245 commits         ██████░░░░░░░░░░░░░░░░░░░   23.07 % 
-🌙 Night                  285 commits         ███████░░░░░░░░░░░░░░░░░░   26.84 % 
+🌞 Morning                277 commits         ███████░░░░░░░░░░░░░░░░░░   26.06 % 
+🌆 Daytime                255 commits         ██████░░░░░░░░░░░░░░░░░░░   23.99 % 
+🌃 Evening                246 commits         ██████░░░░░░░░░░░░░░░░░░░   23.14 % 
+🌙 Night                  285 commits         ███████░░░░░░░░░░░░░░░░░░   26.81 % 
 ```
 
 
@@ -61,35 +61,35 @@
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Text                     34 mins             ██████░░░░░░░░░░░░░░░░░░░   24.84 % 
-Bash                     18 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.63 % 
-Other                    16 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.68 % 
-PowerShell               15 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.48 % 
-hyprlang                 14 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.33 % 
+Text                     34 mins             ██████░░░░░░░░░░░░░░░░░░░   25.85 % 
+Bash                     18 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.18 % 
+Other                    16 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.15 % 
+PowerShell               15 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.94 % 
+Image (png)              12 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.40 % 
 
 🔥 Editors: 
-VS Code                  1 hr 21 mins        ███████████████░░░░░░░░░░   59.38 % 
-Neovim                   55 mins             ██████████░░░░░░░░░░░░░░░   40.62 % 
+VS Code                  1 hr 21 mins        ███████████████░░░░░░░░░░   61.80 % 
+Neovim                   50 mins             ██████████░░░░░░░░░░░░░░░   38.20 % 
 
 💻 Operating System: 
-Windows                  1 hr 21 mins        ███████████████░░░░░░░░░░   59.38 % 
-Linux                    55 mins             ██████████░░░░░░░░░░░░░░░   40.62 % 
+Windows                  1 hr 21 mins        ███████████████░░░░░░░░░░   61.80 % 
+Linux                    50 mins             ██████████░░░░░░░░░░░░░░░   38.20 % 
 ```
 
 **I Mostly Code in Go** 
 
 ```text
-Go                       12 repos            ██████░░░░░░░░░░░░░░░░░░░   23.53 % 
-Rust                     8 repos             ████░░░░░░░░░░░░░░░░░░░░░   15.69 % 
-Java                     6 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.76 % 
-HTML                     5 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.80 % 
-Lua                      1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.96 % 
+Go                       12 repos            ██████░░░░░░░░░░░░░░░░░░░   23.08 % 
+Rust                     8 repos             ████░░░░░░░░░░░░░░░░░░░░░   15.38 % 
+HTML                     6 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.54 % 
+Java                     6 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.54 % 
+Lua                      1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.92 % 
 ```
 
 
 
 
- Last Updated on 19/03/2026 19:26:45 UTC
+ Last Updated on 20/03/2026 19:10:34 UTC
 <!--END_SECTION:waka-->
 
 <img align='right' height='120' style="margin-right:20px" src='assets/img/programmer.png' alt='Programmer'>
