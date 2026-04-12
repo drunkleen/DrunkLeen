@@ -61,14 +61,13 @@
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-hyprlang                 7 mins              ██████████████████████░░░   88.73 % 
-Other                    0 secs              ███░░░░░░░░░░░░░░░░░░░░░░   11.27 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-Neovim                   8 mins              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Linux                    8 mins              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in Go** 
@@ -84,7 +83,7 @@ Lua                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 11/04/2026 19:10:27 UTC
+ Last Updated on 12/04/2026 19:12:24 UTC
 <!--END_SECTION:waka-->
 
 <img align='right' height='120' style="margin-right:20px" src='assets/img/programmer.png' alt='Programmer'>
