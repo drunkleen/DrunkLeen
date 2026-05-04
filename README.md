@@ -101,4 +101,48 @@ A Persian community project around Rust programming language education.
 ---
 
 <!--START_SECTION:waka-->
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                961 commits         ███████░░░░░░░░░░░░░░░░░░   26.18 % 
+🌆 Daytime                959 commits         ███████░░░░░░░░░░░░░░░░░░   26.12 % 
+🌃 Evening                1013 commits        ███████░░░░░░░░░░░░░░░░░░   27.59 % 
+🌙 Night                  738 commits         █████░░░░░░░░░░░░░░░░░░░░   20.10 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Europe/Berlin
+
+💬 Programming Languages: 
+HTML                     2 hrs 43 mins       ███████░░░░░░░░░░░░░░░░░░   26.87 % 
+Bash                     2 hrs 3 mins        █████░░░░░░░░░░░░░░░░░░░░   20.24 % 
+Other                    1 hr 58 mins        █████░░░░░░░░░░░░░░░░░░░░   19.54 % 
+Markdown                 1 hr 21 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.44 % 
+YAML                     1 hr 10 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.59 % 
+
+🔥 Editors: 
+Unknown Editor           7 hrs               █████████████████░░░░░░░░   69.12 % 
+Neovim                   3 hrs 7 mins        ████████░░░░░░░░░░░░░░░░░   30.88 % 
+
+💻 Operating System: 
+Linux                    10 hrs 7 mins       █████████████████████████   100.00 % 
+```
+
+**I Mostly Code in Go** 
+
+```text
+Go                       12 repos            █████░░░░░░░░░░░░░░░░░░░░   20.69 % 
+Rust                     8 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.79 % 
+HTML                     6 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.34 % 
+Java                     6 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.34 % 
+Lua                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.45 % 
+```
+
+
+
+
+ Last Updated on 04/05/2026 06:18:47 UTC
 <!--END_SECTION:waka-->
