@@ -1,107 +1,104 @@
-<div id="badges" align="center">
-  <a href="https://twitter.com/DrunkLeen">
-    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
-  </a>
-  <a href="https://www.instagram.com/reza.df.x">  
-    <img src="https://img.shields.io/badge/LinkedIn-skyblue?style=for-the-badge&logo=LinkedIn&logoColor=black" alt="LinkedIn Badge"/>
-  </a>
-  <a href="http://telegram.me/rezadfx">
-    <img src="https://img.shields.io/badge/Telegram-white?style=for-the-badge&logo=telegram&logoColor=blue" alt=Telegram Badge"/>
-  </a>
-  <a href="https://discord.com/users/DrunkLeen">
-    <img src="https://img.shields.io/badge/Discord-gray?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Badge"/>
-  </a>
-  <br>
-  <img src="https://komarev.com/ghpvc/?username=drunkleen&style=flat-square&color=red" alt=""/>
-</div>
+<div align="center">
 
+# Hey, I'm Leen 👋
+
+### Developer • Rust & Go Enthusiast • Linux User • Open Source Builder
+
+<p>
+  <a href="https://twitter.com/DrunkLeen">
+    <img src="https://img.shields.io/badge/Twitter/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter/X"/>
+  </a>
+  <a href="https://www.instagram.com/drunkleen">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+  <a href="mailto:anakin@drunkleen.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
+
+<img src="https://komarev.com/ghpvc/?username=drunkleen&style=flat-square&color=red" alt="Profile views"/>
+
+</div>
 
 ---
 
+## About Me
 
+I'm Leen, a developer and open-source enthusiast interested in Rust, Go, Linux, networking, and system-level programming.
 
-### Leen is here! Passionate about Programming and Network Security
+I build tools, write educational content, and work on projects around programming, Linux, self-hosting, and the Persian-speaking developer community.
 
--	:zap: Just a regular guy with big dreams, eager to make a meaningful impact in the open-source community!
--	:mailbox: Feel free to reach out on Twitter/X or LinkedIn (@DrunkLeen).
--	:email: Or simply send me an email [anakin@drunkleen.com](mailto:anakin@drunkleen.com)!
+- Building open-source tools with Rust and Go
+- Creating Persian educational content about programming
+- Daily Linux user
+- Interested in backend development, networking, and security
+- Personal website: [drunkleen.com](https://drunkleen.com)
+- Email: [anakin@drunkleen.com](mailto:anakin@drunkleen.com)
 
+---
 
+## Featured Projects
 
-<br>
+### Leenium Linux
 
-<!-- <details>
-<summary><b>:gear: &nbsp;Git statistics</b></summary>
-<br>
+A personal Linux-based project and ecosystem focused on building a customized, developer-friendly Linux experience.
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=drunkleen&layout=compact&theme=github_dark#gh-dark-mode-only)](https://github.com/drunkleen/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=drunkleen&layout=compact&theme=vue#gh-light-mode-only)](https://github.com/drunkleen/github-readme-stats)
-[![DrunkLeen's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=drunkleen&show_icons=true&theme=github_dark#gh-dark-mode-only)](https://github.com/drunkleen/)
-[![DrunkLeen's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=drunkleen&show_icons=true&theme=vue#gh-light-mode-only)](https://github.com/drunkleen/github-readme-stats)
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=drunkleen&theme=github_dark#gh-dark-mode-only)](https://github.com/drunkleen/github-readme-stats)
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=drunkleen&layout=compact&theme=vue#gh-light-mode-only)](https://github.com/drunkleen/github-readme-stats)
+- Custom packages
+- Personal package repository
+- Linux tooling and automation
+- Built around real daily usage
+Leenium website: [leenium.org](https://leenium.org)
+Leenium organization: [Leenium](https://github.com/leenium/)
 
-</details> -->
+---
 
+### Leenfetch
 
-<!--START_SECTION:waka-->
-**I'm an Early 🐤** 
+A fast and simple system information tool written in Rust.
 
-```text
-🌞 Morning                892 commits         ██████░░░░░░░░░░░░░░░░░░░   25.72 % 
-🌆 Daytime                900 commits         ██████░░░░░░░░░░░░░░░░░░░   25.95 % 
-🌃 Evening                1003 commits        ███████░░░░░░░░░░░░░░░░░░   28.92 % 
-🌙 Night                  673 commits         █████░░░░░░░░░░░░░░░░░░░░   19.41 % 
-```
+- Cross-platform system information
+- Clean terminal output
+- Built with performance and simplicity in mind
+- Inspired by tools like Neofetch, but rewritten with a modern Rust approach
 
+[Repository](https://github.com/drunkleen/leenfetch)
 
-📊 **This Week I Spent My Time On** 
+---
 
-```text
-🕑︎ Time Zone: Europe/Berlin
+### Persian Rust
 
-💬 Programming Languages: 
-Other                    3 hrs 41 mins       ███████░░░░░░░░░░░░░░░░░░   29.87 % 
-HTML                     2 hrs 39 mins       █████░░░░░░░░░░░░░░░░░░░░   21.49 % 
-Markdown                 2 hrs 17 mins       █████░░░░░░░░░░░░░░░░░░░░   18.58 % 
-Bash                     2 hrs 3 mins        ████░░░░░░░░░░░░░░░░░░░░░   16.67 % 
-YAML                     1 hr 10 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.49 % 
+A Persian community project around Rust programming language education.
 
-🔥 Editors: 
-Unknown Editor           10 hrs 37 mins      █████████████████████░░░░   85.88 % 
-Neovim                   1 hr 44 mins        ████░░░░░░░░░░░░░░░░░░░░░   14.12 % 
+- Persian Rust book translation
+- Educational content
+- Resources for Persian-speaking Rust learners
 
-💻 Operating System: 
-Linux                    12 hrs 22 mins      █████████████████████████   100.00 % 
-```
+[Persian Rust Organization](https://github.com/persian-rust)  
+[Persian Rust Book](https://rustbook.drunkleen.com)
 
-**I Mostly Code in Go** 
+---
 
-```text
-Go                       12 repos            █████░░░░░░░░░░░░░░░░░░░░   20.69 % 
-Rust                     8 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.79 % 
-HTML                     6 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.34 % 
-Java                     6 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.34 % 
-Lua                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.45 % 
-```
-
-
-
-
- Last Updated on 03/05/2026 19:34:21 UTC
-<!--END_SECTION:waka-->
-
-<img align='right' height='120' style="margin-right:20px" src='assets/img/programmer.png' alt='Programmer'>
-
+## Tech Stack
 
 <p align="center">
-<br>
-<summary><h3><b>:hammer_and_wrench: Stats</b></h3></summary>
-<br>
+  <img src="https://skillicons.dev/icons?i=rust,go,java,python,bash,linux,docker,kubernetes,git,github,neovim,postgres,sqlite" alt="Tech Stack"/>
+</p>
 
-<h3 align="center">
-  
-![GitHub Stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=drunkleen&theme=tokyonight) [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=drunkleen&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=480)](https://git.io/streak-stats)
-![GitHub Summary](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=drunkleen&theme=tokyonight)
+---
 
-</h3>
+## GitHub Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=drunkleen&theme=tokyonight)
+
+![GitHub Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=drunkleen&theme=tokyonight)
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=drunkleen&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=480)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
