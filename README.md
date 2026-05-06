@@ -104,10 +104,10 @@ A Persian community project around Rust programming language education.
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                988 commits         ███████░░░░░░░░░░░░░░░░░░   26.57 % 
-🌆 Daytime                963 commits         ██████░░░░░░░░░░░░░░░░░░░   25.89 % 
-🌃 Evening                989 commits         ███████░░░░░░░░░░░░░░░░░░   26.59 % 
-🌙 Night                  779 commits         █████░░░░░░░░░░░░░░░░░░░░   20.95 % 
+🌞 Morning                991 commits         ███████░░░░░░░░░░░░░░░░░░   26.50 % 
+🌆 Daytime                976 commits         ███████░░░░░░░░░░░░░░░░░░   26.10 % 
+🌃 Evening                992 commits         ███████░░░░░░░░░░░░░░░░░░   26.53 % 
+🌙 Night                  780 commits         █████░░░░░░░░░░░░░░░░░░░░   20.86 % 
 ```
 
 
@@ -117,33 +117,33 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Other                    3 hrs 52 mins       ███████░░░░░░░░░░░░░░░░░░   26.62 % 
-Bash                     2 hrs 49 mins       █████░░░░░░░░░░░░░░░░░░░░   19.48 % 
-HTML                     2 hrs 43 mins       █████░░░░░░░░░░░░░░░░░░░░   18.74 % 
-Markdown                 2 hrs 30 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.26 % 
-YAML                     1 hr 10 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.12 % 
+Other                    6 hrs 39 mins       █████████░░░░░░░░░░░░░░░░   34.34 % 
+Bash                     3 hrs 33 mins       █████░░░░░░░░░░░░░░░░░░░░   18.37 % 
+Markdown                 3 hrs 25 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.67 % 
+HTML                     1 hr 43 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.88 % 
+YAML                     1 hr 13 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.35 % 
 
 🔥 Editors: 
-Unknown Editor           7 hrs               ████████████░░░░░░░░░░░░░   48.19 % 
-VS Code                  4 hrs 24 mins       ████████░░░░░░░░░░░░░░░░░   30.28 % 
-Neovim                   3 hrs 7 mins        █████░░░░░░░░░░░░░░░░░░░░   21.53 % 
+VS Code                  9 hrs 1 min         ████████████░░░░░░░░░░░░░   46.59 % 
+Unknown Editor           7 hrs 13 mins       █████████░░░░░░░░░░░░░░░░   37.27 % 
+Neovim                   3 hrs 7 mins        ████░░░░░░░░░░░░░░░░░░░░░   16.15 % 
 
 💻 Operating System: 
-Linux                    14 hrs 31 mins      █████████████████████████   100.00 % 
+Linux                    19 hrs 22 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Go** 
 
 ```text
-Go                       12 repos            █████░░░░░░░░░░░░░░░░░░░░   20.69 % 
-Rust                     8 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.79 % 
-HTML                     6 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.34 % 
-Java                     6 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.34 % 
-Lua                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.45 % 
+Go                       12 repos            █████░░░░░░░░░░░░░░░░░░░░   20.34 % 
+Rust                     8 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.56 % 
+HTML                     6 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.17 % 
+Java                     6 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.17 % 
+Lua                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.39 % 
 ```
 
 
 
 
- Last Updated on 05/05/2026 19:59:14 UTC
+ Last Updated on 06/05/2026 20:10:39 UTC
 <!--END_SECTION:waka-->
