@@ -104,10 +104,10 @@ A Persian community project around Rust programming language education.
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                997 commits         ███████░░░░░░░░░░░░░░░░░░   26.07 % 
-🌆 Daytime                1003 commits        ███████░░░░░░░░░░░░░░░░░░   26.23 % 
-🌃 Evening                1012 commits        ███████░░░░░░░░░░░░░░░░░░   26.46 % 
-🌙 Night                  812 commits         █████░░░░░░░░░░░░░░░░░░░░   21.23 % 
+🌞 Morning                997 commits         ███████░░░░░░░░░░░░░░░░░░   26.05 % 
+🌆 Daytime                1005 commits        ███████░░░░░░░░░░░░░░░░░░   26.26 % 
+🌃 Evening                1013 commits        ███████░░░░░░░░░░░░░░░░░░   26.47 % 
+🌙 Night                  812 commits         █████░░░░░░░░░░░░░░░░░░░░   21.22 % 
 ```
 
 
@@ -117,34 +117,34 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-YAML                     16 hrs 52 mins      ██████████░░░░░░░░░░░░░░░   41.96 % 
-Markdown                 11 hrs 55 mins      ███████░░░░░░░░░░░░░░░░░░   29.65 % 
-Go                       8 hrs 48 mins       █████░░░░░░░░░░░░░░░░░░░░   21.89 % 
-Makefile                 1 hr 12 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   03.00 % 
-TypeScript               29 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.22 % 
+YAML                     16 hrs 52 mins      █████████░░░░░░░░░░░░░░░░   34.29 % 
+Go                       15 hrs 38 mins      ████████░░░░░░░░░░░░░░░░░   31.79 % 
+Markdown                 12 hrs 51 mins      ███████░░░░░░░░░░░░░░░░░░   26.12 % 
+Makefile                 1 hr 20 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   02.74 % 
+TypeScript               1 hr 17 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   02.61 % 
 
 🔥 Editors: 
-Neovim                   33 hrs 28 mins      █████████████████████░░░░   83.23 % 
-Openvscodeserver         4 hrs 42 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.72 % 
-VS Code                  2 hrs 1 min         █░░░░░░░░░░░░░░░░░░░░░░░░   05.05 % 
+Neovim                   42 hrs 28 mins      ██████████████████████░░░   86.30 % 
+Openvscodeserver         4 hrs 42 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.58 % 
+VS Code                  2 hrs 1 min         █░░░░░░░░░░░░░░░░░░░░░░░░   04.13 % 
 
 💻 Operating System: 
-Linux                    39 hrs 22 mins      ████████████████████████░   97.94 % 
-Windows                  49 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.06 % 
+Linux                    48 hrs 23 mins      █████████████████████████   98.32 % 
+Windows                  49 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.68 % 
 ```
 
 **I Mostly Code in Go** 
 
 ```text
-Go                       13 repos            █████░░░░░░░░░░░░░░░░░░░░   21.31 % 
-Shell                    7 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.48 % 
-HTML                     6 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.84 % 
-Lua                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.28 % 
-CSS                      1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.64 % 
+Go                       14 repos            ██████░░░░░░░░░░░░░░░░░░░   22.22 % 
+Rust                     9 repos             ████░░░░░░░░░░░░░░░░░░░░░   14.29 % 
+Shell                    7 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
+Lua                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.17 % 
+CSS                      1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.59 % 
 ```
 
 
 
 
- Last Updated on 09/06/2026 20:26:14 UTC
+ Last Updated on 10/06/2026 16:07:21 UTC
 <!--END_SECTION:waka-->
