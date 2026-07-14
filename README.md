@@ -104,10 +104,10 @@ A Persian community project around Rust programming language education.
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                1067 commits        ███████░░░░░░░░░░░░░░░░░░   26.29 % 
-🌆 Daytime                1052 commits        ██████░░░░░░░░░░░░░░░░░░░   25.92 % 
-🌃 Evening                1099 commits        ███████░░░░░░░░░░░░░░░░░░   27.08 % 
-🌙 Night                  841 commits         █████░░░░░░░░░░░░░░░░░░░░   20.72 % 
+🌞 Morning                1063 commits        ███████░░░░░░░░░░░░░░░░░░   26.41 % 
+🌆 Daytime                1035 commits        ██████░░░░░░░░░░░░░░░░░░░   25.71 % 
+🌃 Evening                1090 commits        ███████░░░░░░░░░░░░░░░░░░   27.08 % 
+🌙 Night                  837 commits         █████░░░░░░░░░░░░░░░░░░░░   20.80 % 
 ```
 
 
@@ -117,34 +117,34 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Lua                      5 hrs 34 mins       ██████░░░░░░░░░░░░░░░░░░░   24.92 % 
-Markdown                 4 hrs 5 mins        █████░░░░░░░░░░░░░░░░░░░░   18.26 % 
-Go                       3 hrs 1 min         ███░░░░░░░░░░░░░░░░░░░░░░   13.52 % 
-JSON                     1 hr 57 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.79 % 
-CSS                      1 hr 41 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.55 % 
+Lua                      5 hrs 34 mins       ██████░░░░░░░░░░░░░░░░░░░   23.42 % 
+Markdown                 5 hrs 14 mins       ██████░░░░░░░░░░░░░░░░░░░   22.02 % 
+HTML                     2 hrs 17 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.59 % 
+JSON                     2 hrs 12 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.29 % 
+CSS                      1 hr 45 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.40 % 
 
 🔥 Editors: 
-VS Code                  9 hrs 49 mins       ███████████░░░░░░░░░░░░░░   43.93 % 
-Opencode Cli             9 hrs 4 mins        ██████████░░░░░░░░░░░░░░░   40.55 % 
-Neovim                   3 hrs 28 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.52 % 
+VS Code                  11 hrs 36 mins      ████████████░░░░░░░░░░░░░   48.76 % 
+Opencode Cli             8 hrs 20 mins       █████████░░░░░░░░░░░░░░░░   35.01 % 
+Neovim                   3 hrs 51 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.23 % 
 
 💻 Operating System: 
-Linux                    19 hrs 14 mins      ██████████████████████░░░   86.06 % 
-Windows                  3 hrs 7 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.94 % 
+Linux                    21 hrs 42 mins      ███████████████████████░░   91.20 % 
+Windows                  2 hrs 5 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.80 % 
 ```
 
 **I Mostly Code in Go** 
 
 ```text
-Shell                    8 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.76 % 
-HTML                     7 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.29 % 
-CSS                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.94 % 
-Lua                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.94 % 
-Mermaid                  1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.47 % 
+Shell                    8 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.94 % 
+HTML                     7 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.45 % 
+CSS                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.99 % 
+Lua                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.99 % 
+Mermaid                  1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.49 % 
 ```
 
 
 
 
- Last Updated on 13/07/2026 19:59:34 UTC
+ Last Updated on 14/07/2026 19:52:31 UTC
 <!--END_SECTION:waka-->
