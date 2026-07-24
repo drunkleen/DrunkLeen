@@ -105,9 +105,9 @@ A Persian community project around Rust programming language education.
 
 ```text
 🌞 Morning                1063 commits        ███████░░░░░░░░░░░░░░░░░░   26.40 % 
-🌆 Daytime                1035 commits        ██████░░░░░░░░░░░░░░░░░░░   25.71 % 
-🌃 Evening                1091 commits        ███████░░░░░░░░░░░░░░░░░░   27.10 % 
-🌙 Night                  837 commits         █████░░░░░░░░░░░░░░░░░░░░   20.79 % 
+🌆 Daytime                1036 commits        ██████░░░░░░░░░░░░░░░░░░░   25.73 % 
+🌃 Evening                1091 commits        ███████░░░░░░░░░░░░░░░░░░   27.09 % 
+🌙 Night                  837 commits         █████░░░░░░░░░░░░░░░░░░░░   20.78 % 
 ```
 
 
@@ -117,20 +117,20 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Markdown                 2 hrs 22 mins       ██████████░░░░░░░░░░░░░░░   40.98 % 
-YAML                     56 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.16 % 
-Go                       34 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.84 % 
-Makefile                 21 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.08 % 
-Text                     19 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.51 % 
+Markdown                 2 hrs 22 mins       ███████████░░░░░░░░░░░░░░   42.36 % 
+YAML                     56 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.70 % 
+Go                       34 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.18 % 
+Makefile                 21 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.29 % 
+Text                     19 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.70 % 
 
 🔥 Editors: 
-Opencode Cli             3 hrs 45 mins       ████████████████░░░░░░░░░   64.75 % 
-Neovim                   1 hr 26 mins        ██████░░░░░░░░░░░░░░░░░░░   24.81 % 
-VS Code                  36 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.43 % 
+Opencode Cli             3 hrs 41 mins       ████████████████░░░░░░░░░   65.76 % 
+Neovim                   1 hr 26 mins        ██████░░░░░░░░░░░░░░░░░░░   25.65 % 
+VS Code                  28 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.59 % 
 
 💻 Operating System: 
-Linux                    5 hrs 18 mins       ███████████████████████░░   91.22 % 
-Windows                  30 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.78 % 
+Linux                    5 hrs 18 mins       ████████████████████████░   94.30 % 
+Windows                  19 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.70 % 
 ```
 
 **I Mostly Code in Go** 
@@ -146,5 +146,5 @@ Mermaid                  1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 23/07/2026 19:55:41 UTC
+ Last Updated on 24/07/2026 19:55:19 UTC
 <!--END_SECTION:waka-->
