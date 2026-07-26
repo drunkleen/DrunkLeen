@@ -117,19 +117,20 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Markdown                 2 hrs 22 mins       ███████████░░░░░░░░░░░░░░   44.92 % 
-YAML                     56 mins             ████░░░░░░░░░░░░░░░░░░░░░   17.71 % 
-Go                       34 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.79 % 
-Makefile                 21 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.67 % 
-JSON                     16 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.07 % 
+Markdown                 1 hr 22 mins        ████████░░░░░░░░░░░░░░░░░   32.84 % 
+YAML                     51 mins             █████░░░░░░░░░░░░░░░░░░░░   20.74 % 
+Go                       34 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.70 % 
+Makefile                 21 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.46 % 
+JSON                     16 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.44 % 
 
 🔥 Editors: 
-Opencode Cli             3 hrs 24 mins       ████████████████░░░░░░░░░   64.29 % 
-Neovim                   1 hr 26 mins        ███████░░░░░░░░░░░░░░░░░░   27.20 % 
-VS Code                  27 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.51 % 
+Opencode Cli             2 hrs 33 mins       ███████████████░░░░░░░░░░   61.44 % 
+Neovim                   1 hr 5 mins         ███████░░░░░░░░░░░░░░░░░░   26.06 % 
+VS Code                  31 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.50 % 
 
 💻 Operating System: 
-Linux                    5 hrs 18 mins       █████████████████████████   100.00 % 
+Linux                    4 hrs 6 mins        █████████████████████████   98.30 % 
+Windows                  4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.70 % 
 ```
 
 **I Mostly Code in Go** 
@@ -145,5 +146,5 @@ Mermaid                  1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 25/07/2026 19:42:29 UTC
+ Last Updated on 26/07/2026 19:44:18 UTC
 <!--END_SECTION:waka-->
