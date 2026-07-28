@@ -107,8 +107,8 @@ A Persian community project around Rust programming language education.
 
 ```text
 🌞 Morning                1063 commits        ███████░░░░░░░░░░░░░░░░░░   26.38 % 
-🌆 Daytime                1038 commits        ██████░░░░░░░░░░░░░░░░░░░   25.76 % 
-🌃 Evening                1091 commits        ███████░░░░░░░░░░░░░░░░░░   27.08 % 
+🌆 Daytime                1039 commits        ██████░░░░░░░░░░░░░░░░░░░   25.78 % 
+🌃 Evening                1091 commits        ███████░░░░░░░░░░░░░░░░░░   27.07 % 
 🌙 Night                  837 commits         █████░░░░░░░░░░░░░░░░░░░░   20.77 % 
 ```
 
@@ -119,43 +119,26 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Markdown                 1 hr 22 mins        █████████░░░░░░░░░░░░░░░░   36.53 % 
-YAML                     51 mins             ██████░░░░░░░░░░░░░░░░░░░   23.07 % 
-Go                       34 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.24 % 
-Makefile                 21 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.42 % 
-Bash                     10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.84 % 
+YAML                     15 mins             ████████████████░░░░░░░░░   65.69 % 
+HTML                     3 mins              ████░░░░░░░░░░░░░░░░░░░░░   14.75 % 
+Other                    2 mins              ███░░░░░░░░░░░░░░░░░░░░░░   10.11 % 
+SSH Config               2 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   09.10 % 
+conf                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.35 % 
 
 🔥 Editors: 
-Opencode Cli             2 hrs 33 mins       █████████████████░░░░░░░░   68.35 % 
-Neovim                   39 mins             ████░░░░░░░░░░░░░░░░░░░░░   17.75 % 
-VS Code                  31 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.90 % 
+Neovim                   16 mins             ██████████████████░░░░░░░   72.55 % 
+VS Code                  5 mins              ██████░░░░░░░░░░░░░░░░░░░   24.97 % 
+Opencode Cli             0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   02.47 % 
 
 💻 Operating System: 
-Linux                    3 hrs 40 mins       █████████████████████████   98.11 % 
-Windows                  4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.89 % 
+Linux                    17 mins             ████████████████████░░░░░   80.72 % 
+Windows                  4 mins              █████░░░░░░░░░░░░░░░░░░░░   19.28 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 3 hrs 8 mins (83.68%)
-
-✍️ 1,411 lines written by AI, 17 lines written by hand (98.81% AI-written)
-
-🔤 1,524,670 Input Tokens, 85,479 Output Tokens
-
-💵 $5.62 Estimated AI Cost This Week
-
-🧠 7 AI Sessions, 28 AI Prompts
-
-GPT                      1,453 lines         █████████████████████████   100.00 % 
-Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-
-🔎 AI Coding Insights:
-🤖 AI-Driven — 98.81% of written lines came from AI
-📝 Concise Prompter — average 439 characters per prompt
-🔁 Iterative Prompter — average 4 prompts per session
-🚀 High AI Trust — 1.69% of changed lines were hand-edited
+No AI Coding Activity Tracked This Week
 ```
 
 **I Mostly Code in Go** 
@@ -171,5 +154,5 @@ Mermaid                  1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 27/07/2026 20:04:03 UTC
+ Last Updated on 28/07/2026 20:01:00 UTC
 <!--END_SECTION:waka-->
