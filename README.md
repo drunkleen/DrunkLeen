@@ -106,10 +106,10 @@ A Persian community project around Rust programming language education.
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                1063 commits        ███████░░░░░░░░░░░░░░░░░░   26.38 % 
-🌆 Daytime                1039 commits        ██████░░░░░░░░░░░░░░░░░░░   25.78 % 
+🌞 Morning                1063 commits        ███████░░░░░░░░░░░░░░░░░░   26.37 % 
+🌆 Daytime                1040 commits        ██████░░░░░░░░░░░░░░░░░░░   25.80 % 
 🌃 Evening                1091 commits        ███████░░░░░░░░░░░░░░░░░░   27.07 % 
-🌙 Night                  837 commits         █████░░░░░░░░░░░░░░░░░░░░   20.77 % 
+🌙 Night                  837 commits         █████░░░░░░░░░░░░░░░░░░░░   20.76 % 
 ```
 
 
@@ -119,20 +119,16 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-YAML                     15 mins             ████████████████░░░░░░░░░   65.69 % 
-HTML                     3 mins              ████░░░░░░░░░░░░░░░░░░░░░   14.75 % 
-Other                    2 mins              ███░░░░░░░░░░░░░░░░░░░░░░   10.11 % 
-SSH Config               2 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   09.10 % 
-conf                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.35 % 
+HTML                     3 mins              ███████████████░░░░░░░░░░   59.34 % 
+Other                    2 mins              ██████████░░░░░░░░░░░░░░░   40.66 % 
 
 🔥 Editors: 
-Neovim                   16 mins             ██████████████████░░░░░░░   72.55 % 
-VS Code                  5 mins              ██████░░░░░░░░░░░░░░░░░░░   24.97 % 
-Opencode Cli             0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   02.47 % 
+VS Code                  3 mins              ████████████████████░░░░░   78.82 % 
+Opencode Cli             0 secs              ███░░░░░░░░░░░░░░░░░░░░░░   12.82 % 
+Neovim                   0 secs              ██░░░░░░░░░░░░░░░░░░░░░░░   08.37 % 
 
 💻 Operating System: 
-Linux                    17 mins             ████████████████████░░░░░   80.72 % 
-Windows                  4 mins              █████░░░░░░░░░░░░░░░░░░░░   19.28 % 
+Windows                  4 mins              █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
@@ -154,5 +150,5 @@ Mermaid                  1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 28/07/2026 20:01:00 UTC
+ Last Updated on 29/07/2026 19:53:07 UTC
 <!--END_SECTION:waka-->
