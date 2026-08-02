@@ -106,10 +106,10 @@ A Persian community project around Rust programming language education.
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                1063 commits        ███████░░░░░░░░░░░░░░░░░░   26.35 % 
-🌆 Daytime                1043 commits        ██████░░░░░░░░░░░░░░░░░░░   25.86 % 
-🌃 Evening                1091 commits        ███████░░░░░░░░░░░░░░░░░░   27.05 % 
-🌙 Night                  837 commits         █████░░░░░░░░░░░░░░░░░░░░   20.75 % 
+🌞 Morning                1063 commits        ███████░░░░░░░░░░░░░░░░░░   26.34 % 
+🌆 Daytime                1045 commits        ██████░░░░░░░░░░░░░░░░░░░   25.89 % 
+🌃 Evening                1091 commits        ███████░░░░░░░░░░░░░░░░░░   27.03 % 
+🌙 Night                  837 commits         █████░░░░░░░░░░░░░░░░░░░░   20.74 % 
 ```
 
 
@@ -119,16 +119,13 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-HTML                     3 mins              ███████████████░░░░░░░░░░   59.34 % 
-Other                    2 mins              ██████████░░░░░░░░░░░░░░░   40.66 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  3 mins              ████████████████████░░░░░   78.82 % 
-Opencode Cli             0 secs              ███░░░░░░░░░░░░░░░░░░░░░░   12.82 % 
-Neovim                   0 secs              ██░░░░░░░░░░░░░░░░░░░░░░░   08.37 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Windows                  4 mins              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 🤖 **AI Coding This Week** 
@@ -150,5 +147,5 @@ Mermaid                  1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 01/08/2026 19:42:51 UTC
+ Last Updated on 02/08/2026 19:43:42 UTC
 <!--END_SECTION:waka-->
