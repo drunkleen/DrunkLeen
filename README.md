@@ -106,10 +106,10 @@ A Persian community project around Rust programming language education.
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                1156 commits        ██████░░░░░░░░░░░░░░░░░░░   24.38 % 
-🌆 Daytime                1410 commits        ███████░░░░░░░░░░░░░░░░░░   29.73 % 
-🌃 Evening                1249 commits        ███████░░░░░░░░░░░░░░░░░░   26.34 % 
-🌙 Night                  927 commits         █████░░░░░░░░░░░░░░░░░░░░   19.55 % 
+🌞 Morning                1170 commits        ██████░░░░░░░░░░░░░░░░░░░   24.59 % 
+🌆 Daytime                1412 commits        ███████░░░░░░░░░░░░░░░░░░   29.68 % 
+🌃 Evening                1249 commits        ███████░░░░░░░░░░░░░░░░░░   26.25 % 
+🌙 Night                  927 commits         █████░░░░░░░░░░░░░░░░░░░░   19.48 % 
 ```
 
 
@@ -119,57 +119,57 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Nix                      5 hrs 15 mins       ██████████████░░░░░░░░░░░   56.87 % 
-Other                    1 hr 38 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.77 % 
-Lua                      1 hr 15 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.66 % 
-Bash                     36 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.62 % 
-csh                      11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.07 % 
+Nix                      4 hrs 41 mins       ██████████████░░░░░░░░░░░   54.05 % 
+Other                    1 hr 38 mins        █████░░░░░░░░░░░░░░░░░░░░   18.93 % 
+Lua                      1 hr 15 mins        ████░░░░░░░░░░░░░░░░░░░░░   14.56 % 
+Bash                     36 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.05 % 
+csh                      11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.20 % 
 
 🔥 Editors: 
-VS Code                  6 hrs 35 mins       ██████████████████░░░░░░░   71.28 % 
-Neovim                   2 hrs 15 mins       ██████░░░░░░░░░░░░░░░░░░░   24.47 % 
-Codex CLI                23 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.25 % 
+VS Code                  6 hrs 1 min         █████████████████░░░░░░░░   69.40 % 
+Neovim                   2 hrs 15 mins       ███████░░░░░░░░░░░░░░░░░░   26.07 % 
+Codex CLI                23 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.53 % 
 
 💻 Operating System: 
-Linux                    9 hrs 14 mins       █████████████████████████   100.00 % 
+Linux                    8 hrs 40 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 7 hrs 39 mins (82.84%)
+⏱ AI Coding Time: 7 hrs 5 mins (81.72%)
 
-✍️ 695 lines written by AI, 193 lines written by hand (78.27% AI-written)
+✍️ 440 lines written by AI, 193 lines written by hand (69.51% AI-written)
 
-🔤 9,405,604 Input Tokens, 443,406 Output Tokens
+🔤 7,906,794 Input Tokens, 406,149 Output Tokens
 
-💵 $610.01 Estimated AI Cost This Week
+💵 $496.27 Estimated AI Cost This Week
 
-🧠 10 AI Sessions, 60 AI Prompts
+🧠 9 AI Sessions, 57 AI Prompts
 
-Deepseek                 725 lines           █████████████████████████   100.00 % 
+Deepseek                 470 lines           █████████████████████████   100.00 % 
 Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 GPT                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 78.27% of written lines came from AI
-📚 Verbose Prompter — average 5,942 characters per prompt
+🤖 AI-Driven — 69.51% of written lines came from AI
+📚 Verbose Prompter — average 5,719 characters per prompt
 🔁 Iterative Prompter — average 6 prompts per session
-🚀 High AI Trust — 23.12% of changed lines were hand-edited
+🚀 High AI Trust — 31.69% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Go** 
 
 ```text
-Shell                    8 repos             ███░░░░░░░░░░░░░░░░░░░░░░   12.12 % 
-HTML                     6 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
-CSS                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.03 % 
-Lua                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.03 % 
-Nix                      1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.52 % 
+Shell                    9 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.43 % 
+HTML                     6 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   08.96 % 
+CSS                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.99 % 
+Lua                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.99 % 
+Nix                      1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.49 % 
 ```
 
 
 
 
- Last Updated on 25/08/2026 19:09:51 UTC
+ Last Updated on 26/08/2026 20:25:35 UTC
 <!--END_SECTION:waka-->
