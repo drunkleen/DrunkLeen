@@ -106,10 +106,10 @@ A Persian community project around Rust programming language education.
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                1170 commits        ██████░░░░░░░░░░░░░░░░░░░   24.47 % 
-🌆 Daytime                1435 commits        ████████░░░░░░░░░░░░░░░░░   30.01 % 
-🌃 Evening                1249 commits        ███████░░░░░░░░░░░░░░░░░░   26.12 % 
-🌙 Night                  927 commits         █████░░░░░░░░░░░░░░░░░░░░   19.39 % 
+🌞 Morning                1170 commits        ██████░░░░░░░░░░░░░░░░░░░   24.45 % 
+🌆 Daytime                1439 commits        ████████░░░░░░░░░░░░░░░░░   30.07 % 
+🌃 Evening                1249 commits        ███████░░░░░░░░░░░░░░░░░░   26.10 % 
+🌙 Night                  927 commits         █████░░░░░░░░░░░░░░░░░░░░   19.37 % 
 ```
 
 
@@ -119,39 +119,39 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Lua                      43 mins             ███████████░░░░░░░░░░░░░░   43.53 % 
-Other                    35 mins             █████████░░░░░░░░░░░░░░░░   35.73 % 
-Bash                     10 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.40 % 
-sh                       4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.42 % 
-conf                     2 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.83 % 
+Other                    50 mins             ████████████████░░░░░░░░░   63.69 % 
+Lua                      10 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.54 % 
+Bash                     10 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.93 % 
+sh                       4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   05.49 % 
+conf                     2 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.52 % 
 
 🔥 Editors: 
-Neovim                   1 hr 12 mins        ██████████████████░░░░░░░   73.13 % 
-Codex CLI                26 mins             ███████░░░░░░░░░░░░░░░░░░   26.87 % 
+Neovim                   42 mins             █████████████░░░░░░░░░░░░   53.56 % 
+Codex CLI                36 mins             ████████████░░░░░░░░░░░░░   46.44 % 
 
 💻 Operating System: 
-Linux                    1 hr 38 mins        █████████████████████████   100.00 % 
+Linux                    1 hr 19 mins        █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 55 mins (56.38%)
+⏱ AI Coding Time: 1 hr (75.95%)
 
-✍️ 0 lines written by AI, 73 lines written by hand (0.0% AI-written)
+✍️ 0 lines written by AI, 11 lines written by hand (0.0% AI-written)
 
-🔤 270,134 Input Tokens, 13,022 Output Tokens
+🔤 246,255 Input Tokens, 12,867 Output Tokens
 
-💵 $1.82 Estimated AI Cost This Week
+💵 $1.78 Estimated AI Cost This Week
 
-🧠 10 AI Sessions, 18 AI Prompts
+🧠 11 AI Sessions, 16 AI Prompts
 
 GPT                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🧑‍💻 Mostly Hands-On — 0.0% of written lines came from AI
-📄 Detailed Prompter — average 1,451 characters per prompt
-🔁 Iterative Prompter — average 2 prompts per session
+📚 Verbose Prompter — average 1,619 characters per prompt
+🎯 One-Shot Prompter — average 1 prompts per session
 🔍 Hands-On Reviewer — 100.0% of changed lines were hand-edited
 ```
 
@@ -168,5 +168,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 30/08/2026 21:21:11 UTC
+ Last Updated on 31/08/2026 23:00:36 UTC
 <!--END_SECTION:waka-->
