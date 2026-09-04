@@ -101,15 +101,15 @@ A Persian community project around Rust programming language education.
 ---
 
 <!--START_SECTION:waka-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-231%20hrs%2028%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-235%20hrs%2023%20mins-blue?style=flat)
 
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                1214 commits        ██████░░░░░░░░░░░░░░░░░░░   24.17 % 
-🌆 Daytime                1578 commits        ████████░░░░░░░░░░░░░░░░░   31.42 % 
-🌃 Evening                1304 commits        ██████░░░░░░░░░░░░░░░░░░░   25.96 % 
-🌙 Night                  927 commits         █████░░░░░░░░░░░░░░░░░░░░   18.46 % 
+🌞 Morning                1214 commits        ██████░░░░░░░░░░░░░░░░░░░   24.14 % 
+🌆 Daytime                1579 commits        ████████░░░░░░░░░░░░░░░░░   31.40 % 
+🌃 Evening                1306 commits        ██████░░░░░░░░░░░░░░░░░░░   25.97 % 
+🌙 Night                  929 commits         █████░░░░░░░░░░░░░░░░░░░░   18.48 % 
 ```
 
 
@@ -119,42 +119,42 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Rust                     2 hrs 6 mins        ████████░░░░░░░░░░░░░░░░░   32.87 % 
-QML                      1 hr 20 mins        █████░░░░░░░░░░░░░░░░░░░░   20.97 % 
-Markdown                 48 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.59 % 
-JSON                     45 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.81 % 
-Other                    39 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.33 % 
+Rust                     3 hrs 2 mins        █████████░░░░░░░░░░░░░░░░   36.89 % 
+QML                      1 hr 59 mins        ██████░░░░░░░░░░░░░░░░░░░   24.19 % 
+JSON                     1 hr 2 mins         ███░░░░░░░░░░░░░░░░░░░░░░   12.66 % 
+Markdown                 50 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.32 % 
+Lua                      31 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.31 % 
 
 🔥 Editors: 
-Codex CLI                5 hrs 14 mins       ████████████████████░░░░░   81.82 % 
-Neovim                   1 hr 9 mins         █████░░░░░░░░░░░░░░░░░░░░   18.18 % 
+Codex CLI                6 hrs 2 mins        ██████████████████░░░░░░░   73.43 % 
+Neovim                   2 hrs 11 mins       ███████░░░░░░░░░░░░░░░░░░   26.57 % 
 
 💻 Operating System: 
-Linux                    6 hrs 24 mins       █████████████████████████   100.00 % 
+Linux                    8 hrs 14 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 6 hrs (93.7%)
+⏱ AI Coding Time: 7 hrs 49 mins (95.09%)
 
-✍️ 2,305 lines written by AI, 11 lines written by hand (99.53% AI-written)
+✍️ 10,625 lines written by AI, 11 lines written by hand (99.9% AI-written)
 
-🔤 1,696,771 Input Tokens, 192,395 Output Tokens
+🔤 3,576,593 Input Tokens, 571,821 Output Tokens
 
-💵 $24.31 Estimated AI Cost This Week
+💵 $554.67 Estimated AI Cost This Week
 
-🧠 22 AI Sessions, 86 AI Prompts
+🧠 24 AI Sessions, 96 AI Prompts
 
-GPT                      2,684 lines         █████████████████████████   100.00 % 
-Deepseek                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+Deepseek                 8,052 lines         ██████████████████░░░░░░░   72.52 % 
+GPT                      3,051 lines         ███████░░░░░░░░░░░░░░░░░░   27.48 % 
 Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.53% of written lines came from AI
-📚 Verbose Prompter — average 1,738 characters per prompt
+🤖 AI-Driven — 99.9% of written lines came from AI
+📚 Verbose Prompter — average 1,594 characters per prompt
 🔁 Iterative Prompter — average 4 prompts per session
-🚀 High AI Trust — 0.52% of changed lines were hand-edited
+🚀 High AI Trust — 0.18% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Go** 
@@ -170,5 +170,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 03/09/2026 21:15:35 UTC
+ Last Updated on 04/09/2026 20:57:18 UTC
 <!--END_SECTION:waka-->
