@@ -107,8 +107,8 @@ A Persian community project around Rust programming language education.
 
 ```text
 🌞 Morning                1214 commits        ██████░░░░░░░░░░░░░░░░░░░   24.03 % 
-🌆 Daytime                1603 commits        ████████░░░░░░░░░░░░░░░░░   31.73 % 
-🌃 Evening                1306 commits        ██████░░░░░░░░░░░░░░░░░░░   25.85 % 
+🌆 Daytime                1602 commits        ████████░░░░░░░░░░░░░░░░░   31.72 % 
+🌃 Evening                1306 commits        ██████░░░░░░░░░░░░░░░░░░░   25.86 % 
 🌙 Night                  929 commits         █████░░░░░░░░░░░░░░░░░░░░   18.39 % 
 ```
 
@@ -119,45 +119,45 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-QML                      6 hrs 9 mins        ███████████░░░░░░░░░░░░░░   43.35 % 
-Rust                     2 hrs 18 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.29 % 
-Markdown                 1 hr 22 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.73 % 
-JSON                     49 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.80 % 
-C                        46 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.48 % 
+QML                      4 hrs 48 mins       ████████████░░░░░░░░░░░░░   47.30 % 
+Rust                     1 hr 2 mins         ███░░░░░░░░░░░░░░░░░░░░░░   10.25 % 
+C                        46 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.66 % 
+Bash                     41 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.83 % 
+Other                    36 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.98 % 
 
 🔥 Editors: 
-Neovim                   7 hrs 34 mins       █████████████░░░░░░░░░░░░   53.38 % 
-Codex CLI                6 hrs 35 mins       ████████████░░░░░░░░░░░░░   46.46 % 
-Opencode Cli             1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.16 % 
+Neovim                   7 hrs 7 mins        ██████████████████░░░░░░░   70.12 % 
+Codex CLI                3 hrs               ███████░░░░░░░░░░░░░░░░░░   29.65 % 
+Opencode Cli             1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.23 % 
 
 💻 Operating System: 
-Linux                    14 hrs 12 mins      █████████████████████████   100.00 % 
+Linux                    10 hrs 9 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 13 hrs 21 mins (94.08%)
+⏱ AI Coding Time: 9 hrs 27 mins (93.05%)
 
-✍️ 13,917 lines written by AI, 65 lines written by hand (99.54% AI-written)
+✍️ 12,072 lines written by AI, 61 lines written by hand (99.5% AI-written)
 
-🔤 8,744,842 Input Tokens, 1,124,431 Output Tokens
+🔤 7,882,532 Input Tokens, 976,999 Output Tokens
 
-💵 $848.73 Estimated AI Cost This Week
+💵 $840.66 Estimated AI Cost This Week
 
-🧠 38 AI Sessions, 201 AI Prompts
+🧠 31 AI Sessions, 156 AI Prompts
 
-Deepseek                 10,515 lines        ██████████████████░░░░░░░   73.90 % 
-GPT                      3,080 lines         █████░░░░░░░░░░░░░░░░░░░░   21.65 % 
-Opencode-Cli             617 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   04.34 % 
-Mimo                     16 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.11 % 
+Deepseek                 10,515 lines        █████████████████████░░░░   85.79 % 
+GPT                      1,109 lines         ██░░░░░░░░░░░░░░░░░░░░░░░   09.05 % 
+Opencode-Cli             617 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   05.03 % 
+Mimo                     16 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.13 % 
 Nemotron                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.54% of written lines came from AI
-📚 Verbose Prompter — average 20,351 characters per prompt
+🤖 AI-Driven — 99.5% of written lines came from AI
+📚 Verbose Prompter — average 25,720 characters per prompt
 🔁 Iterative Prompter — average 5 prompts per session
-🚀 High AI Trust — 0.5% of changed lines were hand-edited
+🚀 High AI Trust — 0.55% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Go** 
@@ -173,5 +173,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 09/09/2026 21:06:52 UTC
+ Last Updated on 10/09/2026 21:05:34 UTC
 <!--END_SECTION:waka-->
