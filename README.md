@@ -107,8 +107,8 @@ A Persian community project around Rust programming language education.
 
 ```text
 🌞 Morning                1214 commits        ██████░░░░░░░░░░░░░░░░░░░   24.03 % 
-🌆 Daytime                1602 commits        ████████░░░░░░░░░░░░░░░░░   31.72 % 
-🌃 Evening                1306 commits        ██████░░░░░░░░░░░░░░░░░░░   25.86 % 
+🌆 Daytime                1604 commits        ████████░░░░░░░░░░░░░░░░░   31.74 % 
+🌃 Evening                1306 commits        ██████░░░░░░░░░░░░░░░░░░░   25.85 % 
 🌙 Night                  929 commits         █████░░░░░░░░░░░░░░░░░░░░   18.39 % 
 ```
 
@@ -119,45 +119,45 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-QML                      4 hrs 48 mins       ████████████░░░░░░░░░░░░░   47.30 % 
-Rust                     1 hr 2 mins         ███░░░░░░░░░░░░░░░░░░░░░░   10.25 % 
-C                        46 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.66 % 
-Bash                     41 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.83 % 
-Other                    36 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.98 % 
+QML                      3 hrs 13 mins       ████████████░░░░░░░░░░░░░   49.79 % 
+C                        46 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.01 % 
+Other                    35 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.13 % 
+Markdown                 31 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.02 % 
+INI                      26 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.70 % 
 
 🔥 Editors: 
-Neovim                   7 hrs 7 mins        ██████████████████░░░░░░░   70.12 % 
-Codex CLI                3 hrs               ███████░░░░░░░░░░░░░░░░░░   29.65 % 
-Opencode Cli             1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.23 % 
+Neovim                   4 hrs 19 mins       █████████████████░░░░░░░░   66.64 % 
+Codex CLI                2 hrs 8 mins        ████████░░░░░░░░░░░░░░░░░   33.00 % 
+Opencode Cli             1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.36 % 
 
 💻 Operating System: 
-Linux                    10 hrs 9 mins       █████████████████████████   100.00 % 
+Linux                    6 hrs 29 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 9 hrs 27 mins (93.05%)
+⏱ AI Coding Time: 5 hrs 46 mins (89.11%)
 
-✍️ 12,072 lines written by AI, 61 lines written by hand (99.5% AI-written)
+✍️ 1,204 lines written by AI, 61 lines written by hand (95.18% AI-written)
 
-🔤 7,882,532 Input Tokens, 976,999 Output Tokens
+🔤 4,827,600 Input Tokens, 370,616 Output Tokens
 
-💵 $840.66 Estimated AI Cost This Week
+💵 $211.73 Estimated AI Cost This Week
 
-🧠 31 AI Sessions, 156 AI Prompts
+🧠 19 AI Sessions, 125 AI Prompts
 
-Deepseek                 10,515 lines        █████████████████████░░░░   85.79 % 
-GPT                      1,109 lines         ██░░░░░░░░░░░░░░░░░░░░░░░   09.05 % 
-Opencode-Cli             617 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   05.03 % 
-Mimo                     16 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.13 % 
+GPT                      742 lines           ██████████░░░░░░░░░░░░░░░   39.34 % 
+Deepseek                 637 lines           ████████░░░░░░░░░░░░░░░░░   33.78 % 
+Opencode-Cli             491 lines           ███████░░░░░░░░░░░░░░░░░░   26.03 % 
+Mimo                     16 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.85 % 
 Nemotron                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.5% of written lines came from AI
-📚 Verbose Prompter — average 25,720 characters per prompt
-🔁 Iterative Prompter — average 5 prompts per session
-🚀 High AI Trust — 0.55% of changed lines were hand-edited
+🤖 AI-Driven — 95.18% of written lines came from AI
+📚 Verbose Prompter — average 31,865 characters per prompt
+🔁 Iterative Prompter — average 7 prompts per session
+🚀 High AI Trust — 4.83% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Go** 
@@ -173,5 +173,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 10/09/2026 21:05:34 UTC
+ Last Updated on 11/09/2026 21:10:48 UTC
 <!--END_SECTION:waka-->
