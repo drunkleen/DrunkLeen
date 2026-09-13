@@ -106,10 +106,10 @@ A Persian community project around Rust programming language education.
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                1214 commits        ██████░░░░░░░░░░░░░░░░░░░   24.02 % 
-🌆 Daytime                1606 commits        ████████░░░░░░░░░░░░░░░░░   31.77 % 
-🌃 Evening                1306 commits        ██████░░░░░░░░░░░░░░░░░░░   25.84 % 
-🌙 Night                  929 commits         █████░░░░░░░░░░░░░░░░░░░░   18.38 % 
+🌞 Morning                1214 commits        ██████░░░░░░░░░░░░░░░░░░░   24.00 % 
+🌆 Daytime                1609 commits        ████████░░░░░░░░░░░░░░░░░   31.81 % 
+🌃 Evening                1306 commits        ██████░░░░░░░░░░░░░░░░░░░   25.82 % 
+🌙 Night                  929 commits         █████░░░░░░░░░░░░░░░░░░░░   18.37 % 
 ```
 
 
@@ -119,45 +119,45 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-QML                      3 hrs 7 mins        █████████████░░░░░░░░░░░░   51.14 % 
-C                        46 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.72 % 
-Other                    35 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.67 % 
-Markdown                 31 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.49 % 
-INI                      26 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.09 % 
+QML                      2 hrs 14 mins       ███████████████░░░░░░░░░░   58.72 % 
+C                        46 mins             █████░░░░░░░░░░░░░░░░░░░░   20.36 % 
+Markdown                 20 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.91 % 
+INI                      11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.12 % 
+JSON                     9 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.01 % 
 
 🔥 Editors: 
-Neovim                   3 hrs 57 mins       ████████████████░░░░░░░░░   64.68 % 
-Codex CLI                2 hrs 8 mins        █████████░░░░░░░░░░░░░░░░   34.94 % 
-Opencode Cli             1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.38 % 
+Neovim                   3 hrs 2 mins        ████████████████████░░░░░   79.46 % 
+Codex CLI                45 mins             █████░░░░░░░░░░░░░░░░░░░░   19.94 % 
+Opencode Cli             1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.61 % 
 
 💻 Operating System: 
-Linux                    6 hrs 7 mins        █████████████████████████   100.00 % 
+Linux                    3 hrs 49 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 5 hrs 40 mins (92.77%)
+⏱ AI Coding Time: 3 hrs 38 mins (95.06%)
 
-✍️ 1,204 lines written by AI, 61 lines written by hand (95.18% AI-written)
+✍️ 540 lines written by AI, 50 lines written by hand (91.53% AI-written)
 
-🔤 4,729,078 Input Tokens, 364,055 Output Tokens
+🔤 3,038,151 Input Tokens, 276,969 Output Tokens
 
-💵 $205.01 Estimated AI Cost This Week
+💵 $190.39 Estimated AI Cost This Week
 
-🧠 18 AI Sessions, 123 AI Prompts
+🧠 12 AI Sessions, 56 AI Prompts
 
-GPT                      742 lines           ██████████░░░░░░░░░░░░░░░   39.34 % 
-Deepseek                 637 lines           ████████░░░░░░░░░░░░░░░░░   33.78 % 
-Opencode-Cli             491 lines           ███████░░░░░░░░░░░░░░░░░░   26.03 % 
-Mimo                     16 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.85 % 
+Deepseek                 637 lines           █████████████░░░░░░░░░░░░   52.30 % 
+Opencode-Cli             491 lines           ██████████░░░░░░░░░░░░░░░   40.31 % 
+GPT                      74 lines            ██░░░░░░░░░░░░░░░░░░░░░░░   06.08 % 
+Mimo                     16 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   01.31 % 
 Nemotron                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 95.18% of written lines came from AI
-📚 Verbose Prompter — average 32,380 characters per prompt
-🔁 Iterative Prompter — average 7 prompts per session
-🚀 High AI Trust — 4.83% of changed lines were hand-edited
+🤖 AI-Driven — 91.53% of written lines came from AI
+📚 Verbose Prompter — average 31,023 characters per prompt
+🔁 Iterative Prompter — average 5 prompts per session
+🚀 High AI Trust — 8.43% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Go** 
@@ -173,5 +173,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 12/09/2026 20:46:50 UTC
+ Last Updated on 13/09/2026 21:02:55 UTC
 <!--END_SECTION:waka-->
