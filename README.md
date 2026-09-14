@@ -106,10 +106,10 @@ A Persian community project around Rust programming language education.
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                1214 commits        ██████░░░░░░░░░░░░░░░░░░░   24.00 % 
-🌆 Daytime                1609 commits        ████████░░░░░░░░░░░░░░░░░   31.81 % 
-🌃 Evening                1306 commits        ██████░░░░░░░░░░░░░░░░░░░   25.82 % 
-🌙 Night                  929 commits         █████░░░░░░░░░░░░░░░░░░░░   18.37 % 
+🌞 Morning                1224 commits        ██████░░░░░░░░░░░░░░░░░░░   24.10 % 
+🌆 Daytime                1612 commits        ████████░░░░░░░░░░░░░░░░░   31.74 % 
+🌃 Evening                1313 commits        ██████░░░░░░░░░░░░░░░░░░░   25.85 % 
+🌙 Night                  930 commits         █████░░░░░░░░░░░░░░░░░░░░   18.31 % 
 ```
 
 
@@ -119,45 +119,19 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-QML                      2 hrs 14 mins       ███████████████░░░░░░░░░░   58.72 % 
-C                        46 mins             █████░░░░░░░░░░░░░░░░░░░░   20.36 % 
-Markdown                 20 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.91 % 
-INI                      11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.12 % 
-JSON                     9 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.01 % 
+sshconfig                0 secs              █████████████████████████   100.00 % 
 
 🔥 Editors: 
-Neovim                   3 hrs 2 mins        ████████████████████░░░░░   79.46 % 
-Codex CLI                45 mins             █████░░░░░░░░░░░░░░░░░░░░   19.94 % 
-Opencode Cli             1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.61 % 
+Neovim                   0 secs              █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Linux                    3 hrs 49 mins       █████████████████████████   100.00 % 
+Linux                    0 secs              █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 3 hrs 38 mins (95.06%)
-
-✍️ 540 lines written by AI, 50 lines written by hand (91.53% AI-written)
-
-🔤 3,038,151 Input Tokens, 276,969 Output Tokens
-
-💵 $190.39 Estimated AI Cost This Week
-
-🧠 12 AI Sessions, 56 AI Prompts
-
-Deepseek                 637 lines           █████████████░░░░░░░░░░░░   52.30 % 
-Opencode-Cli             491 lines           ██████████░░░░░░░░░░░░░░░   40.31 % 
-GPT                      74 lines            ██░░░░░░░░░░░░░░░░░░░░░░░   06.08 % 
-Mimo                     16 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   01.31 % 
-Nemotron                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-
-🔎 AI Coding Insights:
-🤖 AI-Driven — 91.53% of written lines came from AI
-📚 Verbose Prompter — average 31,023 characters per prompt
-🔁 Iterative Prompter — average 5 prompts per session
-🚀 High AI Trust — 8.43% of changed lines were hand-edited
+No AI Coding Activity Tracked This Week
 ```
 
 **I Mostly Code in Go** 
@@ -173,5 +147,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 13/09/2026 21:02:55 UTC
+ Last Updated on 14/09/2026 22:01:21 UTC
 <!--END_SECTION:waka-->
