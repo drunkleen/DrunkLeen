@@ -101,15 +101,15 @@ A Persian community project around Rust programming language education.
 ---
 
 <!--START_SECTION:waka-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-248%20hrs%2033%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-250%20hrs%203%20mins-blue?style=flat)
 
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                1224 commits        ██████░░░░░░░░░░░░░░░░░░░   24.02 % 
-🌆 Daytime                1617 commits        ████████░░░░░░░░░░░░░░░░░   31.74 % 
-🌃 Evening                1317 commits        ██████░░░░░░░░░░░░░░░░░░░   25.85 % 
-🌙 Night                  937 commits         █████░░░░░░░░░░░░░░░░░░░░   18.39 % 
+🌞 Morning                1072 commits        ██████░░░░░░░░░░░░░░░░░░░   24.24 % 
+🌆 Daytime                1363 commits        ████████░░░░░░░░░░░░░░░░░   30.82 % 
+🌃 Evening                1216 commits        ███████░░░░░░░░░░░░░░░░░░   27.49 % 
+🌙 Night                  772 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.45 % 
 ```
 
 
@@ -119,40 +119,40 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Lua                      2 hrs 20 mins       █████████████░░░░░░░░░░░░   52.05 % 
-Git Config               1 hr 31 mins        ████████░░░░░░░░░░░░░░░░░   33.96 % 
-Bash                     16 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.20 % 
-Markdown                 13 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.11 % 
-JSON                     5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.98 % 
+Lua                      2 hrs 20 mins       ████████████░░░░░░░░░░░░░   49.34 % 
+Git Config               1 hr 31 mins        ████████░░░░░░░░░░░░░░░░░   32.19 % 
+Markdown                 25 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.79 % 
+Bash                     16 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.88 % 
+JSON                     5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.88 % 
 
 🔥 Editors: 
-Neovim                   4 hrs 30 mins       █████████████████████████   100.00 % 
+Neovim                   4 hrs 44 mins       █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Linux                    4 hrs 30 mins       █████████████████████████   100.00 % 
+Linux                    4 hrs 44 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 4 hrs 25 mins (98.22%)
+⏱ AI Coding Time: 4 hrs 40 mins (98.32%)
 
-✍️ 282 lines written by AI, 1 lines written by hand (99.65% AI-written)
+✍️ 408 lines written by AI, 1 lines written by hand (99.76% AI-written)
 
-🔤 10,625,142 Input Tokens, 467,815 Output Tokens
+🔤 11,149,887 Input Tokens, 513,123 Output Tokens
 
-💵 $435.81 Estimated AI Cost This Week
+💵 $456.25 Estimated AI Cost This Week
 
-🧠 7 AI Sessions, 33 AI Prompts
+🧠 8 AI Sessions, 37 AI Prompts
 
-Deepseek                 305 lines           █████████████████████████   100.00 % 
+Deepseek                 431 lines           █████████████████████████   100.00 % 
 Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.65% of written lines came from AI
-📚 Verbose Prompter — average 1,645 characters per prompt
+🤖 AI-Driven — 99.76% of written lines came from AI
+📄 Detailed Prompter — average 1,490 characters per prompt
 🔁 Iterative Prompter — average 5 prompts per session
-🚀 High AI Trust — 0.33% of changed lines were hand-edited
+🚀 High AI Trust — 0.23% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Go** 
@@ -168,5 +168,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 16/09/2026 21:33:28 UTC
+ Last Updated on 17/09/2026 21:36:29 UTC
 <!--END_SECTION:waka-->
