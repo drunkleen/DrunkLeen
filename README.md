@@ -101,7 +101,7 @@ A Persian community project around Rust programming language education.
 ---
 
 <!--START_SECTION:waka-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-250%20hrs%203%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-250%20hrs%2018%20mins-blue?style=flat)
 
 **I'm an Early 🐤** 
 
@@ -168,5 +168,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 17/09/2026 21:36:29 UTC
+ Last Updated on 18/09/2026 21:08:10 UTC
 <!--END_SECTION:waka-->
