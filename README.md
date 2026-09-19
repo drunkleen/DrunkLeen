@@ -119,40 +119,40 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Lua                      2 hrs 20 mins       ████████████░░░░░░░░░░░░░   49.34 % 
-Git Config               1 hr 31 mins        ████████░░░░░░░░░░░░░░░░░   32.19 % 
-Markdown                 25 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.79 % 
-Bash                     16 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.88 % 
-JSON                     5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.88 % 
+Lua                      2 hrs 20 mins       ███████████░░░░░░░░░░░░░░   42.33 % 
+Git Config               1 hr 31 mins        ███████░░░░░░░░░░░░░░░░░░   27.62 % 
+Markdown                 57 mins             ████░░░░░░░░░░░░░░░░░░░░░   17.27 % 
+Bash                     17 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.34 % 
+conf                     8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.57 % 
 
 🔥 Editors: 
-Neovim                   4 hrs 44 mins       █████████████████████████   100.00 % 
+Neovim                   5 hrs 32 mins       █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Linux                    4 hrs 44 mins       █████████████████████████   100.00 % 
+Linux                    5 hrs 32 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 4 hrs 40 mins (98.32%)
+⏱ AI Coding Time: 5 hrs 27 mins (98.58%)
 
-✍️ 408 lines written by AI, 1 lines written by hand (99.76% AI-written)
+✍️ 495 lines written by AI, 1 lines written by hand (99.8% AI-written)
 
-🔤 11,149,887 Input Tokens, 513,123 Output Tokens
+🔤 11,879,022 Input Tokens, 607,727 Output Tokens
 
-💵 $456.25 Estimated AI Cost This Week
+💵 $471.20 Estimated AI Cost This Week
 
-🧠 8 AI Sessions, 37 AI Prompts
+🧠 11 AI Sessions, 47 AI Prompts
 
-Deepseek                 431 lines           █████████████████████████   100.00 % 
+Deepseek                 518 lines           █████████████████████████   100.00 % 
 Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.76% of written lines came from AI
-📄 Detailed Prompter — average 1,490 characters per prompt
-🔁 Iterative Prompter — average 5 prompts per session
-🚀 High AI Trust — 0.23% of changed lines were hand-edited
+🤖 AI-Driven — 99.8% of written lines came from AI
+📚 Verbose Prompter — average 1,749 characters per prompt
+🔁 Iterative Prompter — average 4 prompts per session
+🚀 High AI Trust — 0.19% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Go** 
@@ -168,5 +168,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 18/09/2026 21:08:10 UTC
+ Last Updated on 19/09/2026 20:56:07 UTC
 <!--END_SECTION:waka-->
