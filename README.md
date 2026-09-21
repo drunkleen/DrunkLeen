@@ -119,25 +119,25 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Lua                      2 hrs 20 mins       ███████████░░░░░░░░░░░░░░   42.33 % 
-Git Config               1 hr 31 mins        ███████░░░░░░░░░░░░░░░░░░   27.62 % 
-Markdown                 57 mins             ████░░░░░░░░░░░░░░░░░░░░░   17.27 % 
-Bash                     17 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.34 % 
-conf                     8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.57 % 
+Lua                      2 hrs 20 mins       ██████████░░░░░░░░░░░░░░░   42.00 % 
+Git Config               1 hr 31 mins        ███████░░░░░░░░░░░░░░░░░░   27.41 % 
+Markdown                 57 mins             ████░░░░░░░░░░░░░░░░░░░░░   17.14 % 
+Bash                     17 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.30 % 
+conf                     8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.55 % 
 
 🔥 Editors: 
-Neovim                   5 hrs 32 mins       █████████████████████████   100.00 % 
+Neovim                   5 hrs 34 mins       █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Linux                    5 hrs 32 mins       █████████████████████████   100.00 % 
+Linux                    5 hrs 34 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 5 hrs 27 mins (98.58%)
+⏱ AI Coding Time: 5 hrs 27 mins (97.82%)
 
-✍️ 495 lines written by AI, 1 lines written by hand (99.8% AI-written)
+✍️ 495 lines written by AI, 2,277 lines written by hand (17.86% AI-written)
 
 🔤 11,879,022 Input Tokens, 607,727 Output Tokens
 
@@ -149,10 +149,10 @@ Deepseek                 518 lines           ███████████�
 Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.8% of written lines came from AI
+🧑‍💻 Mostly Hands-On — 17.86% of written lines came from AI
 📚 Verbose Prompter — average 1,749 characters per prompt
 🔁 Iterative Prompter — average 4 prompts per session
-🚀 High AI Trust — 0.19% of changed lines were hand-edited
+🔍 Hands-On Reviewer — 81.47% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Go** 
@@ -168,5 +168,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 20/09/2026 21:01:26 UTC
+ Last Updated on 21/09/2026 22:09:35 UTC
 <!--END_SECTION:waka-->
