@@ -119,40 +119,39 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Markdown                 43 mins             ██████████░░░░░░░░░░░░░░░   38.96 % 
-Lua                      28 mins             ██████░░░░░░░░░░░░░░░░░░░   25.37 % 
-Bash                     14 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.82 % 
-conf                     8 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   07.62 % 
-TOML                     6 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   05.43 % 
+Markdown                 11 mins             ████████████████░░░░░░░░░   64.67 % 
+Image (svg)              3 mins              █████░░░░░░░░░░░░░░░░░░░░   18.21 % 
+Text                     2 mins              ████░░░░░░░░░░░░░░░░░░░░░   14.73 % 
+HTML                     0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   02.38 % 
 
 🔥 Editors: 
-Neovim                   1 hr 51 mins        █████████████████████████   100.00 % 
+Neovim                   17 mins             █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Linux                    1 hr 51 mins        █████████████████████████   100.00 % 
+Linux                    17 mins             █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 1 hr 44 mins (93.48%)
+⏱ AI Coding Time: 14 mins (85.27%)
 
-✍️ 214 lines written by AI, 2,277 lines written by hand (8.59% AI-written)
+✍️ 126 lines written by AI, 2,276 lines written by hand (5.25% AI-written)
 
-🔤 3,720,568 Input Tokens, 196,210 Output Tokens
+🔤 524,745 Input Tokens, 45,308 Output Tokens
 
-💵 $116.13 Estimated AI Cost This Week
+💵 $20.63 Estimated AI Cost This Week
 
-🧠 8 AI Sessions, 23 AI Prompts
+🧠 1 AI Sessions, 4 AI Prompts
 
-Deepseek                 214 lines           █████████████████████████   100.00 % 
+Deepseek                 126 lines           █████████████████████████   100.00 % 
 Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🧑‍💻 Mostly Hands-On — 8.59% of written lines came from AI
-📚 Verbose Prompter — average 2,911 characters per prompt
-🔁 Iterative Prompter — average 3 prompts per session
-🔍 Hands-On Reviewer — 91.41% of changed lines were hand-edited
+🧑‍💻 Mostly Hands-On — 5.25% of written lines came from AI
+📝 Concise Prompter — average 214 characters per prompt
+🔁 Iterative Prompter — average 4 prompts per session
+🔍 Hands-On Reviewer — 94.75% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Go** 
@@ -168,5 +167,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 22/09/2026 21:35:57 UTC
+ Last Updated on 23/09/2026 21:42:00 UTC
 <!--END_SECTION:waka-->
