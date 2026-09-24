@@ -119,39 +119,19 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Markdown                 11 mins             ████████████████░░░░░░░░░   64.67 % 
-Image (svg)              3 mins              █████░░░░░░░░░░░░░░░░░░░░   18.21 % 
-Text                     2 mins              ████░░░░░░░░░░░░░░░░░░░░░   14.73 % 
-HTML                     0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   02.38 % 
+Text                     2 mins              █████████████████████████   100.00 % 
 
 🔥 Editors: 
-Neovim                   17 mins             █████████████████████████   100.00 % 
+Neovim                   2 mins              █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Linux                    17 mins             █████████████████████████   100.00 % 
+Linux                    2 mins              █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 14 mins (85.27%)
-
-✍️ 126 lines written by AI, 2,276 lines written by hand (5.25% AI-written)
-
-🔤 524,745 Input Tokens, 45,308 Output Tokens
-
-💵 $20.63 Estimated AI Cost This Week
-
-🧠 1 AI Sessions, 4 AI Prompts
-
-Deepseek                 126 lines           █████████████████████████   100.00 % 
-Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-
-🔎 AI Coding Insights:
-🧑‍💻 Mostly Hands-On — 5.25% of written lines came from AI
-📝 Concise Prompter — average 214 characters per prompt
-🔁 Iterative Prompter — average 4 prompts per session
-🔍 Hands-On Reviewer — 94.75% of changed lines were hand-edited
+No AI Coding Activity Tracked This Week
 ```
 
 **I Mostly Code in Go** 
@@ -167,5 +147,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 23/09/2026 21:42:00 UTC
+ Last Updated on 24/09/2026 21:43:08 UTC
 <!--END_SECTION:waka-->
