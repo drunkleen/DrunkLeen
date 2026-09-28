@@ -119,19 +119,36 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Text                     2 mins              █████████████████████████   100.00 % 
+Lua                      4 mins              █████████████████████████   100.00 % 
 
 🔥 Editors: 
-Neovim                   2 mins              █████████████████████████   100.00 % 
+Neovim                   4 mins              █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Linux                    2 mins              █████████████████████████   100.00 % 
+Linux                    4 mins              █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-No AI Coding Activity Tracked This Week
+⏱ AI Coding Time: 4 mins (100.0%)
+
+✍️ 0 lines written by AI, 0 lines written by hand (0% AI-written)
+
+🔤 188,201 Input Tokens, 19,730 Output Tokens
+
+💵 $6.36 Estimated AI Cost This Week
+
+🧠 1 AI Sessions, 4 AI Prompts
+
+Deepseek                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+
+🔎 AI Coding Insights:
+🧑‍💻 Mostly Hands-On — 0% of written lines came from AI
+📚 Verbose Prompter — average 2,849 characters per prompt
+🔁 Iterative Prompter — average 4 prompts per session
+🚀 High AI Trust — 0% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Go** 
@@ -147,5 +164,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 27/09/2026 21:33:39 UTC
+ Last Updated on 28/09/2026 23:29:47 UTC
 <!--END_SECTION:waka-->
