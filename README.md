@@ -101,7 +101,7 @@ A Persian community project around Rust programming language education.
 ---
 
 <!--START_SECTION:waka-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-250%20hrs%2018%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-250%20hrs%2020%20mins-blue?style=flat)
 
 **I'm an Early 🐤** 
 
@@ -119,33 +119,52 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+XML                      2 mins              ███████████████░░░░░░░░░░   60.27 % 
+Markdown                 1 min               ██████████░░░░░░░░░░░░░░░   38.12 % 
+JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.61 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+Neovim                   4 mins              █████████████████████████   100.00 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Linux                    4 mins              █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-No AI Coding Activity Tracked This Week
+⏱ AI Coding Time: 2 mins (48.03%)
+
+✍️ 640 lines written by AI, 361,364 lines written by hand (0.18% AI-written)
+
+🔤 199,991 Input Tokens, 35,334 Output Tokens
+
+💵 $13.57 Estimated AI Cost This Week
+
+🧠 1 AI Sessions, 1 AI Prompts
+
+Deepseek                 640 lines           █████████████████████████   100.00 % 
+Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+
+🔎 AI Coding Insights:
+🧑‍💻 Mostly Hands-On — 0.18% of written lines came from AI
+📚 Verbose Prompter — average 9,052 characters per prompt
+🎯 One-Shot Prompter — average 1 prompts per session
+🔍 Hands-On Reviewer — 99.83% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Go** 
 
 ```text
-Shell                    10 repos            ████░░░░░░░░░░░░░░░░░░░░░   14.08 % 
-Rust                     9 repos             ███░░░░░░░░░░░░░░░░░░░░░░   12.68 % 
-QML                      1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.41 % 
-C                        1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.41 % 
-Nix                      1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.41 % 
+Shell                    11 repos            ████░░░░░░░░░░░░░░░░░░░░░   15.28 % 
+Rust                     9 repos             ███░░░░░░░░░░░░░░░░░░░░░░   12.50 % 
+QML                      1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.39 % 
+C                        1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.39 % 
+Nix                      1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.39 % 
 ```
 
 
 
 
- Last Updated on 04/10/2026 21:47:04 UTC
+ Last Updated on 06/10/2026 00:17:24 UTC
 <!--END_SECTION:waka-->
