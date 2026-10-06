@@ -124,7 +124,8 @@ Markdown                 1 min               ██████████░�
 JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.61 % 
 
 🔥 Editors: 
-Neovim                   4 mins              █████████████████████████   100.00 % 
+Neovim                   3 mins              █████████████████████░░░░   82.87 % 
+Opencode Cli             0 secs              ████░░░░░░░░░░░░░░░░░░░░░   17.13 % 
 
 💻 Operating System: 
 Linux                    4 mins              █████████████████████████   100.00 % 
@@ -143,7 +144,7 @@ Linux                    4 mins              ███████████�
 
 🧠 1 AI Sessions, 1 AI Prompts
 
-Deepseek                 640 lines           █████████████████████████   100.00 % 
+DeepSeek                 640 lines           █████████████████████████   100.00 % 
 Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
@@ -166,5 +167,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 06/10/2026 00:17:24 UTC
+ Last Updated on 06/10/2026 22:48:05 UTC
 <!--END_SECTION:waka-->
