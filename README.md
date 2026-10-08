@@ -119,22 +119,24 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-XML                      2 mins              ███████████████░░░░░░░░░░   60.27 % 
-Markdown                 1 min               ██████████░░░░░░░░░░░░░░░   38.12 % 
-JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.61 % 
+XML                      2 mins              █████████████░░░░░░░░░░░░   50.19 % 
+Markdown                 1 min               ████████░░░░░░░░░░░░░░░░░   31.74 % 
+Bash                     0 secs              ███░░░░░░░░░░░░░░░░░░░░░░   13.73 % 
+Other                    0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   03.00 % 
+JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.34 % 
 
 🔥 Editors: 
-Neovim                   3 mins              █████████████████████░░░░   82.87 % 
-Opencode Cli             0 secs              ████░░░░░░░░░░░░░░░░░░░░░   17.13 % 
+Neovim                   4 mins              █████████████████████░░░░   85.73 % 
+Opencode Cli             0 secs              ████░░░░░░░░░░░░░░░░░░░░░   14.27 % 
 
 💻 Operating System: 
-Linux                    4 mins              █████████████████████████   100.00 % 
+Linux                    5 mins              █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 2 mins (48.03%)
+⏱ AI Coding Time: 2 mins (40.01%)
 
 ✍️ 640 lines written by AI, 361,364 lines written by hand (0.18% AI-written)
 
@@ -142,14 +144,14 @@ Linux                    4 mins              ███████████�
 
 💵 $13.57 Estimated AI Cost This Week
 
-🧠 1 AI Sessions, 1 AI Prompts
+🧠 2 AI Sessions, 2 AI Prompts
 
 DeepSeek                 640 lines           █████████████████████████   100.00 % 
 Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🧑‍💻 Mostly Hands-On — 0.18% of written lines came from AI
-📚 Verbose Prompter — average 9,052 characters per prompt
+📚 Verbose Prompter — average 4,836 characters per prompt
 🎯 One-Shot Prompter — average 1 prompts per session
 🔍 Hands-On Reviewer — 99.83% of changed lines were hand-edited
 ```
@@ -167,5 +169,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 07/10/2026 23:18:23 UTC
+ Last Updated on 08/10/2026 23:34:40 UTC
 <!--END_SECTION:waka-->
