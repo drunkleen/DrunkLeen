@@ -101,7 +101,7 @@ A Persian community project around Rust programming language education.
 ---
 
 <!--START_SECTION:waka-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-250%20hrs%2020%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-251%20hrs%2042%20mins-blue?style=flat)
 
 **I'm an Early 🐤** 
 
@@ -119,41 +119,41 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-XML                      2 mins              █████████████░░░░░░░░░░░░   50.19 % 
-Markdown                 1 min               ████████░░░░░░░░░░░░░░░░░   31.74 % 
-Bash                     0 secs              ███░░░░░░░░░░░░░░░░░░░░░░   13.73 % 
-Other                    0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   03.00 % 
-JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.34 % 
+Markdown                 40 mins             ███████████░░░░░░░░░░░░░░   45.11 % 
+TOML                     23 mins             ██████░░░░░░░░░░░░░░░░░░░   25.88 % 
+Other                    7 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   08.74 % 
+INI                      7 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   08.10 % 
+JSON                     6 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   07.71 % 
 
 🔥 Editors: 
-Neovim                   4 mins              █████████████████████░░░░   85.73 % 
-Opencode Cli             0 secs              ████░░░░░░░░░░░░░░░░░░░░░   14.27 % 
+Neovim                   1 hr 28 mins        █████████████████████████   99.11 % 
+Opencode Cli             0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.89 % 
 
 💻 Operating System: 
-Linux                    5 mins              █████████████████████████   100.00 % 
+Linux                    1 hr 29 mins        █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 2 mins (40.01%)
+⏱ AI Coding Time: 1 hr 24 mins (94.69%)
 
-✍️ 640 lines written by AI, 361,364 lines written by hand (0.18% AI-written)
+✍️ 1,237 lines written by AI, 361,364 lines written by hand (0.34% AI-written)
 
-🔤 199,991 Input Tokens, 35,334 Output Tokens
+🔤 1,182,263 Input Tokens, 169,303 Output Tokens
 
-💵 $13.57 Estimated AI Cost This Week
+💵 $61.01 Estimated AI Cost This Week
 
-🧠 2 AI Sessions, 2 AI Prompts
+🧠 4 AI Sessions, 22 AI Prompts
 
-DeepSeek                 640 lines           █████████████████████████   100.00 % 
-Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+DeepSeek                 640 lines           █████████████░░░░░░░░░░░░   50.16 % 
+Opencode-Cli             636 lines           ████████████░░░░░░░░░░░░░   49.84 % 
 
 🔎 AI Coding Insights:
-🧑‍💻 Mostly Hands-On — 0.18% of written lines came from AI
-📚 Verbose Prompter — average 4,836 characters per prompt
-🎯 One-Shot Prompter — average 1 prompts per session
-🔍 Hands-On Reviewer — 99.83% of changed lines were hand-edited
+🧑‍💻 Mostly Hands-On — 0.34% of written lines came from AI
+📄 Detailed Prompter — average 1,094 characters per prompt
+🔁 Iterative Prompter — average 6 prompts per session
+🔍 Hands-On Reviewer — 99.67% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Go** 
@@ -169,5 +169,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 09/10/2026 22:52:29 UTC
+ Last Updated on 10/10/2026 22:00:16 UTC
 <!--END_SECTION:waka-->
