@@ -119,44 +119,42 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Other                    1 hr 54 mins        █████████████░░░░░░░░░░░░   53.74 % 
-TOML                     21 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.07 % 
-JSON                     20 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.60 % 
-Markdown                 19 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.25 % 
-QML                      17 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.10 % 
+TOML                     21 mins             ████░░░░░░░░░░░░░░░░░░░░░   17.25 % 
+Other                    21 mins             ████░░░░░░░░░░░░░░░░░░░░░   17.24 % 
+JSON                     20 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.45 % 
+Markdown                 20 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.21 % 
+QML                      17 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.87 % 
 
 🔥 Editors: 
-Neovim                   1 hr 49 mins        █████████████░░░░░░░░░░░░   51.49 % 
-Claude Code              1 hr 30 mins        ███████████░░░░░░░░░░░░░░   42.68 % 
-Opencode Cli             12 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.82 % 
+Claude Code              1 hr 7 mins         ██████████████░░░░░░░░░░░   54.29 % 
+Neovim                   45 mins             █████████░░░░░░░░░░░░░░░░   36.92 % 
+Opencode Cli             10 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.79 % 
 
 💻 Operating System: 
-Linux                    3 hrs 32 mins       █████████████████████████   100.00 % 
+Linux                    2 hrs 4 mins        █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 2 hrs 56 mins (82.84%)
+⏱ AI Coding Time: 1 hr 27 mins (70.6%)
 
 ✍️ 2,820 lines written by AI, 25 lines written by hand (99.12% AI-written)
 
-🔤 2,946,075 Input Tokens, 443,716 Output Tokens
+🔤 1,723,630 Input Tokens, 400,984 Output Tokens
 
-💵 $26.23 Estimated AI Cost This Week
+💵 $7.67 Estimated AI Cost This Week
 
-🧠 17 AI Sessions, 44 AI Prompts
+🧠 8 AI Sessions, 30 AI Prompts
 
 Haiku                    2,808 lines         █████████████████████████   98.15 % 
 GLM                      53 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   01.85 % 
-Opencode-Cli             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-DeepSeek                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 GPT                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 99.12% of written lines came from AI
-📚 Verbose Prompter — average 3,756 characters per prompt
-🔁 Iterative Prompter — average 3 prompts per session
+📚 Verbose Prompter — average 3,751 characters per prompt
+🔁 Iterative Prompter — average 4 prompts per session
 🚀 High AI Trust — 0.93% of changed lines were hand-edited
 ```
 
@@ -173,5 +171,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 17/10/2026 20:54:20 UTC
+ Last Updated on 18/10/2026 21:02:57 UTC
 <!--END_SECTION:waka-->
