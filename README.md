@@ -119,25 +119,25 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Other                    17 mins             ███████████░░░░░░░░░░░░░░   45.47 % 
-Desktop file             5 mins              ████░░░░░░░░░░░░░░░░░░░░░   15.29 % 
-JSON                     4 mins              ███░░░░░░░░░░░░░░░░░░░░░░   12.45 % 
-Lua                      3 mins              ███░░░░░░░░░░░░░░░░░░░░░░   10.44 % 
-Markdown                 2 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   05.48 % 
+Other                    17 mins             ██████████████░░░░░░░░░░░   54.24 % 
+JSON                     4 mins              ████░░░░░░░░░░░░░░░░░░░░░   14.85 % 
+Lua                      3 mins              ███░░░░░░░░░░░░░░░░░░░░░░   12.46 % 
+Markdown                 2 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   06.53 % 
+QML                      1 min               █░░░░░░░░░░░░░░░░░░░░░░░░   05.63 % 
 
 🔥 Editors: 
-Claude Code              13 mins             █████████░░░░░░░░░░░░░░░░   36.34 % 
-Neovim                   12 mins             █████████░░░░░░░░░░░░░░░░   34.57 % 
-Opencode Cli             10 mins             ███████░░░░░░░░░░░░░░░░░░   29.09 % 
+Claude Code              13 mins             ███████████░░░░░░░░░░░░░░   43.35 % 
+Opencode Cli             10 mins             █████████░░░░░░░░░░░░░░░░   34.71 % 
+Neovim                   6 mins              █████░░░░░░░░░░░░░░░░░░░░   21.94 % 
 
 💻 Operating System: 
-Linux                    37 mins             █████████████████████████   100.00 % 
+Linux                    31 mins             █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 30 mins (81.74%)
+⏱ AI Coding Time: 30 mins (97.51%)
 
 ✍️ 53 lines written by AI, 6 lines written by hand (89.83% AI-written)
 
@@ -171,5 +171,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 19/10/2026 22:39:57 UTC
+ Last Updated on 20/10/2026 21:53:45 UTC
 <!--END_SECTION:waka-->
