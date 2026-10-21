@@ -119,43 +119,42 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Other                    17 mins             ██████████████░░░░░░░░░░░   54.24 % 
-JSON                     4 mins              ████░░░░░░░░░░░░░░░░░░░░░   14.85 % 
-Lua                      3 mins              ███░░░░░░░░░░░░░░░░░░░░░░   12.46 % 
-Markdown                 2 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   06.53 % 
-QML                      1 min               █░░░░░░░░░░░░░░░░░░░░░░░░   05.63 % 
+Other                    16 mins             ███████████████████░░░░░░   74.39 % 
+Lua                      3 mins              ████░░░░░░░░░░░░░░░░░░░░░   17.77 % 
+CMake                    0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   03.56 % 
+Text                     0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   02.19 % 
+Markdown                 0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   02.09 % 
 
 🔥 Editors: 
-Claude Code              13 mins             ███████████░░░░░░░░░░░░░░   43.35 % 
-Opencode Cli             10 mins             █████████░░░░░░░░░░░░░░░░   34.71 % 
-Neovim                   6 mins              █████░░░░░░░░░░░░░░░░░░░░   21.94 % 
+Opencode Cli             10 mins             ████████████░░░░░░░░░░░░░   49.52 % 
+Neovim                   6 mins              ████████░░░░░░░░░░░░░░░░░   31.31 % 
+Claude Code              4 mins              █████░░░░░░░░░░░░░░░░░░░░   19.17 % 
 
 💻 Operating System: 
-Linux                    31 mins             █████████████████████████   100.00 % 
+Linux                    22 mins             █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 30 mins (97.51%)
+⏱ AI Coding Time: 21 mins (96.44%)
 
-✍️ 53 lines written by AI, 6 lines written by hand (89.83% AI-written)
+✍️ 0 lines written by AI, 6 lines written by hand (0.0% AI-written)
 
 🔤 20,496 Input Tokens, 2,836 Output Tokens
 
 💵 $1.43 Estimated AI Cost This Week
 
-🧠 3 AI Sessions, 6 AI Prompts
+🧠 2 AI Sessions, 4 AI Prompts
 
-GLM                      53 lines            ███████████████████░░░░░░   74.65 % 
-Haiku                    18 lines            ██████░░░░░░░░░░░░░░░░░░░   25.35 % 
+Haiku                    18 lines            █████████████████████████   100.00 % 
 GPT                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 89.83% of written lines came from AI
-📚 Verbose Prompter — average 4,301 characters per prompt
+🧑‍💻 Mostly Hands-On — 0.0% of written lines came from AI
+📚 Verbose Prompter — average 3,238 characters per prompt
 🔁 Iterative Prompter — average 2 prompts per session
-🚀 High AI Trust — 13.11% of changed lines were hand-edited
+🔍 Hands-On Reviewer — 100.0% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Go** 
@@ -171,5 +170,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 20/10/2026 21:53:45 UTC
+ Last Updated on 21/10/2026 22:00:24 UTC
 <!--END_SECTION:waka-->
