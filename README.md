@@ -142,11 +142,10 @@ Linux                    1 hr 33 mins        ███████████�
 
 🔤 323,088 Input Tokens, 51,280 Output Tokens
 
-💵 $18.13 Estimated AI Cost This Week
+💵 $17.63 Estimated AI Cost This Week
 
 🧠 3 AI Sessions, 31 AI Prompts
 
-Haiku                    18 lines            █████████████████████████   100.00 % 
 GPT                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
@@ -169,5 +168,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 22/10/2026 21:56:06 UTC
+ Last Updated on 23/10/2026 21:41:38 UTC
 <!--END_SECTION:waka-->
