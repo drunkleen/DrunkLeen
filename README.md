@@ -119,39 +119,38 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Other                    1 hr 15 mins        ████████████████████░░░░░   80.80 % 
-JSON                     13 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.51 % 
-Lua                      3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.20 % 
-Markdown                 0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.49 % 
+Other                    1 hr 47 mins        ███████████████████░░░░░░   75.24 % 
+JSON                     13 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.44 % 
+Lua                      12 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.72 % 
+Bash                     9 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   06.60 % 
 
 🔥 Editors: 
-Opencode Cli             1 hr 12 mins        ███████████████████░░░░░░   77.27 % 
-Neovim                   16 mins             █████░░░░░░░░░░░░░░░░░░░░   18.20 % 
-Claude Code              4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.53 % 
+Opencode Cli             1 hr 12 mins        █████████████░░░░░░░░░░░░   50.31 % 
+Neovim                   1 hr 11 mins        ████████████░░░░░░░░░░░░░   49.69 % 
 
 💻 Operating System: 
-Linux                    1 hr 33 mins        █████████████████████████   100.00 % 
+Linux                    2 hrs 23 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 1 hr 26 mins (93.01%)
+⏱ AI Coding Time: 1 hr 22 mins (57.5%)
 
-✍️ 0 lines written by AI, 8 lines written by hand (0.0% AI-written)
+✍️ 0 lines written by AI, 30 lines written by hand (0.0% AI-written)
 
 🔤 323,088 Input Tokens, 51,280 Output Tokens
 
 💵 $17.63 Estimated AI Cost This Week
 
-🧠 3 AI Sessions, 31 AI Prompts
+🧠 2 AI Sessions, 29 AI Prompts
 
 GPT                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🧑‍💻 Mostly Hands-On — 0.0% of written lines came from AI
-📝 Concise Prompter — average 494 characters per prompt
-🔁 Iterative Prompter — average 10 prompts per session
+📝 Concise Prompter — average 85 characters per prompt
+🔁 Iterative Prompter — average 14 prompts per session
 🔍 Hands-On Reviewer — 100.0% of changed lines were hand-edited
 ```
 
@@ -168,5 +167,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 24/10/2026 21:09:32 UTC
+ Last Updated on 25/10/2026 21:09:36 UTC
 <!--END_SECTION:waka-->
