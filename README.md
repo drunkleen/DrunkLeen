@@ -119,23 +119,24 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Other                    1 hr 47 mins        ███████████████████░░░░░░   75.24 % 
-JSON                     13 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.44 % 
-Lua                      12 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.72 % 
-Bash                     9 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   06.60 % 
+Other                    1 hr 47 mins        ██████████████████░░░░░░░   71.62 % 
+JSON                     20 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.39 % 
+Lua                      12 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.30 % 
+Bash                     9 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   06.28 % 
+vdf                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.23 % 
 
 🔥 Editors: 
-Opencode Cli             1 hr 12 mins        █████████████░░░░░░░░░░░░   50.31 % 
-Neovim                   1 hr 11 mins        ████████████░░░░░░░░░░░░░   49.69 % 
+Neovim                   1 hr 18 mins        █████████████░░░░░░░░░░░░   52.12 % 
+Opencode Cli             1 hr 12 mins        ████████████░░░░░░░░░░░░░   47.88 % 
 
 💻 Operating System: 
-Linux                    2 hrs 23 mins       █████████████████████████   100.00 % 
+Linux                    2 hrs 30 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 1 hr 22 mins (57.5%)
+⏱ AI Coding Time: 1 hr 22 mins (54.73%)
 
 ✍️ 0 lines written by AI, 30 lines written by hand (0.0% AI-written)
 
@@ -167,5 +168,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 27/10/2026 22:36:15 UTC
+ Last Updated on 28/10/2026 22:53:01 UTC
 <!--END_SECTION:waka-->
