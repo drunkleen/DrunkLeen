@@ -119,40 +119,23 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Other                    1 hr 47 mins        ██████████████████░░░░░░░   71.62 % 
-JSON                     20 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.39 % 
-Lua                      12 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.30 % 
-Bash                     9 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   06.28 % 
-vdf                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.23 % 
+Other                    32 mins             █████████████░░░░░░░░░░░░   52.62 % 
+Lua                      12 mins             █████░░░░░░░░░░░░░░░░░░░░   20.27 % 
+Bash                     9 mins              ████░░░░░░░░░░░░░░░░░░░░░   15.34 % 
+JSON                     6 mins              ███░░░░░░░░░░░░░░░░░░░░░░   10.74 % 
+vdf                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 % 
 
 🔥 Editors: 
-Neovim                   1 hr 18 mins        █████████████░░░░░░░░░░░░   52.12 % 
-Opencode Cli             1 hr 12 mins        ████████████░░░░░░░░░░░░░   47.88 % 
+Neovim                   1 hr 1 min          █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Linux                    2 hrs 30 mins       █████████████████████████   100.00 % 
+Linux                    1 hr 1 min          █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 1 hr 22 mins (54.73%)
-
-✍️ 0 lines written by AI, 30 lines written by hand (0.0% AI-written)
-
-🔤 323,088 Input Tokens, 51,280 Output Tokens
-
-💵 $17.63 Estimated AI Cost This Week
-
-🧠 2 AI Sessions, 29 AI Prompts
-
-GPT                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-
-🔎 AI Coding Insights:
-🧑‍💻 Mostly Hands-On — 0.0% of written lines came from AI
-📝 Concise Prompter — average 85 characters per prompt
-🔁 Iterative Prompter — average 14 prompts per session
-🔍 Hands-On Reviewer — 100.0% of changed lines were hand-edited
+No AI Coding Activity Tracked This Week
 ```
 
 **I Mostly Code in Go** 
@@ -168,5 +151,5 @@ Nix                      1 repo              ░░░░░░░░░░░�
 
 
 
- Last Updated on 28/10/2026 22:53:01 UTC
+ Last Updated on 29/10/2026 23:02:02 UTC
 <!--END_SECTION:waka-->
