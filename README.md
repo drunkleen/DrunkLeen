@@ -106,10 +106,10 @@ A Persian community project around Rust programming language education.
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                1072 commits        ██████░░░░░░░░░░░░░░░░░░░   24.24 % 
-🌆 Daytime                1363 commits        ████████░░░░░░░░░░░░░░░░░   30.82 % 
-🌃 Evening                1216 commits        ███████░░░░░░░░░░░░░░░░░░   27.49 % 
-🌙 Night                  772 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.45 % 
+🌞 Morning                445 commits         ██████░░░░░░░░░░░░░░░░░░░   22.18 % 
+🌆 Daytime                714 commits         █████████░░░░░░░░░░░░░░░░   35.59 % 
+🌃 Evening                548 commits         ███████░░░░░░░░░░░░░░░░░░   27.32 % 
+🌙 Night                  299 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.91 % 
 ```
 
 
@@ -141,15 +141,15 @@ No AI Coding Activity Tracked This Week
 **I Mostly Code in Go** 
 
 ```text
-Shell                    10 repos            ███░░░░░░░░░░░░░░░░░░░░░░   13.89 % 
-Rust                     9 repos             ███░░░░░░░░░░░░░░░░░░░░░░   12.50 % 
-QML                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.78 % 
-C                        1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.39 % 
-Nix                      1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.39 % 
+Rust                     9 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.43 % 
+Shell                    8 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.94 % 
+QML                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.99 % 
+C                        1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.49 % 
+Nix                      1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.49 % 
 ```
 
 
 
 
- Last Updated on 30/10/2026 22:41:01 UTC
+ Last Updated on 31/10/2026 21:55:09 UTC
 <!--END_SECTION:waka-->
