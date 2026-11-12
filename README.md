@@ -39,19 +39,6 @@ I build tools, write educational content, and work on projects around programmin
 
 ## Featured Projects
 
-### Leenium Linux
-
-A personal Linux-based project and ecosystem focused on building a customized, developer-friendly Linux experience.
-
-- Custom packages
-- Personal package repository
-- Linux tooling and automation
-- Built around real daily usage
-Leenium website: [leenium.org](https://leenium.org)
-Leenium organization: [Leenium](https://github.com/leenium/)
-
----
-
 ### Leenfetch
 
 A fast and simple system information tool written in Rust.
@@ -90,11 +77,11 @@ A Persian community project around Rust programming language education.
 
 <div align="center">
 
-![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=drunkleen&theme=tokyonight)
+
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=drunkleen&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=480)](https://git.io/streak-stats)![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=drunkleen&theme=tokyonight)
 
 ![GitHub Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=drunkleen&theme=tokyonight)
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=drunkleen&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=480)](https://git.io/streak-stats)
 
 </div>
 
