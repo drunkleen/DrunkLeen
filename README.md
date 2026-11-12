@@ -56,51 +56,19 @@ A fast and simple system information tool written in Rust.
 
 A Persian community project around Rust programming language education.
 
-- Persian Rust book translation
-- Educational content
-- Resources for Persian-speaking Rust learners
-
-[Persian Rust Organization](https://github.com/persian-rust)  
-[Persian Rust Book](https://rustbook.drunkleen.com)
-
----
-
-## Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,go,java,python,bash,linux,docker,kubernetes,git,github,neovim,postgres,sqlite" alt="Tech Stack"/>
-</p>
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-<img width="44%" alt="GitHub Streak" src="https://github-readme-streak-stats.herokuapp.com?user=drunkleen&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=480" />
-<img width="31%" alt="GitHub Stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=drunkleen&theme=tokyonight" />
-
-<img width="75%" alt="GitHub Summary" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=drunkleen&theme=tokyonight" />
-
-
-![]()
-
 </div>
 
 ---
 
 <!--START_SECTION:waka-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-255%20hrs%208%20mins-blue?style=flat)
-
-**I'm an Early 🐤** 
+**I'm a Daytime 🐱** 
 
 ```text
-🌞 Morning                445 commits         ██████░░░░░░░░░░░░░░░░░░░   22.18 % 
-🌆 Daytime                714 commits         █████████░░░░░░░░░░░░░░░░   35.59 % 
-🌃 Evening                548 commits         ███████░░░░░░░░░░░░░░░░░░   27.32 % 
-🌙 Night                  299 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.91 % 
+🌞 Morning                 193                 █████░░░░░░░░░░░░░░░░░░░░   19.30 %
+🌆 Daytime                 379                 █████████░░░░░░░░░░░░░░░░   37.90 %
+🌃 Evening                 299                 ███████░░░░░░░░░░░░░░░░░░   29.90 %
+🌙 Night                   129                 ███░░░░░░░░░░░░░░░░░░░░░░   12.90 %
 ```
-
 
 📊 **This Week I Spent My Time On** 
 
@@ -108,37 +76,28 @@ A Persian community project around Rust programming language education.
 🕑︎ Time Zone: Europe/Berlin
 
 💬 Programming Languages: 
-Other                    32 mins             █████████████░░░░░░░░░░░░   52.62 % 
-Lua                      12 mins             █████░░░░░░░░░░░░░░░░░░░░   20.27 % 
-Bash                     9 mins              ████░░░░░░░░░░░░░░░░░░░░░   15.34 % 
-JSON                     6 mins              ███░░░░░░░░░░░░░░░░░░░░░░   10.74 % 
-vdf                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 % 
+Go                        2 hrs 27 mins       ███████████░░░░░░░░░░░░░░   42.74 %
+Markdown                  1 hr 14 mins        █████░░░░░░░░░░░░░░░░░░░░   21.70 %
+Lua                       1 hr 13 mins        █████░░░░░░░░░░░░░░░░░░░░   21.35 %
+Other                     24 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.13 %
+Makefile                  10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.92 %
 
 🔥 Editors: 
-Neovim                   1 hr 1 min          █████████████████████████   100.00 % 
+Neovim                    5 hrs 44 mins       █████████████████████████   100.00 %
 
 💻 Operating System: 
-Linux                    1 hr 1 min          █████████████████████████   100.00 % 
-```
-
-🤖 **AI Coding This Week** 
-
-```text
-No AI Coding Activity Tracked This Week
+Linux                     5 hrs 44 mins       █████████████████████████   100.00 %
 ```
 
 **I Mostly Code in Go** 
 
 ```text
-Rust                     9 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.43 % 
-Shell                    8 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.94 % 
-QML                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.99 % 
-C                        1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.49 % 
-Nix                      1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.49 % 
+Go                        11 repos             █████░░░░░░░░░░░░░░░░░░░░   19.64 %
+Python                    9 repos             ████░░░░░░░░░░░░░░░░░░░░░   16.07 %
+Rust                      9 repos             ████░░░░░░░░░░░░░░░░░░░░░   16.07 %
+Java                      6 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.71 %
+Shell                     6 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.71 %
 ```
 
-
-
-
- Last Updated on 31/10/2026 21:55:09 UTC
+Last Updated on 12/11/2026 11:17:36 UTC
 <!--END_SECTION:waka-->
