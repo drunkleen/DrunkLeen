@@ -52,6 +52,38 @@ class ProfileMetricsTests(unittest.TestCase):
         self.assertIsNone(captured["headers"])
         self.assertEqual(captured["service"], "WakaTime")
 
+    def test_editor_aliases_are_merged_into_neovim(self):
+        editors = [
+            {"name": "Neovim", "total_seconds": 3600, "text": "1 hr", "percent": 25.0},
+            {"name": "Opencode Cli", "total_seconds": 7200, "text": "2 hrs", "percent": 50.0},
+            {"name": "Codex Vscode", "total_seconds": 1800, "text": "30 mins", "percent": 12.5},
+            {"name": "Zed", "total_seconds": 1800, "text": "30 mins", "percent": 12.5},
+        ]
+
+        normalized = profile_metrics.normalize_editors(editors)
+
+        self.assertEqual([item["name"] for item in normalized], ["Neovim", "Zed"])
+        self.assertEqual(normalized[0]["total_seconds"], 12600.0)
+        self.assertEqual(normalized[0]["text"], "3 hrs 30 mins")
+        self.assertEqual(normalized[0]["percent"], 87.5)
+
+    def test_build_section_displays_alias_editors_as_neovim(self):
+        waka = {
+            "timezone": "Europe/Berlin",
+            "languages": [{"name": "Go", "text": "2 hrs", "percent": 100.0}],
+            "editors": [
+                {"name": "Opencode Cli", "total_seconds": 5400, "text": "1 hr 30 mins", "percent": 75.0},
+                {"name": "Codex Vscode", "total_seconds": 1800, "text": "30 mins", "percent": 25.0},
+            ],
+            "operating_systems": [{"name": "Linux", "text": "2 hrs", "percent": 100.0}],
+        }
+
+        section = profile_metrics.build_section(waka, {}, {})
+
+        self.assertIn("Neovim", section)
+        self.assertNotIn("Opencode", section)
+        self.assertNotIn("Vscode", section)
+
     def test_render_bar_uses_requested_width(self):
         self.assertEqual(profile_metrics.render_bar(50.0, width=10), "█████░░░░░")
         self.assertEqual(profile_metrics.render_bar(0.0, width=4), "░░░░")

@@ -145,6 +145,42 @@ def fetch_recent_commit_periods(token: str, username: str, timezone_name: str) -
     return periods
 
 
+def format_duration(total_seconds: float) -> str:
+    seconds = max(0, round(float(total_seconds)))
+    hours, remainder = divmod(seconds, 3600)
+    minutes, seconds = divmod(remainder, 60)
+    parts: list[str] = []
+    if hours:
+        parts.append(f"{hours} hr" if hours == 1 else f"{hours} hrs")
+    if minutes:
+        parts.append(f"{minutes} min" if minutes == 1 else f"{minutes} mins")
+    if not parts:
+        parts.append(f"{seconds} sec" if seconds == 1 else f"{seconds} secs")
+    return " ".join(parts)
+
+
+def normalize_editors(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    totals: dict[str, float] = {}
+    for item in items:
+        name = str(item.get("name") or "Unknown")
+        comparable = re.sub(r"[^a-z0-9]+", "", name.casefold())
+        if "opencode" in comparable or "vscode" in comparable or "visualstudiocode" in comparable:
+            name = "Neovim"
+        totals[name] = totals.get(name, 0.0) + float(item.get("total_seconds", 0.0) or 0.0)
+
+    total_seconds = sum(totals.values())
+    normalized = [
+        {
+            "name": name,
+            "total_seconds": seconds,
+            "text": format_duration(seconds),
+            "percent": round(seconds / total_seconds * 100.0, 2) if total_seconds else 0.0,
+        }
+        for name, seconds in totals.items()
+    ]
+    return sorted(normalized, key=lambda item: (-float(item["total_seconds"]), str(item["name"]).casefold()))
+
+
 def render_bar(percent: float, width: int = 25) -> str:
     bounded = max(0.0, min(100.0, float(percent)))
     filled = round(width * bounded / 100.0)
@@ -224,7 +260,7 @@ def build_section(
         *render_metric_rows(list(waka.get("languages") or [])),
         "",
         "🔥 Editors: ",
-        *render_metric_rows(list(waka.get("editors") or [])),
+        *render_metric_rows(normalize_editors(list(waka.get("editors") or []))),
         "",
         "💻 Operating System: ",
         *render_metric_rows(list(waka.get("operating_systems") or [])),
