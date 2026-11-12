@@ -39,19 +39,6 @@ I build tools, write educational content, and work on projects around programmin
 
 ## Featured Projects
 
-### Leenium Linux
-
-A personal Linux-based project and ecosystem focused on building a customized, developer-friendly Linux experience.
-
-- Custom packages
-- Personal package repository
-- Linux tooling and automation
-- Built around real daily usage
-Leenium website: [leenium.org](https://leenium.org)
-Leenium organization: [Leenium](https://github.com/leenium/)
-
----
-
 ### Leenfetch
 
 A fast and simple system information tool written in Rust.
@@ -69,77 +56,10 @@ A fast and simple system information tool written in Rust.
 
 A Persian community project around Rust programming language education.
 
-- Persian Rust book translation
-- Educational content
-- Resources for Persian-speaking Rust learners
-
-[Persian Rust Organization](https://github.com/persian-rust)  
-[Persian Rust Book](https://rustbook.drunkleen.com)
-
----
-
-## Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,go,java,python,bash,linux,docker,kubernetes,git,github,neovim,postgres,sqlite" alt="Tech Stack"/>
-</p>
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=drunkleen&theme=tokyonight)
-
-![GitHub Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=drunkleen&theme=tokyonight)
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=drunkleen&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=480)](https://git.io/streak-stats)
-
 </div>
 
 ---
 
 <!--START_SECTION:waka-->
-**I'm a Daytime 🐱** 
 
-```text
-🌞 Morning                 193                 █████░░░░░░░░░░░░░░░░░░░░   19.30 %
-🌆 Daytime                 379                 █████████░░░░░░░░░░░░░░░░   37.90 %
-🌃 Evening                 299                 ███████░░░░░░░░░░░░░░░░░░   29.90 %
-🌙 Night                   129                 ███░░░░░░░░░░░░░░░░░░░░░░   12.90 %
-```
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Europe/Berlin
-
-💬 Programming Languages: 
-Go                        2 hrs 27 mins       ███████████░░░░░░░░░░░░░░   42.74 %
-Markdown                  1 hr 14 mins        █████░░░░░░░░░░░░░░░░░░░░   21.70 %
-Lua                       1 hr 13 mins        █████░░░░░░░░░░░░░░░░░░░░   21.35 %
-Other                     24 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.13 %
-Makefile                  10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.92 %
-
-🔥 Editors: 
-Opencode Cli              4 hrs               █████████████████░░░░░░░░   69.78 %
-Neovim                    1 hr 27 mins        ██████░░░░░░░░░░░░░░░░░░░   25.34 %
-Codex Vscode              16 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.88 %
-
-💻 Operating System: 
-Linux                     5 hrs 44 mins       █████████████████████████   100.00 %
-```
-
-**I Mostly Code in Go** 
-
-```text
-Go                        11 repos             █████░░░░░░░░░░░░░░░░░░░░   19.64 %
-Python                    9 repos             ████░░░░░░░░░░░░░░░░░░░░░   16.07 %
-Rust                      9 repos             ████░░░░░░░░░░░░░░░░░░░░░   16.07 %
-Java                      6 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.71 %
-Shell                     6 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.71 %
-```
-
-Last Updated on 12/11/2026 10:54:06 UTC
 <!--END_SECTION:waka-->
