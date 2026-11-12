@@ -77,11 +77,13 @@ A Persian community project around Rust programming language education.
 
 <div align="center">
 
+<img width="44%" alt="GitHub Streak" src="https://github-readme-streak-stats.herokuapp.com?user=drunkleen&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=480" />
+<img width="31%" alt="GitHub Stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=drunkleen&theme=tokyonight" />
+
+<img width="75%" alt="GitHub Summary" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=drunkleen&theme=tokyonight" />
 
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=drunkleen&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=480)](https://git.io/streak-stats)![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=drunkleen&theme=tokyonight)
-
-![GitHub Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=drunkleen&theme=tokyonight)
+![]()
 
 </div>
 
