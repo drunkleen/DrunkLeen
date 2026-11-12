@@ -20,8 +20,8 @@ jobs:
 
     steps:
       - name: Check out profile repository
-        # actions/checkout v4, pinned to a reviewed commit.
-        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        # actions/checkout v5, pinned to a reviewed commit.
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
         with:
           fetch-depth: 0
 
