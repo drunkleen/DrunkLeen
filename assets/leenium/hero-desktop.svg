@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-label="Leen profile hero">
+  
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#365156" stroke-opacity="0.18" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#33b8a8" stop-opacity="0.12"/>
+      <stop offset="0.55" stop-color="#0b1113" stop-opacity="0"/>
+      <stop offset="1" stop-color="#5e9bff" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="390" rx="22" fill="#0b1113"/>
+  <rect width="1200" height="390" rx="22" fill="url(#grid)"/>
+  <rect width="1200" height="390" rx="22" fill="url(#fade)"/>
+  <rect x="1" y="1" width="1198" height="388" rx="21" fill="none" stroke="#365156" stroke-width="2"/>
+
+  <rect x="1" y="1" width="1198" height="52" rx="21" fill="#11191c"/>
+  <path d="M1 52 H1199" stroke="#365156"/>
+  <circle cx="28" cy="27" r="5" fill="#e16f73"/>
+  <circle cx="47" cy="27" r="5" fill="#d9c76b"/>
+  <circle cx="66" cy="27" r="5" fill="#4dba7a"/>
+  <text x="88" y="33" fill="#59d6c5" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="700" text-anchor="start">LEENIUM / PROFILE</text>
+  <text x="1176" y="33" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="500" text-anchor="end">master · dresden · online</text>
+  <text x="52" y="108" fill="#33b8a8" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="700" text-anchor="start">LEEN / DRUNKLEEN</text>
+  <text x="52" y="166" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="42" font-weight="750" text-anchor="start">Developer. Linux user.</text>
+  <text x="52" y="216" fill="#59d6c5" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="42" font-weight="750" text-anchor="start">Open-source builder.</text>
+  <text x="52" y="258" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="17" font-weight="400" text-anchor="start">Rust, Go, Linux, networking and practical systems.</text>
+  <rect x="760" y="92" width="388" height="174" rx="14" fill="#11191c" stroke="#365156"/>
+  <text x="790" y="126" fill="#4dba7a" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="15" font-weight="700" text-anchor="start">leen@galaxy</text>
+  <text x="900" y="126" fill="#5e9bff" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="15" font-weight="700" text-anchor="start">:~$</text>
+  <text x="790" y="164" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="18" font-weight="600" text-anchor="start">whoami --verbose</text>
+  <text x="790" y="201" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="400" text-anchor="start">open_source=true</text>
+  <text x="790" y="229" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="400" text-anchor="start">daily_driver=linux</text>
+  <rect x="790" y="241" width="10" height="18" fill="#33b8a8"/>
+  <rect x="52" y="304" width="112" height="34" rx="8" fill="#11191c" stroke="#365156"/>
+<circle cx="69" cy="321" r="4" fill="#f4a259"/>
+<text x="82" y="326" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="600" text-anchor="start">RUST</text>
+  <rect x="176" y="304" width="90" height="34" rx="8" fill="#11191c" stroke="#365156"/>
+<circle cx="193" cy="321" r="4" fill="#59d6c5"/>
+<text x="206" y="326" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="600" text-anchor="start">GO</text>
+  <rect x="278" y="304" width="126" height="34" rx="8" fill="#11191c" stroke="#365156"/>
+<circle cx="295" cy="321" r="4" fill="#4dba7a"/>
+<text x="308" y="326" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="600" text-anchor="start">LINUX</text>
+  <rect x="416" y="304" width="174" height="34" rx="8" fill="#11191c" stroke="#365156"/>
+<circle cx="433" cy="321" r="4" fill="#5e9bff"/>
+<text x="446" y="326" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="600" text-anchor="start">NETWORKING</text>
+  <rect x="602" y="304" width="190" height="34" rx="8" fill="#11191c" stroke="#365156"/>
+<circle cx="619" cy="321" r="4" fill="#d9c76b"/>
+<text x="632" y="326" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="600" text-anchor="start">SELF-HOSTING</text>
+  </svg>

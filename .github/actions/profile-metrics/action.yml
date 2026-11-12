@@ -1,5 +1,5 @@
-name: Local Profile Metrics
-description: Update the profile README with WakaTime and GitHub metrics without AI coding sections.
+name: Local Leenium Profile Metrics
+description: Generate responsive Leenium SVG assets from WakaTime and GitHub metrics.
 
 inputs:
   wakatime_api_key:
@@ -24,10 +24,14 @@ inputs:
     description: IANA timezone used for commit-time grouping
     required: false
     default: Europe/Berlin
+  assets_dir:
+    description: Directory where Leenium SVG assets are written
+    required: false
+    default: assets/leenium
 
 outputs:
   changed:
-    description: Whether the README content changed
+    description: Whether the README or generated SVG assets changed
     value: ${{ steps.update.outputs.changed }}
 
 runs:
@@ -42,4 +46,5 @@ runs:
         INPUT_README_PATH: ${{ inputs.readme_path }}
         INPUT_SECTION_NAME: ${{ inputs.section_name }}
         INPUT_TIMEZONE: ${{ inputs.timezone }}
+        INPUT_ASSETS_DIR: ${{ inputs.assets_dir }}
       run: python3 "$GITHUB_ACTION_PATH/update_readme.py"

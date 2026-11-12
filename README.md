@@ -1,103 +1,58 @@
-<div align="center">
-
 # Hey, I'm Leen 👋
 
-### Developer • Rust & Go Enthusiast • Linux User • Open Source Builder
+<div align="center">
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/leenium/hero-mobile.svg">
+  <img width="100%" src="./assets/leenium/hero-desktop.svg" alt="Leen — developer, Linux user, and open-source builder">
+</picture>
+
+<br>
 
 <p>
-  <a href="https://twitter.com/DrunkLeen">
-    <img src="https://img.shields.io/badge/Twitter/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter/X"/>
-  </a>
-  <a href="https://www.instagram.com/drunkleen">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-  </a>
-  <a href="mailto:anakin@drunkleen.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
+  <a href="https://github.com/drunkleen"><img alt="GitHub" src="https://img.shields.io/badge/GITHUB-11191c?style=for-the-badge&logo=github&logoColor=59d6c5"></a>
+  <a href="https://twitter.com/DrunkLeen"><img alt="X" src="https://img.shields.io/badge/X-11191c?style=for-the-badge&logo=x&logoColor=59d6c5"></a>
+  <a href="https://www.instagram.com/drunkleen"><img alt="Instagram" src="https://img.shields.io/badge/INSTAGRAM-11191c?style=for-the-badge&logo=instagram&logoColor=59d6c5"></a>
+  <a href="https://drunkleen.com"><img alt="Website" src="https://img.shields.io/badge/WEBSITE-11191c?style=for-the-badge&logo=firefoxbrowser&logoColor=59d6c5"></a>
+  <a href="mailto:anakin@drunkleen.com"><img alt="Email" src="https://img.shields.io/badge/EMAIL-11191c?style=for-the-badge&logo=protonmail&logoColor=59d6c5"></a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=drunkleen&style=flat-square&color=red" alt="Profile views"/>
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/leenium/about-mobile.svg">
+  <img width="100%" src="./assets/leenium/about-desktop.svg" alt="About Leen: Rust, Go, Linux, networking, security, self-hosting, and Persian education">
+</picture>
 
-</div>
+<br>
 
----
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/leenium/stack-mobile.svg">
+  <img width="100%" src="./assets/leenium/stack-desktop.svg" alt="Leen's technology stack">
+</picture>
 
-## About Me
+<br>
 
-I'm Leen, a developer and open-source enthusiast interested in Rust, Go, Linux, networking, and system-level programming.
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/leenium/projects-mobile.svg">
+  <img width="100%" src="./assets/leenium/projects-desktop.svg" alt="Featured projects: Leenfetch and Persian Rust">
+</picture>
 
-I build tools, write educational content, and work on projects around programming, Linux, self-hosting, and the Persian-speaking developer community.
-
-- Building open-source tools with Rust and Go
-- Creating Persian educational content about programming
-- Daily Linux user
-- Interested in backend development, networking, and security
-- Personal website: [drunkleen.com](https://drunkleen.com)
-- Email: [anakin@drunkleen.com](mailto:anakin@drunkleen.com)
-
----
-
-## Featured Projects
-
-### Leenfetch
-
-A fast and simple system information tool written in Rust.
-
-- Cross-platform system information
-- Clean terminal output
-- Built with performance and simplicity in mind
-- Inspired by tools like Neofetch, but rewritten with a modern Rust approach
-
-[Repository](https://github.com/drunkleen/leenfetch)
-
----
-
-### Persian Rust
-
-A Persian community project around Rust programming language education.
-
-</div>
-
----
+<p>
+  <a href="https://github.com/drunkleen/leenfetch"><img alt="Open Leenfetch" src="https://img.shields.io/badge/OPEN_LEENFETCH-11191c?style=for-the-badge&logo=rust&logoColor=f4a259"></a>
+  <a href="https://github.com/persian-rust"><img alt="Open Persian Rust" src="https://img.shields.io/badge/OPEN_PERSIAN_RUST-11191c?style=for-the-badge&logo=rust&logoColor=59d6c5"></a>
+</p>
 
 <!--START_SECTION:waka-->
-**I'm a Daytime 🐱** 
-
-```text
-🌞 Morning                 192                 █████░░░░░░░░░░░░░░░░░░░░   19.20 %
-🌆 Daytime                 380                 ██████████░░░░░░░░░░░░░░░   38.00 %
-🌃 Evening                 299                 ███████░░░░░░░░░░░░░░░░░░   29.90 %
-🌙 Night                   129                 ███░░░░░░░░░░░░░░░░░░░░░░   12.90 %
-```
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Europe/Berlin
-
-💬 Programming Languages: 
-Go                        2 hrs 27 mins       ███████████░░░░░░░░░░░░░░   42.74 %
-Markdown                  1 hr 14 mins        █████░░░░░░░░░░░░░░░░░░░░   21.70 %
-Lua                       1 hr 13 mins        █████░░░░░░░░░░░░░░░░░░░░   21.35 %
-Other                     24 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.13 %
-Makefile                  10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.92 %
-
-🔥 Editors: 
-Neovim                    5 hrs 44 mins       █████████████████████████   100.00 %
-
-💻 Operating System: 
-Linux                     5 hrs 44 mins       █████████████████████████   100.00 %
-```
-
-**I Mostly Code in Go** 
-
-```text
-Go                        11 repos             █████░░░░░░░░░░░░░░░░░░░░   19.30 %
-Python                    10 repos             ████░░░░░░░░░░░░░░░░░░░░░   17.54 %
-Rust                      9 repos             ████░░░░░░░░░░░░░░░░░░░░░   15.79 %
-Java                      6 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.53 %
-Shell                     6 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.53 %
-```
-
-Last Updated on 12/11/2026 11:24:35 UTC
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/leenium/development-metrics-mobile.svg">
+  <img width="100%" src="./assets/leenium/development-metrics.svg" alt="Leenium development telemetry">
+</picture>
 <!--END_SECTION:waka-->
+
+<br>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/leenium/footer-mobile.svg">
+  <img width="100%" src="./assets/leenium/footer-desktop.svg" alt="Leen profile links and status">
+</picture>
+
+</div>

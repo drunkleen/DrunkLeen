@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-label="Technology stack">
+  <rect width="1200" height="270" rx="22" fill="#0b1113"/>
+  <rect x="1" y="1" width="1198" height="268" rx="21" fill="none" stroke="#365156" stroke-width="2"/>
+
+  <rect x="1" y="1" width="1198" height="52" rx="21" fill="#11191c"/>
+  <path d="M1 52 H1199" stroke="#365156"/>
+  <circle cx="28" cy="27" r="5" fill="#e16f73"/>
+  <circle cx="47" cy="27" r="5" fill="#d9c76b"/>
+  <circle cx="66" cy="27" r="5" fill="#4dba7a"/>
+  <text x="88" y="33" fill="#59d6c5" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="700" text-anchor="start">STACK / MODULES</text>
+  <text x="1176" y="33" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="500" text-anchor="end">12 loaded</text>
+  <text x="52" y="98" fill="#33b8a8" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="700" text-anchor="start">TOOLS I REACH FOR</text>
+  <rect x="52" y="122" width="166" height="34" rx="8" fill="#11191c" stroke="#365156"/>
+<circle cx="69" cy="139" r="4" fill="#f4a259"/>
+<text x="82" y="144" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="600" text-anchor="start">RUST</text>
+  <rect x="236" y="122" width="166" height="34" rx="8" fill="#11191c" stroke="#365156"/>
+<circle cx="253" cy="139" r="4" fill="#59d6c5"/>
+<text x="266" y="144" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="600" text-anchor="start">GO</text>
+  <rect x="420" y="122" width="166" height="34" rx="8" fill="#11191c" stroke="#365156"/>
+<circle cx="437" cy="139" r="4" fill="#4dba7a"/>
+<text x="450" y="144" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="600" text-anchor="start">LINUX</text>
+  <rect x="604" y="122" width="166" height="34" rx="8" fill="#11191c" stroke="#365156"/>
+<circle cx="621" cy="139" r="4" fill="#5e9bff"/>
+<text x="634" y="144" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="600" text-anchor="start">DOCKER</text>
+  <rect x="788" y="122" width="166" height="34" rx="8" fill="#11191c" stroke="#365156"/>
+<circle cx="805" cy="139" r="4" fill="#5e9bff"/>
+<text x="818" y="144" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="600" text-anchor="start">KUBERNETES</text>
+  <rect x="972" y="122" width="166" height="34" rx="8" fill="#11191c" stroke="#365156"/>
+<circle cx="989" cy="139" r="4" fill="#f4a259"/>
+<text x="1002" y="144" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="600" text-anchor="start">GIT</text>
+  <rect x="52" y="178" width="166" height="34" rx="8" fill="#11191c" stroke="#365156"/>
+<circle cx="69" cy="195" r="4" fill="#33b8a8"/>
+<text x="82" y="200" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="600" text-anchor="start">NEOVIM</text>
+  <rect x="236" y="178" width="166" height="34" rx="8" fill="#11191c" stroke="#365156"/>
+<circle cx="253" cy="195" r="4" fill="#5e9bff"/>
+<text x="266" y="200" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="600" text-anchor="start">POSTGRESQL</text>
+  <rect x="420" y="178" width="166" height="34" rx="8" fill="#11191c" stroke="#365156"/>
+<circle cx="437" cy="195" r="4" fill="#d9c76b"/>
+<text x="450" y="200" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="600" text-anchor="start">BASH</text>
+  <rect x="604" y="178" width="166" height="34" rx="8" fill="#11191c" stroke="#365156"/>
+<circle cx="621" cy="195" r="4" fill="#d9c76b"/>
+<text x="634" y="200" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="600" text-anchor="start">PYTHON</text>
+  <rect x="788" y="178" width="166" height="34" rx="8" fill="#11191c" stroke="#365156"/>
+<circle cx="805" cy="195" r="4" fill="#e16f73"/>
+<text x="818" y="200" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="600" text-anchor="start">JAVA</text>
+  <rect x="972" y="178" width="166" height="34" rx="8" fill="#11191c" stroke="#365156"/>
+<circle cx="989" cy="195" r="4" fill="#59d6c5"/>
+<text x="1002" y="200" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="600" text-anchor="start">SQLITE</text>
+  <text x="1148" y="245" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="400" text-anchor="end">small tools · sharp edges · boring reliability</text>
+  </svg>

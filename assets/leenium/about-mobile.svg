@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="620" viewBox="0 0 390 620" role="img" aria-label="About Leen">
+  <rect width="390" height="620" rx="22" fill="#0b1113"/>
+  <rect x="1" y="1" width="388" height="618" rx="21" fill="none" stroke="#365156" stroke-width="2"/>
+
+  <rect x="1" y="1" width="388" height="52" rx="21" fill="#11191c"/>
+  <path d="M1 52 H389" stroke="#365156"/>
+  <circle cx="28" cy="27" r="5" fill="#e16f73"/>
+  <circle cx="47" cy="27" r="5" fill="#d9c76b"/>
+  <circle cx="66" cy="27" r="5" fill="#4dba7a"/>
+  <text x="88" y="33" fill="#59d6c5" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="700" text-anchor="start">ABOUT / LEEN</text>
+  <text x="28" y="100" fill="#33b8a8" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="700" text-anchor="start">ABOUT</text>
+  <text x="28" y="140" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="23" font-weight="750" text-anchor="start">Curiosity is the workflow.</text>
+  <text x="28" y="181" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="15" font-weight="400" text-anchor="start">I&#x27;m a developer and open-source</text>
+  <text x="28" y="205" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="15" font-weight="400" text-anchor="start">enthusiast focused on Rust, Go, Linux,</text>
+  <text x="28" y="229" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="15" font-weight="400" text-anchor="start">networking and system-level software.</text>
+  <rect x="28" y="264" width="334" height="230" rx="12" fill="#11191c" stroke="#365156"/>
+  <text x="48" y="300" fill="#59d6c5" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="700" text-anchor="start">CURRENT FOCUS</text>
+  <text x="48" y="338" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="15" font-weight="600" text-anchor="start">01  Open-source tools</text>
+  <text x="48" y="374" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="15" font-weight="600" text-anchor="start">02  Linux &amp; self-hosting</text>
+  <text x="48" y="410" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="15" font-weight="600" text-anchor="start">03  Networking &amp; security</text>
+  <text x="48" y="446" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="15" font-weight="600" text-anchor="start">04  Persian education</text>
+  <text x="28" y="540" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" text-anchor="start">LOCATION</text>
+  <text x="28" y="568" fill="#5e9bff" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="15" font-weight="600" text-anchor="start">Dresden, Germany</text>
+  <text x="214" y="540" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" text-anchor="start">STATUS</text>
+  <text x="214" y="568" fill="#4dba7a" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="15" font-weight="600" text-anchor="start">building</text>
+  </svg>
