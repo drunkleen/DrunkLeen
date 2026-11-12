@@ -1,0 +1,45 @@
+name: Local Profile Metrics
+description: Update the profile README with WakaTime and GitHub metrics without AI coding sections.
+
+inputs:
+  wakatime_api_key:
+    description: WakaTime API key
+    required: true
+  github_token:
+    description: GitHub token used to read repository and commit metadata
+    required: true
+  username:
+    description: GitHub username to calculate metrics for
+    required: false
+    default: drunkleen
+  readme_path:
+    description: README file to update
+    required: false
+    default: README.md
+  section_name:
+    description: README marker name
+    required: false
+    default: waka
+  timezone:
+    description: IANA timezone used for commit-time grouping
+    required: false
+    default: Europe/Berlin
+
+outputs:
+  changed:
+    description: Whether the README content changed
+    value: ${{ steps.update.outputs.changed }}
+
+runs:
+  using: composite
+  steps:
+    - id: update
+      shell: bash
+      env:
+        INPUT_WAKATIME_API_KEY: ${{ inputs.wakatime_api_key }}
+        INPUT_GITHUB_TOKEN: ${{ inputs.github_token }}
+        INPUT_USERNAME: ${{ inputs.username }}
+        INPUT_README_PATH: ${{ inputs.readme_path }}
+        INPUT_SECTION_NAME: ${{ inputs.section_name }}
+        INPUT_TIMEZONE: ${{ inputs.timezone }}
+      run: python3 "$GITHUB_ACTION_PATH/update_readme.py"
