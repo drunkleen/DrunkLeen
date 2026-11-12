@@ -31,6 +31,27 @@ class ProfileMetricsTests(unittest.TestCase):
                 "https://attacker.example/collect",
             )
 
+    def test_wakatime_key_is_sent_as_query_parameter(self):
+        captured = {}
+        original_request_json = profile_metrics.request_json
+
+        def fake_request_json(url, headers=None, service="API"):
+            captured["url"] = url
+            captured["headers"] = headers
+            captured["service"] = service
+            return {"data": {"languages": []}}
+
+        setattr(profile_metrics, "request_json", fake_request_json)
+        try:
+            result = profile_metrics.fetch_wakatime_stats("waka_test/key")
+        finally:
+            setattr(profile_metrics, "request_json", original_request_json)
+
+        self.assertEqual(result, {"languages": []})
+        self.assertIn("api_key=waka_test%2Fkey", captured["url"])
+        self.assertIsNone(captured["headers"])
+        self.assertEqual(captured["service"], "WakaTime")
+
     def test_render_bar_uses_requested_width(self):
         self.assertEqual(profile_metrics.render_bar(50.0, width=10), "█████░░░░░")
         self.assertEqual(profile_metrics.render_bar(0.0, width=4), "░░░░")

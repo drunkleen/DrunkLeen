@@ -3,7 +3,6 @@
 
 from __future__ import annotations
 
-import base64
 import json
 import os
 import re
@@ -57,10 +56,9 @@ def request_json(
 
 
 def fetch_wakatime_stats(api_key: str) -> dict[str, Any]:
-    basic = base64.b64encode(f"{api_key}:".encode()).decode()
+    query = urllib.parse.urlencode({"api_key": api_key})
     payload = request_json(
-        f"{WAKATIME_API}/users/current/stats/last_7_days",
-        {"Authorization": f"Basic {basic}"},
+        f"{WAKATIME_API}/users/current/stats/last_7_days?{query}",
         service="WakaTime",
     )
     data = payload.get("data")
