@@ -48,7 +48,7 @@
   <text x="144" y="718" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="700" text-anchor="start">Linux</text>
   <rect x="28" y="756" width="334" height="274" rx="14" fill="#11191c" stroke="#365156"/>
   <text x="48" y="791" fill="#59d6c5" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="700" text-anchor="start">GITHUB SIGNAL</text>
-  <text x="48" y="830" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="26" font-weight="750" text-anchor="start">30</text>
+  <text x="48" y="830" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="26" font-weight="750" text-anchor="start">32</text>
   <text x="48" y="854" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="10" font-weight="400" text-anchor="start">commits sampled</text>
   <text x="230" y="830" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="26" font-weight="750" text-anchor="start">63</text>
   <text x="230" y="854" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="10" font-weight="400" text-anchor="start">repositories</text>
