@@ -135,7 +135,88 @@ people entering the Rust ecosystem.
 ## `04 // LIVE DEVELOPMENT SIGNAL`
 
 <!--START_SECTION:waka-->
-<p>The local profile action generates the live WakaTime and GitHub signal here.</p>
+<div align="center">
+<h2>Development signal</h2>
+<p><code>LEENIUM://TELEMETRY</code> · <strong>LAST 7 DAYS</strong> · WakaTime + GitHub</p>
+<p><small>Europe/Berlin · generated from live development activity</small></p>
+</div>
+
+<table><tr>
+<td align="center"><strong>3 hrs 8 mins</strong><br><sub>TOTAL DEV</sub></td>
+<td align="center"><strong>26 mins</strong><br><sub>DAILY AVG</sub></td>
+<td align="center"><strong>Go</strong><br><sub>TOP LANGUAGE</sub></td>
+<td align="center"><strong>Neovim</strong><br><sub>EDITOR</sub></td>
+<td align="center"><strong>29</strong><br><sub>COMMITS</sub></td>
+</tr></table>
+
+<pre>
+╭─ WAKATIME // 7 DAY SIGNAL ─────────────────────────────────────────────╮
+│ TOTAL DEV   3 hrs 8 mins       DAILY AVG   26 mins          │
+│ TOP LANGUAGE Go              78.14%     EDITOR      Neovim           │
+│ SYSTEM       Linux            STATUS      TRACKING LIVE             │
+├─────────────────────────────────────────────────────────────────────────┤
+  LANGUAGES
+    Go               ██████████████░░░░   78.14%  2 hrs 27 mins
+    Lua              ███░░░░░░░░░░░░░░░   16.42%        30 mins
+    Makefile         █░░░░░░░░░░░░░░░░░    5.34%        10 mins
+    Git Config       ░░░░░░░░░░░░░░░░░░    0.07%         0 secs
+    Other            ░░░░░░░░░░░░░░░░░░    0.04%         0 secs
+│
+  EDITORS
+    Neovim           ██████████████████  100.00%   3 hrs 8 mins
+│
+  OPERATING SYSTEMS
+    Linux            ██████████████████  100.00%   3 hrs 8 mins
+╰─────────────────────────────────────────────────────────────────────────╯
+</pre>
+
+<details>
+<summary><strong>Open full telemetry</strong> · languages, environment, commit rhythm, repositories</summary>
+
+<table>
+<tr><th align="left" colspan="4">Programming languages</th></tr>
+<tr><th align="left">Name</th><th align="left">Time</th><th align="left">Activity</th><th align="right">Share</th></tr>
+<tr><td>Go</td><td><code>2 hrs 27 mins</code></td><td><code>█████████████░░░</code></td><td align="right">78.14%</td></tr>
+<tr><td>Lua</td><td><code>30 mins</code></td><td><code>███░░░░░░░░░░░░░</code></td><td align="right">16.42%</td></tr>
+<tr><td>Makefile</td><td><code>10 mins</code></td><td><code>█░░░░░░░░░░░░░░░</code></td><td align="right">5.34%</td></tr>
+<tr><td>Git Config</td><td><code>0 secs</code></td><td><code>░░░░░░░░░░░░░░░░</code></td><td align="right">0.07%</td></tr>
+<tr><td>Other</td><td><code>0 secs</code></td><td><code>░░░░░░░░░░░░░░░░</code></td><td align="right">0.04%</td></tr>
+</table>
+
+<table>
+<tr><th align="left" colspan="4">Editors</th></tr>
+<tr><th align="left">Name</th><th align="left">Time</th><th align="left">Activity</th><th align="right">Share</th></tr>
+<tr><td>Neovim</td><td><code>3 hrs 8 mins</code></td><td><code>████████████████</code></td><td align="right">100.00%</td></tr>
+</table>
+
+<table>
+<tr><th align="left" colspan="4">Operating systems</th></tr>
+<tr><th align="left">Name</th><th align="left">Time</th><th align="left">Activity</th><th align="right">Share</th></tr>
+<tr><td>Linux</td><td><code>3 hrs 8 mins</code></td><td><code>████████████████</code></td><td align="right">100.00%</td></tr>
+</table>
+
+<table>
+<tr><th align="left" colspan="3">Commit rhythm</th></tr>
+<tr><th align="left">Period</th><th align="left">Activity</th><th align="right">Commits</th></tr>
+<tr><td>Morning</td><td><code>██░░░░░░░░░░░░░░</code></td><td align="right">4</td></tr>
+<tr><td>Daytime</td><td><code>██░░░░░░░░░░░░░░</code></td><td align="right">3</td></tr>
+<tr><td>Evening</td><td><code>██████░░░░░░░░░░</code></td><td align="right">11</td></tr>
+<tr><td>Night</td><td><code>██████░░░░░░░░░░</code></td><td align="right">11</td></tr>
+</table>
+
+<table>
+<tr><th align="left" colspan="3">Repository languages</th></tr>
+<tr><th align="left">Language</th><th align="left">Share</th><th align="right">Repositories</th></tr>
+<tr><td>Go</td><td><code>███░░░░░░░░░░░░░</code></td><td align="right">11</td></tr>
+<tr><td>Python</td><td><code>███░░░░░░░░░░░░░</code></td><td align="right">10</td></tr>
+<tr><td>Rust</td><td><code>██░░░░░░░░░░░░░░</code></td><td align="right">9</td></tr>
+<tr><td>Java</td><td><code>██░░░░░░░░░░░░░░</code></td><td align="right">6</td></tr>
+<tr><td>Other</td><td><code>██░░░░░░░░░░░░░░</code></td><td align="right">6</td></tr>
+</table>
+
+</details>
+
+<p align="center"><small>Last Updated on 13/11/2026 09:25:20 UTC</small></p>
 <!--END_SECTION:waka-->
 
 ---
