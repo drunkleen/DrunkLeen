@@ -24,6 +24,10 @@ inputs:
     description: IANA timezone used for commit-time grouping
     required: false
     default: Europe/Berlin
+  assets_dir:
+    description: Directory for generated Leenium SVG assets
+    required: false
+    default: assets/leenium
 
 outputs:
   changed:
@@ -42,4 +46,5 @@ runs:
         INPUT_README_PATH: ${{ inputs.readme_path }}
         INPUT_SECTION_NAME: ${{ inputs.section_name }}
         INPUT_TIMEZONE: ${{ inputs.timezone }}
+        INPUT_ASSETS_DIR: ${{ inputs.assets_dir }}
       run: python3 "$GITHUB_ACTION_PATH/update_readme.py"

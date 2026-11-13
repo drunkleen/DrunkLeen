@@ -17,6 +17,12 @@ from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
 
+ACTION_DIR = Path(__file__).resolve().parent
+if str(ACTION_DIR) not in sys.path:
+    sys.path.insert(0, str(ACTION_DIR))
+
+from leenium_assets import build_metrics_svg, build_static_assets
+
 GITHUB_API = "https://api.github.com"
 WAKATIME_API = "https://wakatime.com/api/v1"
 USER_AGENT = "drunkleen-profile-metrics/1.0"
@@ -420,6 +426,27 @@ def replace_section(readme: str, section: str, section_name: str = "waka") -> st
     return pattern.sub(replacement, readme, count=1)
 
 
+def metrics_section_markup(assets_dir: str = "assets/leenium") -> str:
+    asset_path = assets_dir.strip("/")
+    return "\n".join(
+        [
+            '<picture>',
+            f'  <source media="(max-width: 600px)" srcset="./{asset_path}/development-metrics-mobile.svg">',
+            f'  <img width="100%" src="./{asset_path}/development-metrics.svg" alt="Leenium development telemetry">',
+            '</picture>',
+        ]
+    )
+
+
+def write_if_changed(path: Path, content: str) -> bool:
+    current = path.read_text(encoding="utf-8") if path.exists() else None
+    if current == content:
+        return False
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(content, encoding="utf-8")
+    return True
+
+
 def set_output(name: str, value: str) -> None:
     output_path = os.environ.get("GITHUB_OUTPUT")
     if output_path:
@@ -442,17 +469,30 @@ def main() -> int:
         readme_path = Path(os.environ.get("INPUT_README_PATH", "README.md"))
         section_name = os.environ.get("INPUT_SECTION_NAME", "waka").strip() or "waka"
         timezone_name = os.environ.get("INPUT_TIMEZONE", "Europe/Berlin").strip() or "Europe/Berlin"
+        assets_dir = Path(os.environ.get("INPUT_ASSETS_DIR", "assets/leenium"))
 
         waka = fetch_wakatime_stats(wakatime_api_key)
         commits = fetch_recent_commit_periods(github_token, username, timezone_name)
         repositories = fetch_repository_languages(github_token, username)
 
+        normalized_waka = dict(waka)
+        normalized_waka["editors"] = normalize_editors(list(waka.get("editors") or []))
+
+        changed = False
+        for filename, svg in build_static_assets().items():
+            changed = write_if_changed(assets_dir / filename, svg) or changed
+        changed = write_if_changed(
+            assets_dir / "development-metrics.svg",
+            build_metrics_svg(normalized_waka, commits, repositories, mobile=False),
+        ) or changed
+        changed = write_if_changed(
+            assets_dir / "development-metrics-mobile.svg",
+            build_metrics_svg(normalized_waka, commits, repositories, mobile=True),
+        ) or changed
+
         original = readme_path.read_text(encoding="utf-8")
-        section = build_section(waka, commits, repositories)
-        updated = replace_section(original, section, section_name)
-        changed = updated != original
-        if changed:
-            readme_path.write_text(updated, encoding="utf-8")
+        updated = replace_section(original, metrics_section_markup(assets_dir.as_posix()), section_name)
+        changed = write_if_changed(readme_path, updated) or changed
         set_output("changed", str(changed).lower())
         print(f"Profile metrics updated: changed={str(changed).lower()}")
         return 0

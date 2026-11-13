@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1000" viewBox="0 0 390 1000" role="img" aria-label="Featured projects">
+  <rect width="390" height="1000" rx="22" fill="#0b1113"/>
+  <rect x="1" y="1" width="388" height="998" rx="21" fill="none" stroke="#365156" stroke-width="2"/>
+
+  <rect x="1" y="1" width="388" height="52" rx="21" fill="#11191c"/>
+  <path d="M1 52 H389" stroke="#365156"/>
+  <circle cx="28" cy="27" r="5" fill="#e16f73"/>
+  <circle cx="47" cy="27" r="5" fill="#d9c76b"/>
+  <circle cx="66" cy="27" r="5" fill="#4dba7a"/>
+  <text x="88" y="33" fill="#59d6c5" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="700" text-anchor="start">PROJECTS / FEATURED</text>
+  <text x="366" y="33" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="500" text-anchor="end">3 selected</text>
+  <rect x="28" y="82" width="334" height="250" rx="14" fill="#11191c" stroke="#365156"/>
+  <text x="50" y="120" fill="#33b8a8" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" text-anchor="start">01 / THEME</text>
+  <text x="50" y="166" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="24" font-weight="750" text-anchor="start">LEENIUM THEME</text>
+  <text x="50" y="208" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="400" text-anchor="start">Dark-teal desktop environment</text>
+  <text x="50" y="232" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="400" text-anchor="start">for Omarchy and daily tools.</text>
+  <rect x="50" y="270" width="180" height="34" rx="8" fill="#11191c" stroke="#365156"/>
+<circle cx="67" cy="287" r="4" fill="#33b8a8"/>
+<text x="80" y="292" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="600" text-anchor="start">PROJECT READY</text>
+  <rect x="28" y="378" width="334" height="250" rx="14" fill="#11191c" stroke="#365156"/>
+  <text x="50" y="416" fill="#f4a259" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" text-anchor="start">02 / RUST</text>
+  <text x="50" y="462" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="24" font-weight="750" text-anchor="start">LEENFETCH</text>
+  <text x="50" y="504" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="400" text-anchor="start">Fast, minimal system information</text>
+  <text x="50" y="528" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="400" text-anchor="start">built for real daily use.</text>
+  <rect x="50" y="566" width="180" height="34" rx="8" fill="#11191c" stroke="#365156"/>
+<circle cx="67" cy="583" r="4" fill="#f4a259"/>
+<text x="80" y="588" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="600" text-anchor="start">PROJECT READY</text>
+  <rect x="28" y="674" width="334" height="250" rx="14" fill="#11191c" stroke="#365156"/>
+  <text x="50" y="712" fill="#59d6c5" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" text-anchor="start">03 / COMMUNITY</text>
+  <text x="50" y="758" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="24" font-weight="750" text-anchor="start">PERSIAN RUST</text>
+  <text x="50" y="800" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="400" text-anchor="start">Persian educational resources</text>
+  <text x="50" y="824" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="400" text-anchor="start">for learning Rust together.</text>
+  <rect x="50" y="862" width="180" height="34" rx="8" fill="#11191c" stroke="#365156"/>
+<circle cx="67" cy="879" r="4" fill="#59d6c5"/>
+<text x="80" y="884" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="600" text-anchor="start">PROJECT READY</text>
+  </svg>
