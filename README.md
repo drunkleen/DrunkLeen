@@ -2,57 +2,132 @@
 
 <div align="center">
 
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/leenium/hero-mobile.svg">
-  <img width="100%" src="./assets/leenium/hero-desktop.svg" alt="Leen — developer, Linux user, and open-source builder">
-</picture>
+<h3>Developer · Linux User · Open-Source Builder</h3>
 
-<br>
+<p><code>LEENIUM / PROFILE</code> · <code>RUST</code> · <code>GO</code> · <code>LINUX</code></p>
 
 <p>
-  <a href="https://github.com/drunkleen"><img alt="GitHub" src="https://img.shields.io/badge/GITHUB-11191c?style=for-the-badge&logo=github&logoColor=59d6c5"></a>
-  <a href="https://twitter.com/DrunkLeen"><img alt="X" src="https://img.shields.io/badge/X-11191c?style=for-the-badge&logo=x&logoColor=59d6c5"></a>
-  <a href="https://www.instagram.com/drunkleen"><img alt="Instagram" src="https://img.shields.io/badge/INSTAGRAM-11191c?style=for-the-badge&logo=instagram&logoColor=59d6c5"></a>
-  <a href="https://drunkleen.com"><img alt="Website" src="https://img.shields.io/badge/WEBSITE-11191c?style=for-the-badge&logo=firefoxbrowser&logoColor=59d6c5"></a>
-  <a href="mailto:anakin@drunkleen.com"><img alt="Email" src="https://img.shields.io/badge/EMAIL-11191c?style=for-the-badge&logo=protonmail&logoColor=59d6c5"></a>
+  <kbd><a href="https://github.com/drunkleen">GitHub</a></kbd>
+  <kbd><a href="https://twitter.com/DrunkLeen">X</a></kbd>
+  <kbd><a href="https://www.instagram.com/drunkleen">Instagram</a></kbd>
+  <kbd><a href="https://drunkleen.com">Blog</a></kbd>
+  <kbd><a href="mailto:anakin@drunkleen.com">Email</a></kbd>
 </p>
 
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/leenium/about-mobile.svg">
-  <img width="100%" src="./assets/leenium/about-desktop.svg" alt="About Leen: Rust, Go, Linux, networking, security, self-hosting, and Persian education">
-</picture>
+<p><em>Building practical tools, learning in public, and publishing what survives daily use.</em></p>
 
-<br>
+</div>
 
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/leenium/stack-mobile.svg">
-  <img width="100%" src="./assets/leenium/stack-desktop.svg" alt="Leen's technology stack">
-</picture>
+<hr>
 
-<br>
+<div>
 
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/leenium/projects-mobile.svg">
-  <img width="100%" src="./assets/leenium/projects-desktop.svg" alt="Featured projects: Leenfetch and Persian Rust">
-</picture>
+<h2>About me</h2>
 
 <p>
-  <a href="https://github.com/drunkleen/leenfetch"><img alt="Open Leenfetch" src="https://img.shields.io/badge/OPEN_LEENFETCH-11191c?style=for-the-badge&logo=rust&logoColor=f4a259"></a>
-  <a href="https://github.com/persian-rust"><img alt="Open Persian Rust" src="https://img.shields.io/badge/OPEN_PERSIAN_RUST-11191c?style=for-the-badge&logo=rust&logoColor=59d6c5"></a>
+I'm Leen, a developer and open-source enthusiast interested in Rust, Go, Linux,
+networking, security, self-hosting, and system-level programming.
 </p>
+
+<p>
+I build tools that solve my own problems first, share what I learn, and create
+Persian educational content for developers who want to understand how things
+actually work.
+</p>
+
+<pre>
+leen@galaxy:~$ whoami --verbose
+location     Dresden, Germany
+editor       Neovim
+system       Linux
+focus        open-source tools · infrastructure · networking · security
+status       building
+</pre>
+
+<h2>Technology stack</h2>
+
+<p>
+<code>Rust</code>
+<code>Go</code>
+<code>Linux</code>
+<code>Docker</code>
+<code>Kubernetes</code>
+<code>Git</code>
+<code>Neovim</code>
+<code>PostgreSQL</code>
+<code>SQLite</code>
+<code>Bash</code>
+<code>Python</code>
+<code>Java</code>
+</p>
+
+<h2>Featured projects</h2>
+
+<table>
+<tr>
+<td>
+<h3>Leenium Theme</h3>
+<p>
+A cohesive dark teal desktop theme covering Omarchy, terminal tools, Neovim,
+VS Code, OpenCode, Waybar, browsers, btop, and more.
+</p>
+<p>
+<strong>Links:</strong>
+<a href="https://github.com/drunkleen/leenium.omarchy">Repository</a> ·
+<a href="https://leenium.drunkleen.com">Project website</a>
+</p>
+<p><code>THEME</code> <code>LINUX</code> <code>OMARCHY</code> <code>NEOVIM</code></p>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td>
+<h3>Leenfetch</h3>
+<p>
+A fast and minimal system-information tool written in Rust, designed for clean
+terminal output, performance, and real daily use.
+</p>
+<p><strong>Link:</strong> <a href="https://github.com/drunkleen/leenfetch">Repository</a></p>
+<p><code>RUST</code> <code>CLI</code> <code>LINUX</code></p>
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td>
+<h3>Persian Rust</h3>
+<p>
+Persian educational content, community resources, and open-source material for
+people learning the Rust programming language.
+</p>
+<p><strong>Link:</strong> <a href="https://github.com/persian-rust">Organization</a></p>
+<p><code>RUST</code> <code>EDUCATION</code> <code>COMMUNITY</code></p>
+</td>
+</tr>
+</table>
+
+<h2>Development telemetry</h2>
 
 <!--START_SECTION:waka-->
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/leenium/development-metrics-mobile.svg">
-  <img width="100%" src="./assets/leenium/development-metrics.svg" alt="Leenium development telemetry">
-</picture>
+<p>Development metrics are generated by the local profile action.</p>
 <!--END_SECTION:waka-->
 
-<br>
+<hr>
 
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/leenium/footer-mobile.svg">
-  <img width="100%" src="./assets/leenium/footer-desktop.svg" alt="Leen profile links and status">
-</picture>
+<div align="center">
+<p><code>LEENIUM.STATUS</code> · <code>ONLINE</code> · <code>MASTER</code></p>
+<p>
+<a href="https://drunkleen.com">Blog</a> ·
+<a href="https://github.com/drunkleen">GitHub</a> ·
+<a href="mailto:anakin@drunkleen.com">anakin@drunkleen.com</a>
+</p>
+</div>
 
 </div>

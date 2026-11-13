@@ -1,88 +1,21 @@
 import importlib.util
 import unittest
 import urllib.error
+import urllib.parse
 import urllib.request
-import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
 
 
 MODULE_PATH = Path(__file__).parents[1] / ".github" / "actions" / "profile-metrics" / "update_readme.py"
-ASSETS_MODULE_PATH = Path(__file__).parents[1] / ".github" / "actions" / "profile-metrics" / "leenium_assets.py"
 spec = importlib.util.spec_from_file_location("profile_metrics", MODULE_PATH)
 if spec is None or spec.loader is None:
     raise RuntimeError(f"Unable to load profile metrics module from {MODULE_PATH}")
 profile_metrics = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(profile_metrics)
 
-assets_spec = importlib.util.spec_from_file_location("leenium_assets", ASSETS_MODULE_PATH)
-if assets_spec is None or assets_spec.loader is None:
-    raise RuntimeError(f"Unable to load Leenium assets module from {ASSETS_MODULE_PATH}")
-leenium_assets = importlib.util.module_from_spec(assets_spec)
-assets_spec.loader.exec_module(leenium_assets)
-
 
 class ProfileMetricsTests(unittest.TestCase):
-    def test_static_leenium_assets_have_desktop_and_mobile_variants(self):
-        assets = leenium_assets.build_static_assets()
-
-        expected = {
-            "hero-desktop.svg",
-            "hero-mobile.svg",
-            "about-desktop.svg",
-            "about-mobile.svg",
-            "stack-desktop.svg",
-            "stack-mobile.svg",
-            "projects-desktop.svg",
-            "projects-mobile.svg",
-            "footer-desktop.svg",
-            "footer-mobile.svg",
-        }
-        self.assertEqual(set(assets), expected)
-        for svg in assets.values():
-            ET.fromstring(svg)
-            self.assertIn("#0b1113", svg)
-            self.assertIn("#33b8a8", svg)
-
-    def test_metrics_svg_uses_leenium_palette_and_normalized_data(self):
-        waka = {
-            "timezone": "Europe/Berlin",
-            "languages": [
-                {"name": "Go", "text": "2 hrs", "percent": 50.0},
-                {"name": "Rust", "text": "1 hr", "percent": 25.0},
-                {"name": "Other", "text": "1 hr", "percent": 25.0},
-            ],
-            "editors": [{"name": "Neovim", "text": "4 hrs", "percent": 100.0}],
-            "operating_systems": [{"name": "Linux", "text": "4 hrs", "percent": 100.0}],
-        }
-        commits = {"Morning": 4, "Daytime": 3, "Evening": 2, "Night": 1}
-        repositories = {"Go": 6, "Rust": 4}
-
-        svg = leenium_assets.build_metrics_svg(
-            waka,
-            commits,
-            repositories,
-            now=datetime(2026, 11, 12, 12, 0, tzinfo=timezone.utc),
-            mobile=False,
-        )
-
-        ET.fromstring(svg)
-        self.assertIn("#0b1113", svg)
-        self.assertIn("DEVELOPMENT TELEMETRY", svg)
-        self.assertIn("Go", svg)
-        self.assertIn("Neovim", svg)
-        self.assertIn("Linux", svg)
-        self.assertIn("12 NOV 2026", svg)
-        self.assertNotIn("AI Coding", svg)
-
-    def test_metrics_marker_renders_responsive_svg_picture(self):
-        markup = profile_metrics.metrics_section_markup()
-
-        self.assertIn("development-metrics-mobile.svg", markup)
-        self.assertIn("development-metrics.svg", markup)
-        self.assertIn('<picture>', markup)
-        self.assertNotIn("```", markup)
-
     def test_redirects_are_rejected_before_credentials_can_be_forwarded(self):
         handler = profile_metrics.NoRedirectHandler()
         request = urllib.request.Request(
@@ -177,15 +110,74 @@ class ProfileMetricsTests(unittest.TestCase):
             now=datetime(2026, 11, 12, 12, 0, tzinfo=timezone.utc),
         )
 
-        self.assertIn("**I'm an Early 🐤**", section)
-        self.assertIn("This Week I Spent My Time On", section)
+        self.assertIn("LAST 7 DAYS", section)
+        self.assertIn("<table>", section)
         self.assertIn("Rust", section)
         self.assertIn("Neovim", section)
         self.assertIn("Linux", section)
-        self.assertIn("**I Mostly Code in Rust**", section)
+        self.assertIn("Repository languages", section)
         self.assertIn("Last Updated on 12/11/2026 12:00:00 UTC", section)
         self.assertNotIn("AI Code Time", section)
         self.assertNotIn("AI Coding", section)
+        self.assertNotIn("<img", section)
+        self.assertNotIn("```", section)
+
+    def test_build_section_preserves_other_outside_top_five(self):
+        waka = {
+            "languages": [
+                {"name": name, "text": "1 hr", "percent": percent}
+                for name, percent in [
+                    ("Go", 25), ("Rust", 20), ("Python", 18),
+                    ("Lua", 15), ("Markdown", 12), ("Other", 10),
+                ]
+            ],
+            "editors": [],
+            "operating_systems": [],
+        }
+
+        section = profile_metrics.build_section(waka, {}, {})
+
+        self.assertIn(">Other</td>", section)
+
+    def test_commit_search_is_limited_to_last_seven_days(self):
+        captured = []
+        original_request_json = profile_metrics.request_json
+
+        def fake_request_json(url, headers=None, service="API"):
+            captured.append(url)
+            return {"items": []}
+
+        setattr(profile_metrics, "request_json", fake_request_json)
+        try:
+            profile_metrics.fetch_recent_commit_periods(
+                "token",
+                "drunkleen",
+                "Europe/Berlin",
+                now=datetime(2026, 11, 12, 12, 0, tzinfo=timezone.utc),
+            )
+        finally:
+            setattr(profile_metrics, "request_json", original_request_json)
+
+        query = urllib.parse.parse_qs(urllib.parse.urlparse(captured[0]).query)["q"][0]
+        self.assertIn("author-date:>=2026-11-05", query)
+
+    def test_repository_without_primary_language_is_counted_as_other(self):
+        original_request_json = profile_metrics.request_json
+
+        def fake_request_json(url, headers=None, service="API"):
+            return [
+                {"owner": {"login": "drunkleen"}, "fork": False, "archived": False, "language": "Go"},
+                {"owner": {"login": "drunkleen"}, "fork": False, "archived": False, "language": None},
+            ]
+
+        setattr(profile_metrics, "request_json", fake_request_json)
+        try:
+            languages = profile_metrics.fetch_repository_languages("token", "drunkleen")
+        finally:
+            setattr(profile_metrics, "request_json", original_request_json)
+
+        self.assertEqual(languages["Go"], 1)
+        self.assertEqual(languages["Other"], 1)
 
     def test_replace_section_preserves_surrounding_readme(self):
         original = "before\n<!--START_SECTION:waka-->\nold\n<!--END_SECTION:waka-->\nafter\n"
