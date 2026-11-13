@@ -2,81 +2,100 @@
 
 <div align="center">
 
-<h3>Developer · Linux User · Open-Source Builder</h3>
+<img width="100%" src="./assets/leenium/signal.svg" alt="">
 
-<p><code>LEENIUM / PROFILE</code> · <code>RUST</code> · <code>GO</code> · <code>LINUX</code></p>
+<h2>Developer · Linux User · Open-Source Builder</h2>
 
 <p>
-  <kbd><a href="https://github.com/drunkleen">GitHub</a></kbd>
-  <kbd><a href="https://twitter.com/DrunkLeen">X</a></kbd>
-  <kbd><a href="https://www.instagram.com/drunkleen">Instagram</a></kbd>
-  <kbd><a href="https://drunkleen.com">Blog</a></kbd>
-  <kbd><a href="mailto:anakin@drunkleen.com">Email</a></kbd>
+<code>LEENIUM://PROFILE</code> ·
+<code>DRESDEN</code> ·
+<code>RUST</code> ·
+<code>GO</code> ·
+<code>LINUX</code>
 </p>
 
-<p><em>Building practical tools, learning in public, and publishing what survives daily use.</em></p>
+<p>
+<kbd><a href="https://github.com/drunkleen">GITHUB</a></kbd>
+<kbd><a href="https://twitter.com/DrunkLeen">X</a></kbd>
+<kbd><a href="https://www.instagram.com/drunkleen">INSTAGRAM</a></kbd>
+<kbd><a href="https://drunkleen.com">BLOG</a></kbd>
+<kbd><a href="mailto:anakin@drunkleen.com">EMAIL</a></kbd>
+</p>
 
 </div>
 
-<hr>
+<pre>
+╭─ LEENIUM // SYSTEM PROFILE ───────────────────────────────────────────────╮
+│ USER      leen                         MODE      building                  │
+│ LOCATION  Dresden, Germany             EDITOR    Neovim                    │
+│ SYSTEM    Linux                        SHELL     terminal-first            │
+│ FOCUS     tools · infrastructure · networking · security                  │
+╰───────────────────────────────────────────────────────────────────────────╯
+</pre>
 
-<div>
+## `01 // IDENTITY`
 
-<h2>About me</h2>
-
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>What I build</h3>
 <p>
-I'm Leen, a developer and open-source enthusiast interested in Rust, Go, Linux,
-networking, security, self-hosting, and system-level programming.
+Practical open-source tools shaped by real daily use: fast terminal software,
+self-hosted infrastructure, networking utilities, security experiments, and
+systems that are useful before they are impressive.
 </p>
-
+</td>
+<td width="50%" valign="top">
+<h3>What I share</h3>
 <p>
-I build tools that solve my own problems first, share what I learn, and create
-Persian educational content for developers who want to understand how things
-actually work.
+Technical notes and Persian educational content for developers who want to
+understand how software, Linux, networks, and low-level systems actually work.
+</p>
+</td>
+</tr>
+</table>
+
+## `02 // TOOLCHAIN`
+
+<p align="center">
+<kbd>Rust</kbd>
+<kbd>Go</kbd>
+<kbd>Linux</kbd>
+<kbd>Docker</kbd>
+<kbd>Kubernetes</kbd>
+<kbd>Git</kbd>
+<kbd>Neovim</kbd>
+<kbd>PostgreSQL</kbd>
+<kbd>SQLite</kbd>
+<kbd>Bash</kbd>
+<kbd>Python</kbd>
+<kbd>Java</kbd>
 </p>
 
 <pre>
-leen@galaxy:~$ whoami --verbose
-location     Dresden, Germany
-editor       Neovim
-system       Linux
-focus        open-source tools · infrastructure · networking · security
-status       building
+leen@galaxy:~$ toolchain --status
+[ready] systems programming     Rust · Go
+[ready] infrastructure          Linux · Docker · Kubernetes
+[ready] data                    PostgreSQL · SQLite
+[ready] workflow                Git · Neovim · Bash
 </pre>
 
-<h2>Technology stack</h2>
-
-<p>
-<code>Rust</code>
-<code>Go</code>
-<code>Linux</code>
-<code>Docker</code>
-<code>Kubernetes</code>
-<code>Git</code>
-<code>Neovim</code>
-<code>PostgreSQL</code>
-<code>SQLite</code>
-<code>Bash</code>
-<code>Python</code>
-<code>Java</code>
-</p>
-
-<h2>Featured projects</h2>
+## `03 // FEATURED PROJECTS`
 
 <table>
 <tr>
-<td>
+<td valign="top">
 <h3>Leenium Theme</h3>
-<p>
-A cohesive dark teal desktop theme covering Omarchy, terminal tools, Neovim,
-VS Code, OpenCode, Waybar, browsers, btop, and more.
-</p>
-<p>
-<strong>Links:</strong>
-<a href="https://github.com/drunkleen/leenium.omarchy">Repository</a> ·
-<a href="https://leenium.drunkleen.com">Project website</a>
-</p>
 <p><code>THEME</code> <code>LINUX</code> <code>OMARCHY</code> <code>NEOVIM</code></p>
+<p>
+A cohesive dark-teal environment for Omarchy, terminals, Neovim, VS Code,
+OpenCode, Waybar, browsers, btop, and the rest of the daily desktop.
+</p>
+<p>
+<strong><a href="https://github.com/drunkleen/leenium.omarchy">VIEW REPOSITORY →</a></strong>
+&nbsp;·&nbsp;
+<strong><a href="https://leenium.drunkleen.com">OPEN PROJECT PAGE →</a></strong>
+</p>
 </td>
 </tr>
 </table>
@@ -85,14 +104,14 @@ VS Code, OpenCode, Waybar, browsers, btop, and more.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 <h3>Leenfetch</h3>
-<p>
-A fast and minimal system-information tool written in Rust, designed for clean
-terminal output, performance, and real daily use.
-</p>
-<p><strong>Link:</strong> <a href="https://github.com/drunkleen/leenfetch">Repository</a></p>
 <p><code>RUST</code> <code>CLI</code> <code>LINUX</code></p>
+<p>
+A fast, minimal system-information tool designed for clean terminal output,
+small overhead, and actual everyday use.
+</p>
+<p><strong><a href="https://github.com/drunkleen/leenfetch">VIEW REPOSITORY →</a></strong></p>
 </td>
 </tr>
 </table>
@@ -101,79 +120,34 @@ terminal output, performance, and real daily use.
 
 <table>
 <tr>
-<td>
+<td valign="top">
 <h3>Persian Rust</h3>
-<p>
-Persian educational content, community resources, and open-source material for
-people learning the Rust programming language.
-</p>
-<p><strong>Link:</strong> <a href="https://github.com/persian-rust">Organization</a></p>
 <p><code>RUST</code> <code>EDUCATION</code> <code>COMMUNITY</code></p>
+<p>
+Persian learning material, community resources, and open-source work for
+people entering the Rust ecosystem.
+</p>
+<p><strong><a href="https://github.com/persian-rust">OPEN ORGANIZATION →</a></strong></p>
 </td>
 </tr>
 </table>
 
-<h2>Development telemetry</h2>
+## `04 // LIVE DEVELOPMENT SIGNAL`
 
 <!--START_SECTION:waka-->
-<div align="center">
-<p><code>LEENIUM / DEVELOPMENT TELEMETRY</code></p>
-<p><strong>LAST 7 DAYS</strong> · Europe/Berlin · 29 commits sampled</p>
-</div>
-
-<table>
-<tr><th align="left" colspan="4">Programming languages</th></tr>
-<tr><th align="left">Name</th><th align="left">Time</th><th align="left">Activity</th><th align="right">Share</th></tr>
-<tr><td>Go</td><td><code>2 hrs 27 mins</code></td><td><code>█████████████░░░</code></td><td align="right">78.14%</td></tr>
-<tr><td>Lua</td><td><code>30 mins</code></td><td><code>███░░░░░░░░░░░░░</code></td><td align="right">16.42%</td></tr>
-<tr><td>Makefile</td><td><code>10 mins</code></td><td><code>█░░░░░░░░░░░░░░░</code></td><td align="right">5.34%</td></tr>
-<tr><td>Git Config</td><td><code>0 secs</code></td><td><code>░░░░░░░░░░░░░░░░</code></td><td align="right">0.07%</td></tr>
-<tr><td>Other</td><td><code>0 secs</code></td><td><code>░░░░░░░░░░░░░░░░</code></td><td align="right">0.04%</td></tr>
-</table>
-
-<table>
-<tr><th align="left" colspan="4">Editors</th></tr>
-<tr><th align="left">Name</th><th align="left">Time</th><th align="left">Activity</th><th align="right">Share</th></tr>
-<tr><td>Neovim</td><td><code>3 hrs 8 mins</code></td><td><code>████████████████</code></td><td align="right">100.00%</td></tr>
-</table>
-
-<table>
-<tr><th align="left" colspan="4">Operating systems</th></tr>
-<tr><th align="left">Name</th><th align="left">Time</th><th align="left">Activity</th><th align="right">Share</th></tr>
-<tr><td>Linux</td><td><code>3 hrs 8 mins</code></td><td><code>████████████████</code></td><td align="right">100.00%</td></tr>
-</table>
-
-<table>
-<tr><th align="left" colspan="3">Commit rhythm</th></tr>
-<tr><th align="left">Period</th><th align="left">Activity</th><th align="right">Commits</th></tr>
-<tr><td>Morning</td><td><code>██░░░░░░░░░░░░░░</code></td><td align="right">4</td></tr>
-<tr><td>Daytime</td><td><code>██░░░░░░░░░░░░░░</code></td><td align="right">3</td></tr>
-<tr><td>Evening</td><td><code>██████░░░░░░░░░░</code></td><td align="right">11</td></tr>
-<tr><td>Night</td><td><code>██████░░░░░░░░░░</code></td><td align="right">11</td></tr>
-</table>
-
-<table>
-<tr><th align="left" colspan="3">Repository languages</th></tr>
-<tr><th align="left">Language</th><th align="left">Share</th><th align="right">Repositories</th></tr>
-<tr><td>Go</td><td><code>███░░░░░░░░░░░░░</code></td><td align="right">11</td></tr>
-<tr><td>Python</td><td><code>███░░░░░░░░░░░░░</code></td><td align="right">10</td></tr>
-<tr><td>Rust</td><td><code>██░░░░░░░░░░░░░░</code></td><td align="right">9</td></tr>
-<tr><td>Java</td><td><code>██░░░░░░░░░░░░░░</code></td><td align="right">6</td></tr>
-<tr><td>Other</td><td><code>██░░░░░░░░░░░░░░</code></td><td align="right">6</td></tr>
-</table>
-
-<p align="center"><small>Last Updated on 13/11/2026 06:17:56 UTC</small></p>
+<p>The local profile action generates the live WakaTime and GitHub signal here.</p>
 <!--END_SECTION:waka-->
 
-<hr>
+---
 
 <div align="center">
+
 <p><code>LEENIUM.STATUS</code> · <code>ONLINE</code> · <code>MASTER</code></p>
+<p><em>Build useful things. Publish what you learn. Keep the signal clean.</em></p>
 <p>
 <a href="https://drunkleen.com">Blog</a> ·
 <a href="https://github.com/drunkleen">GitHub</a> ·
 <a href="mailto:anakin@drunkleen.com">anakin@drunkleen.com</a>
 </p>
-</div>
 
 </div>

@@ -93,11 +93,12 @@ class ProfileMetricsTests(unittest.TestCase):
     def test_build_section_keeps_non_ai_metrics_only(self):
         waka = {
             "timezone": "Europe/Berlin",
+            "total_seconds": 14400,
             "languages": [
-                {"name": "Rust", "text": "3 hrs", "percent": 75.0},
-                {"name": "Go", "text": "1 hr", "percent": 25.0},
+                {"name": "Rust", "text": "3 hrs", "percent": 75.0, "total_seconds": 10800},
+                {"name": "Go", "text": "1 hr", "percent": 25.0, "total_seconds": 3600},
             ],
-            "editors": [{"name": "Neovim", "text": "4 hrs", "percent": 100.0}],
+            "editors": [{"name": "Neovim", "text": "4 hrs", "percent": 100.0, "total_seconds": 14400}],
             "operating_systems": [{"name": "Linux", "text": "4 hrs", "percent": 100.0}],
         }
         commits = {"Morning": 4, "Daytime": 3, "Evening": 2, "Night": 1}
@@ -111,7 +112,13 @@ class ProfileMetricsTests(unittest.TestCase):
         )
 
         self.assertIn("LAST 7 DAYS", section)
+        self.assertIn("WAKATIME // 7 DAY SIGNAL", section)
+        self.assertIn("TOTAL DEV", section)
+        self.assertIn("4 hrs", section)
+        self.assertIn("TOP LANGUAGE", section)
         self.assertIn("<table>", section)
+        self.assertIn("<pre>", section)
+        self.assertIn("<details>", section)
         self.assertIn("Rust", section)
         self.assertIn("Neovim", section)
         self.assertIn("Linux", section)
@@ -121,6 +128,18 @@ class ProfileMetricsTests(unittest.TestCase):
         self.assertNotIn("AI Coding", section)
         self.assertNotIn("<img", section)
         self.assertNotIn("```", section)
+
+    def test_terminal_dashboard_escapes_provider_text(self):
+        waka = {
+            "languages": [{"name": "<Rust & Go>", "text": "1 hr", "percent": 100.0}],
+            "editors": [],
+            "operating_systems": [],
+        }
+
+        section = profile_metrics.build_section(waka, {}, {})
+
+        self.assertIn("&lt;Rust &amp; Go&gt;", section)
+        self.assertNotIn("<Rust & Go>", section)
 
     def test_build_section_preserves_other_outside_top_five(self):
         waka = {

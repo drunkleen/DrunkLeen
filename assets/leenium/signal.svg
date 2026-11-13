@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" role="img" aria-label="">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1113"/>
+      <stop offset="1" stop-color="#11191c"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#33b8a8" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#33b8a8"/>
+      <stop offset="0.7" stop-color="#59d6c5"/>
+      <stop offset="1" stop-color="#59d6c5" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#365156" stroke-width="1" opacity=".28"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="220" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="218" rx="17" fill="none" stroke="#365156" stroke-width="2"/>
+  <rect width="1200" height="220" rx="18" fill="url(#grid)"/>
+  <path d="M0 154H175l25-52 32 90 35-135 37 97h77l23-37 28 37h126l27-66 31 106 38-151 34 111h127l28-52 35 89 31-128 38 91h178" fill="none" stroke="url(#signal)" stroke-width="4" stroke-linejoin="round" filter="url(#glow)"/>
+  <g fill="#33b8a8">
+    <circle cx="200" cy="102" r="5"/><circle cx="404" cy="117" r="5"/><circle cx="585" cy="88" r="5"/><circle cx="843" cy="102" r="5"/><circle cx="1006" cy="63" r="5"/>
+  </g>
+  <g fill="#718688" opacity=".7">
+    <rect x="30" y="28" width="120" height="4" rx="2"/><rect x="30" y="40" width="72" height="4" rx="2"/>
+    <rect x="1050" y="182" width="120" height="4" rx="2"/><rect x="1098" y="194" width="72" height="4" rx="2"/>
+  </g>
+</svg>

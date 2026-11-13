@@ -273,6 +273,59 @@ def html_metric_table(title: str, items: list[dict[str, Any]], *, preserve_other
     return "\n".join(rows)
 
 
+def metric_total_seconds(waka: dict[str, Any]) -> float:
+    explicit = float(waka.get("total_seconds", 0.0) or 0.0)
+    if explicit > 0:
+        return explicit
+    return sum(float(item.get("total_seconds", 0.0) or 0.0) for item in list(waka.get("languages") or []))
+
+
+def terminal_metric_lines(
+    label: str,
+    items: list[dict[str, Any]],
+    *,
+    preserve_other: bool = False,
+) -> list[str]:
+    visible = select_metric_items(items) if preserve_other else list(items[:5])
+    lines = [f"  {label}"]
+    if not visible:
+        return lines + ["    no signal"]
+    for item in visible:
+        name = str(item.get("name") or "Unknown")[:16]
+        text = str(item.get("text") or "0 secs")[:13]
+        percent = max(0.0, min(100.0, float(item.get("percent", 0.0) or 0.0)))
+        lines.append(f"    {name:<16} {render_bar(percent, width=18)}  {percent:6.2f}%  {text:>13}")
+    return lines
+
+
+def terminal_dashboard(
+    waka: dict[str, Any],
+    editors: list[dict[str, Any]],
+    systems: list[dict[str, Any]],
+) -> str:
+    languages = list(waka.get("languages") or [])
+    total_seconds = metric_total_seconds(waka)
+    top_language = str(languages[0].get("name") or "No signal") if languages else "No signal"
+    top_percent = float(languages[0].get("percent", 0.0) or 0.0) if languages else 0.0
+    editor_name = str(editors[0].get("name") or "No signal") if editors else "No signal"
+    system_name = str(systems[0].get("name") or "No signal") if systems else "No signal"
+
+    lines = [
+        "╭─ WAKATIME // 7 DAY SIGNAL ─────────────────────────────────────────────╮",
+        f"│ TOTAL DEV   {format_duration(total_seconds):<18} DAILY AVG   {format_duration(total_seconds / 7):<16} │",
+        f"│ TOP LANGUAGE {top_language[:14]:<14} {top_percent:6.2f}%     EDITOR      {editor_name[:16]:<16} │",
+        f"│ SYSTEM       {system_name[:16]:<16} STATUS      TRACKING LIVE             │",
+        "├─────────────────────────────────────────────────────────────────────────┤",
+        *terminal_metric_lines("LANGUAGES", languages, preserve_other=True),
+        "│",
+        *terminal_metric_lines("EDITORS", editors),
+        "│",
+        *terminal_metric_lines("OPERATING SYSTEMS", systems),
+        "╰─────────────────────────────────────────────────────────────────────────╯",
+    ]
+    return f"<pre>\n{escape(chr(10).join(lines))}\n</pre>"
+
+
 def build_section(
     waka: dict[str, Any],
     commits: dict[str, int],
@@ -316,11 +369,29 @@ def build_section(
         )
     repository_rows.append("</table>")
 
+    total_seconds = metric_total_seconds(waka)
+    top_language = str(languages[0].get("name") or "No signal") if languages else "No signal"
+    top_editor = str(editors[0].get("name") or "No signal") if editors else "No signal"
+
     lines = [
         '<div align="center">',
-        '<p><code>LEENIUM / DEVELOPMENT TELEMETRY</code></p>',
-        f'<p><strong>LAST 7 DAYS</strong> · {escape(timezone_name)} · {total_commits} commits sampled</p>',
+        '<h2>Development signal</h2>',
+        '<p><code>LEENIUM://TELEMETRY</code> · <strong>LAST 7 DAYS</strong> · WakaTime + GitHub</p>',
+        f'<p><small>{escape(timezone_name)} · generated from live development activity</small></p>',
         '</div>',
+        "",
+        '<table><tr>',
+        f'<td align="center"><strong>{escape(format_duration(total_seconds))}</strong><br><sub>TOTAL DEV</sub></td>',
+        f'<td align="center"><strong>{escape(format_duration(total_seconds / 7))}</strong><br><sub>DAILY AVG</sub></td>',
+        f'<td align="center"><strong>{escape(top_language)}</strong><br><sub>TOP LANGUAGE</sub></td>',
+        f'<td align="center"><strong>{escape(top_editor)}</strong><br><sub>EDITOR</sub></td>',
+        f'<td align="center"><strong>{total_commits}</strong><br><sub>COMMITS</sub></td>',
+        '</tr></table>',
+        "",
+        terminal_dashboard(waka, editors, systems),
+        "",
+        '<details>',
+        '<summary><strong>Open full telemetry</strong> · languages, environment, commit rhythm, repositories</summary>',
         "",
         html_metric_table("Programming languages", languages, preserve_other=True),
         "",
@@ -331,6 +402,8 @@ def build_section(
         *commit_rows,
         "",
         *repository_rows,
+        "",
+        '</details>',
         "",
         f'<p align="center"><small>Last Updated on {now.astimezone(timezone.utc).strftime("%d/%m/%Y %H:%M:%S UTC")}</small></p>',
     ]
