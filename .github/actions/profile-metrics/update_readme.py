@@ -11,10 +11,17 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from collections import Counter
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+from html import escape
 from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
+
+ACTION_DIR = Path(__file__).resolve().parent
+if str(ACTION_DIR) not in sys.path:
+    sys.path.insert(0, str(ACTION_DIR))
+
+from leenium_assets import build_metrics_svg, build_static_assets
 
 GITHUB_API = "https://api.github.com"
 WAKATIME_API = "https://wakatime.com/api/v1"
@@ -96,23 +103,29 @@ def fetch_repository_languages(token: str, username: str) -> Counter[str]:
                 continue
             if repository.get("fork") or repository.get("archived"):
                 continue
-            language = repository.get("language")
-            if language:
-                languages[str(language)] += 1
+            language = repository.get("language") or "Other"
+            languages[str(language)] += 1
         if len(repositories) < 100:
             break
     return languages
 
 
-def fetch_recent_commit_periods(token: str, username: str, timezone_name: str) -> Counter[str]:
+def fetch_recent_commit_periods(
+    token: str,
+    username: str,
+    timezone_name: str,
+    now: datetime | None = None,
+) -> Counter[str]:
     periods: Counter[str] = Counter({"Morning": 0, "Daytime": 0, "Evening": 0, "Night": 0})
     headers = github_headers(token)
     local_timezone = ZoneInfo(timezone_name)
+    local_now = (now or datetime.now(timezone.utc)).astimezone(local_timezone)
+    since = (local_now - timedelta(days=7)).date().isoformat()
 
     for page in range(1, 11):
         query = urllib.parse.urlencode(
             {
-                "q": f"author:{username}",
+                "q": f"author:{username} author-date:>={since}",
                 "sort": "author-date",
                 "order": "desc",
                 "per_page": 100,
@@ -233,6 +246,92 @@ def render_repository_rows(languages: dict[str, int]) -> tuple[str, list[str]]:
     return title, rows
 
 
+def select_metric_items(items: list[dict[str, Any]], limit: int = 5) -> list[dict[str, Any]]:
+    selected = list(items[:limit])
+    other = next((item for item in items if str(item.get("name", "")).casefold() == "other"), None)
+    if other is not None and other not in selected:
+        selected = selected[: max(0, limit - 1)] + [other]
+    return selected
+
+
+def html_metric_table(title: str, items: list[dict[str, Any]], *, preserve_other: bool = False) -> str:
+    visible = select_metric_items(items) if preserve_other else list(items[:5])
+    rows = [
+        "<table>",
+        f"<tr><th align=\"left\" colspan=\"4\">{escape(title)}</th></tr>",
+        "<tr><th align=\"left\">Name</th><th align=\"left\">Time</th><th align=\"left\">Activity</th><th align=\"right\">Share</th></tr>",
+    ]
+    if not visible:
+        rows.append('<tr><td colspan="4"><em>No activity tracked this week</em></td></tr>')
+    for item in visible:
+        name = escape(str(item.get("name") or "Unknown"))
+        text = escape(str(item.get("text") or "0 secs"))
+        percent = max(0.0, min(100.0, float(item.get("percent", 0.0) or 0.0)))
+        rows.append(
+            "<tr>"
+            f"<td>{name}</td>"
+            f"<td><code>{text}</code></td>"
+            f"<td><code>{render_bar(percent, width=16)}</code></td>"
+            f"<td align=\"right\">{percent:0.2f}%</td>"
+            "</tr>"
+        )
+    rows.append("</table>")
+    return "\n".join(rows)
+
+
+def metric_total_seconds(waka: dict[str, Any]) -> float:
+    explicit = float(waka.get("total_seconds", 0.0) or 0.0)
+    if explicit > 0:
+        return explicit
+    return sum(float(item.get("total_seconds", 0.0) or 0.0) for item in list(waka.get("languages") or []))
+
+
+def terminal_metric_lines(
+    label: str,
+    items: list[dict[str, Any]],
+    *,
+    preserve_other: bool = False,
+) -> list[str]:
+    visible = select_metric_items(items) if preserve_other else list(items[:5])
+    lines = [f"  {label}"]
+    if not visible:
+        return lines + ["    no signal"]
+    for item in visible:
+        name = str(item.get("name") or "Unknown")[:16]
+        text = str(item.get("text") or "0 secs")[:13]
+        percent = max(0.0, min(100.0, float(item.get("percent", 0.0) or 0.0)))
+        lines.append(f"    {name:<16} {render_bar(percent, width=18)}  {percent:6.2f}%  {text:>13}")
+    return lines
+
+
+def terminal_dashboard(
+    waka: dict[str, Any],
+    editors: list[dict[str, Any]],
+    systems: list[dict[str, Any]],
+) -> str:
+    languages = list(waka.get("languages") or [])
+    total_seconds = metric_total_seconds(waka)
+    top_language = str(languages[0].get("name") or "No signal") if languages else "No signal"
+    top_percent = float(languages[0].get("percent", 0.0) or 0.0) if languages else 0.0
+    editor_name = str(editors[0].get("name") or "No signal") if editors else "No signal"
+    system_name = str(systems[0].get("name") or "No signal") if systems else "No signal"
+
+    lines = [
+        "╭─ WAKATIME // 7 DAY SIGNAL ─────────────────────────────────────────────╮",
+        f"│ TOTAL DEV   {format_duration(total_seconds):<18} DAILY AVG   {format_duration(total_seconds / 7):<16} │",
+        f"│ TOP LANGUAGE {top_language[:14]:<14} {top_percent:6.2f}%     EDITOR      {editor_name[:16]:<16} │",
+        f"│ SYSTEM       {system_name[:16]:<16} STATUS      TRACKING LIVE             │",
+        "├─────────────────────────────────────────────────────────────────────────┤",
+        *terminal_metric_lines("LANGUAGES", languages, preserve_other=True),
+        "│",
+        *terminal_metric_lines("EDITORS", editors),
+        "│",
+        *terminal_metric_lines("OPERATING SYSTEMS", systems),
+        "╰─────────────────────────────────────────────────────────────────────────╯",
+    ]
+    return f"<pre>\n{escape(chr(10).join(lines))}\n</pre>"
+
+
 def build_section(
     waka: dict[str, Any],
     commits: dict[str, int],
@@ -241,38 +340,78 @@ def build_section(
 ) -> str:
     now = now or datetime.now(timezone.utc)
     timezone_name = str(waka.get("timezone") or "Europe/Berlin")
-    productivity_title, commit_rows = render_commit_rows(commits)
-    repository_title, repository_rows = render_repository_rows(repositories)
+    editors = normalize_editors(list(waka.get("editors") or []))
+    systems = list(waka.get("operating_systems") or [])
+    languages = list(waka.get("languages") or [])
+
+    commit_labels = [("Morning", "Morning"), ("Daytime", "Daytime"), ("Evening", "Evening"), ("Night", "Night")]
+    total_commits = sum(max(0, commits.get(name, 0)) for name, _ in commit_labels)
+    commit_rows = [
+        "<table>",
+        '<tr><th align="left" colspan="3">Commit rhythm</th></tr>',
+        '<tr><th align="left">Period</th><th align="left">Activity</th><th align="right">Commits</th></tr>',
+    ]
+    for name, label in commit_labels:
+        count = max(0, commits.get(name, 0))
+        percent = count / total_commits * 100.0 if total_commits else 0.0
+        commit_rows.append(
+            f'<tr><td>{label}</td><td><code>{render_bar(percent, width=16)}</code></td><td align="right">{count}</td></tr>'
+        )
+    commit_rows.append("</table>")
+
+    ordered_repositories = sorted(repositories.items(), key=lambda item: (-item[1], item[0].casefold()))
+    repository_total = sum(repositories.values())
+    repository_rows = [
+        "<table>",
+        '<tr><th align="left" colspan="3">Repository languages</th></tr>',
+        '<tr><th align="left">Language</th><th align="left">Share</th><th align="right">Repositories</th></tr>',
+    ]
+    if not ordered_repositories:
+        repository_rows.append('<tr><td colspan="3"><em>No repository language data available</em></td></tr>')
+    for language, count in ordered_repositories[:5]:
+        percent = count / repository_total * 100.0 if repository_total else 0.0
+        repository_rows.append(
+            f'<tr><td>{escape(language)}</td><td><code>{render_bar(percent, width=16)}</code></td><td align="right">{count}</td></tr>'
+        )
+    repository_rows.append("</table>")
+
+    total_seconds = metric_total_seconds(waka)
+    top_language = str(languages[0].get("name") or "No signal") if languages else "No signal"
+    top_editor = str(editors[0].get("name") or "No signal") if editors else "No signal"
 
     lines = [
-        f"**{productivity_title}** ",
+        '<div align="center">',
+        '<h2>Development signal</h2>',
+        '<p><code>LEENIUM://TELEMETRY</code> · <strong>LAST 7 DAYS</strong> · WakaTime + GitHub</p>',
+        f'<p><small>{escape(timezone_name)} · generated from live development activity</small></p>',
+        '</div>',
         "",
-        "```text",
+        '<table><tr>',
+        f'<td align="center"><strong>{escape(format_duration(total_seconds))}</strong><br><sub>TOTAL DEV</sub></td>',
+        f'<td align="center"><strong>{escape(format_duration(total_seconds / 7))}</strong><br><sub>DAILY AVG</sub></td>',
+        f'<td align="center"><strong>{escape(top_language)}</strong><br><sub>TOP LANGUAGE</sub></td>',
+        f'<td align="center"><strong>{escape(top_editor)}</strong><br><sub>EDITOR</sub></td>',
+        f'<td align="center"><strong>{total_commits}</strong><br><sub>COMMITS</sub></td>',
+        '</tr></table>',
+        "",
+        terminal_dashboard(waka, editors, systems),
+        "",
+        '<details>',
+        '<summary><strong>Open full telemetry</strong> · languages, environment, commit rhythm, repositories</summary>',
+        "",
+        html_metric_table("Programming languages", languages, preserve_other=True),
+        "",
+        html_metric_table("Editors", editors),
+        "",
+        html_metric_table("Operating systems", systems),
+        "",
         *commit_rows,
-        "```",
         "",
-        "📊 **This Week I Spent My Time On** ",
-        "",
-        "```text",
-        f"🕑︎ Time Zone: {timezone_name}",
-        "",
-        "💬 Programming Languages: ",
-        *render_metric_rows(list(waka.get("languages") or [])),
-        "",
-        "🔥 Editors: ",
-        *render_metric_rows(normalize_editors(list(waka.get("editors") or []))),
-        "",
-        "💻 Operating System: ",
-        *render_metric_rows(list(waka.get("operating_systems") or [])),
-        "```",
-        "",
-        f"**{repository_title}** ",
-        "",
-        "```text",
         *repository_rows,
-        "```",
         "",
-        f"Last Updated on {now.astimezone(timezone.utc).strftime('%d/%m/%Y %H:%M:%S UTC')}",
+        '</details>',
+        "",
+        f'<p align="center"><small>Last Updated on {now.astimezone(timezone.utc).strftime("%d/%m/%Y %H:%M:%S UTC")}</small></p>',
     ]
     return "\n".join(lines).rstrip()
 
@@ -285,6 +424,27 @@ def replace_section(readme: str, section: str, section_name: str = "waka") -> st
         raise ValueError(f"README markers {start} and {end} were not found")
     replacement = f"{start}\n{section}\n{end}"
     return pattern.sub(replacement, readme, count=1)
+
+
+def metrics_section_markup(assets_dir: str = "assets/leenium") -> str:
+    asset_path = assets_dir.strip("/")
+    return "\n".join(
+        [
+            '<picture>',
+            f'  <source media="(max-width: 600px)" srcset="./{asset_path}/development-metrics-mobile.svg">',
+            f'  <img width="100%" src="./{asset_path}/development-metrics.svg" alt="Leenium development telemetry">',
+            '</picture>',
+        ]
+    )
+
+
+def write_if_changed(path: Path, content: str) -> bool:
+    current = path.read_text(encoding="utf-8") if path.exists() else None
+    if current == content:
+        return False
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(content, encoding="utf-8")
+    return True
 
 
 def set_output(name: str, value: str) -> None:
@@ -309,17 +469,30 @@ def main() -> int:
         readme_path = Path(os.environ.get("INPUT_README_PATH", "README.md"))
         section_name = os.environ.get("INPUT_SECTION_NAME", "waka").strip() or "waka"
         timezone_name = os.environ.get("INPUT_TIMEZONE", "Europe/Berlin").strip() or "Europe/Berlin"
+        assets_dir = Path(os.environ.get("INPUT_ASSETS_DIR", "assets/leenium"))
 
         waka = fetch_wakatime_stats(wakatime_api_key)
         commits = fetch_recent_commit_periods(github_token, username, timezone_name)
         repositories = fetch_repository_languages(github_token, username)
 
+        normalized_waka = dict(waka)
+        normalized_waka["editors"] = normalize_editors(list(waka.get("editors") or []))
+
+        changed = False
+        for filename, svg in build_static_assets().items():
+            changed = write_if_changed(assets_dir / filename, svg) or changed
+        changed = write_if_changed(
+            assets_dir / "development-metrics.svg",
+            build_metrics_svg(normalized_waka, commits, repositories, mobile=False),
+        ) or changed
+        changed = write_if_changed(
+            assets_dir / "development-metrics-mobile.svg",
+            build_metrics_svg(normalized_waka, commits, repositories, mobile=True),
+        ) or changed
+
         original = readme_path.read_text(encoding="utf-8")
-        section = build_section(waka, commits, repositories)
-        updated = replace_section(original, section, section_name)
-        changed = updated != original
-        if changed:
-            readme_path.write_text(updated, encoding="utf-8")
+        updated = replace_section(original, metrics_section_markup(assets_dir.as_posix()), section_name)
+        changed = write_if_changed(readme_path, updated) or changed
         set_output("changed", str(changed).lower())
         print(f"Profile metrics updated: changed={str(changed).lower()}")
         return 0

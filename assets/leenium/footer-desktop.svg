@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="126" viewBox="0 0 1200 126" role="img" aria-label="Profile links">
+  <rect width="1200" height="126" rx="22" fill="#0b1113"/>
+  <rect x="1" y="1" width="1198" height="124" rx="21" fill="none" stroke="#365156" stroke-width="2"/>
+
+  <text x="34" y="43" fill="#33b8a8" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="700" text-anchor="start">LEENIUM.STATUS</text>
+  <text x="34" y="82" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="600" text-anchor="start">github / drunkleen</text>
+  <text x="350" y="82" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="600" text-anchor="start">web / drunkleen.com</text>
+  <text x="660" y="82" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="600" text-anchor="start">mail / anakin@drunkleen.com</text>
+  <text x="1166" y="82" fill="#4dba7a" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="700" text-anchor="end">● online</text>
+  </svg>

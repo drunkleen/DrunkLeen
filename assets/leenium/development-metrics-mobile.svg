@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1080" viewBox="0 0 390 1080" role="img" aria-label="Development telemetry">
+  <rect width="390" height="1080" rx="22" fill="#0b1113"/>
+  <rect x="1" y="1" width="388" height="1078" rx="21" fill="none" stroke="#365156" stroke-width="2"/>
+
+  <rect x="1" y="1" width="388" height="52" rx="21" fill="#11191c"/>
+  <path d="M1 52 H389" stroke="#365156"/>
+  <circle cx="28" cy="27" r="5" fill="#e16f73"/>
+  <circle cx="47" cy="27" r="5" fill="#d9c76b"/>
+  <circle cx="66" cy="27" r="5" fill="#4dba7a"/>
+  <text x="88" y="33" fill="#59d6c5" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="700" text-anchor="start">DEVELOPMENT TELEMETRY</text>
+  <text x="28" y="96" fill="#33b8a8" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="700" text-anchor="start">LAST 7 DAYS</text>
+  <text x="28" y="130" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="24" font-weight="750" text-anchor="start">Development telemetry</text>
+  <text x="28" y="157" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="400" text-anchor="start">Europe/Berlin · updated 13 NOV 2026</text>
+  <rect x="28" y="186" width="334" height="374" rx="14" fill="#11191c" stroke="#365156"/>
+  <text x="48" y="220" fill="#59d6c5" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="700" text-anchor="start">LANGUAGES</text>
+  <text x="48" y="262" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="600" text-anchor="start">Go</text>
+  <rect x="140" y="249" width="128" height="12" rx="6" fill="#365156" fill-opacity="0.45"/>
+  <rect x="140" y="249" width="100" height="12" rx="6" fill="#33b8a8"/>
+  <text x="342" y="262" fill="#59d6c5" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" text-anchor="end">78.1%</text>
+  <text x="140" y="282" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="10" font-weight="400" text-anchor="start">2 hrs 27 mins</text>
+  <text x="48" y="324" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="600" text-anchor="start">Lua</text>
+  <rect x="140" y="311" width="128" height="12" rx="6" fill="#365156" fill-opacity="0.45"/>
+  <rect x="140" y="311" width="21" height="12" rx="6" fill="#33b8a8"/>
+  <text x="342" y="324" fill="#59d6c5" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" text-anchor="end">16.4%</text>
+  <text x="140" y="344" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="10" font-weight="400" text-anchor="start">30 mins</text>
+  <text x="48" y="386" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="600" text-anchor="start">Makefile</text>
+  <rect x="140" y="373" width="128" height="12" rx="6" fill="#365156" fill-opacity="0.45"/>
+  <rect x="140" y="373" width="7" height="12" rx="6" fill="#33b8a8"/>
+  <text x="342" y="386" fill="#59d6c5" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" text-anchor="end">5.3%</text>
+  <text x="140" y="406" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="10" font-weight="400" text-anchor="start">10 mins</text>
+  <text x="48" y="448" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="600" text-anchor="start">Git Config</text>
+  <rect x="140" y="435" width="128" height="12" rx="6" fill="#365156" fill-opacity="0.45"/>
+  <rect x="140" y="435" width="2" height="12" rx="6" fill="#33b8a8"/>
+  <text x="342" y="448" fill="#59d6c5" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" text-anchor="end">0.1%</text>
+  <text x="140" y="468" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="10" font-weight="400" text-anchor="start">0 secs</text>
+  <text x="48" y="510" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="600" text-anchor="start">Other</text>
+  <rect x="140" y="497" width="128" height="12" rx="6" fill="#365156" fill-opacity="0.45"/>
+  <rect x="140" y="497" width="2" height="12" rx="6" fill="#33b8a8"/>
+  <text x="342" y="510" fill="#59d6c5" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" text-anchor="end">0.0%</text>
+  <text x="140" y="530" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="10" font-weight="400" text-anchor="start">0 secs</text>
+  <rect x="28" y="582" width="334" height="152" rx="14" fill="#11191c" stroke="#365156"/>
+  <text x="48" y="618" fill="#59d6c5" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="700" text-anchor="start">ENVIRONMENT</text>
+  <text x="48" y="654" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="10" font-weight="700" text-anchor="start">EDITOR</text>
+  <text x="144" y="654" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="700" text-anchor="start">Neovim</text>
+  <text x="48" y="686" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="10" font-weight="700" text-anchor="start">TIME</text>
+  <text x="144" y="686" fill="#33b8a8" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="700" text-anchor="start">3 hrs 8 mins</text>
+  <text x="48" y="718" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="10" font-weight="700" text-anchor="start">SYSTEM</text>
+  <text x="144" y="718" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="700" text-anchor="start">Linux</text>
+  <rect x="28" y="756" width="334" height="274" rx="14" fill="#11191c" stroke="#365156"/>
+  <text x="48" y="791" fill="#59d6c5" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="700" text-anchor="start">GITHUB SIGNAL</text>
+  <text x="48" y="830" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="26" font-weight="750" text-anchor="start">29</text>
+  <text x="48" y="854" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="10" font-weight="400" text-anchor="start">commits sampled</text>
+  <text x="230" y="830" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="26" font-weight="750" text-anchor="start">63</text>
+  <text x="230" y="854" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="10" font-weight="400" text-anchor="start">repositories</text>
+  <text x="48" y="894" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="10" font-weight="700" text-anchor="start">REPOSITORY LANGUAGES</text>
+  <text x="48" y="926" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="600" text-anchor="start">Go</text>
+  <text x="330" y="926" fill="#5e9bff" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="11" font-weight="600" text-anchor="end">11 repos</text>
+  <text x="48" y="951" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="600" text-anchor="start">Python</text>
+  <text x="330" y="951" fill="#5e9bff" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="11" font-weight="600" text-anchor="end">10 repos</text>
+  <text x="48" y="976" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="600" text-anchor="start">Rust</text>
+  <text x="330" y="976" fill="#5e9bff" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="11" font-weight="600" text-anchor="end">9 repos</text>
+  <text x="48" y="1001" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="600" text-anchor="start">Java</text>
+  <text x="330" y="1001" fill="#5e9bff" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="11" font-weight="600" text-anchor="end">6 repos</text>
+  <text x="28" y="1060" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="11" font-weight="400" text-anchor="start">generated locally · no separate AI section</text>
+  </svg>
