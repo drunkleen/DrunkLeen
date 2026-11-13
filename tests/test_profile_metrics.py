@@ -41,6 +41,18 @@ class ProfileMetricsTests(unittest.TestCase):
             self.assertIn("#0b1113", svg)
             self.assertIn("#33b8a8", svg)
 
+    def test_desktop_about_copy_stays_clear_of_current_focus_panel(self):
+        root = ET.fromstring(leenium_assets.about_svg(mobile=False))
+        namespace = {"svg": "http://www.w3.org/2000/svg"}
+        left_copy = [
+            "".join(node.itertext())
+            for node in root.findall("svg:text", namespace)
+            if node.get("x") == "52" and 180 <= int(node.get("y", "0")) <= 255
+        ]
+
+        self.assertGreaterEqual(len(left_copy), 3)
+        self.assertTrue(all(len(line) <= 64 for line in left_copy), left_copy)
+
     def test_project_svg_has_no_fake_unclickable_repository_cta(self):
         assets = leenium_assets.build_static_assets()
 
