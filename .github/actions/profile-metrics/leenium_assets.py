@@ -156,8 +156,9 @@ def about_svg(*, mobile: bool) -> str:
         out += [
             _text(52, 105, "ABOUT", 13, ACCENT, 700),
             _text(52, 150, "Curiosity is the workflow.", 30, FG, 750),
-            _text(52, 191, "I'm a developer and open-source enthusiast focused on Rust, Go, Linux, networking,", 16, MUTED),
-            _text(52, 218, "system-level software, self-hosting and educational content for Persian developers.", 16, MUTED),
+            _text(52, 190, "I'm a developer and open-source enthusiast focused on", 16, MUTED),
+            _text(52, 218, "Rust, Go, Linux, networking, and system-level software.", 16, MUTED),
+            _text(52, 246, "I also build self-hosted systems and Persian education.", 16, MUTED),
             f'<rect x="706" y="86" width="442" height="214" rx="14" fill="{SURFACE}" stroke="{BORDER}"/>',
             _text(736, 121, "CURRENT FOCUS", 12, CYAN, 700),
             _text(736, 160, "01", 13, ACCENT, 700), _text(780, 160, "Open-source tools", 15, FG, 600),
