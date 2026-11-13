@@ -30,7 +30,7 @@ class ProfileMetricsTests(unittest.TestCase):
 
         expected = {
             "hero-desktop.svg", "hero-mobile.svg",
-            "about-desktop.svg", "about-mobile.svg",
+            "about-desktop-v2.svg", "about-mobile-v2.svg",
             "stack-desktop.svg", "stack-mobile.svg",
             "projects-desktop.svg", "projects-mobile.svg",
             "footer-desktop.svg", "footer-mobile.svg",
@@ -68,6 +68,10 @@ class ProfileMetricsTests(unittest.TestCase):
         self.assertIn('href="https://github.com/persian-rust"', readme)
         self.assertIn('href="https://drunkleen.com"', readme)
         self.assertIn("BLOG", readme)
+        self.assertIn("./assets/leenium/about-desktop-v2.svg", readme)
+        self.assertIn("./assets/leenium/about-mobile-v2.svg", readme)
+        self.assertNotIn("./assets/leenium/about-desktop.svg", readme)
+        self.assertNotIn("./assets/leenium/about-mobile.svg", readme)
 
     def test_metrics_svg_preserves_other_and_mobile_repository_breakdown(self):
         waka = {

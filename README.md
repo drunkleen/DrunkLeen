@@ -18,8 +18,8 @@
 </p>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/leenium/about-mobile.svg">
-  <img width="100%" src="./assets/leenium/about-desktop.svg" alt="About Leen: Rust, Go, Linux, networking, security, self-hosting, and Persian education">
+  <source media="(max-width: 600px)" srcset="./assets/leenium/about-mobile-v2.svg">
+  <img width="100%" src="./assets/leenium/about-desktop-v2.svg" alt="About Leen: Rust, Go, Linux, networking, security, self-hosting, and Persian education">
 </picture>
 
 <br>

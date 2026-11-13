@@ -393,8 +393,8 @@ def build_static_assets() -> dict[str, str]:
     return {
         "hero-desktop.svg": hero_svg(mobile=False),
         "hero-mobile.svg": hero_svg(mobile=True),
-        "about-desktop.svg": about_svg(mobile=False),
-        "about-mobile.svg": about_svg(mobile=True),
+        "about-desktop-v2.svg": about_svg(mobile=False),
+        "about-mobile-v2.svg": about_svg(mobile=True),
         "stack-desktop.svg": stack_svg(mobile=False),
         "stack-mobile.svg": stack_svg(mobile=True),
         "projects-desktop.svg": projects_svg(mobile=False),
