@@ -10,7 +10,7 @@
   <text x="88" y="33" fill="#59d6c5" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="700" text-anchor="start">DEVELOPMENT TELEMETRY</text>
   <text x="28" y="96" fill="#33b8a8" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="700" text-anchor="start">LAST 7 DAYS</text>
   <text x="28" y="130" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="24" font-weight="750" text-anchor="start">Development telemetry</text>
-  <text x="28" y="157" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="400" text-anchor="start">Europe/Berlin · updated 27 NOV 2026</text>
+  <text x="28" y="157" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="400" text-anchor="start">Europe/Berlin · updated 28 NOV 2026</text>
   <rect x="28" y="186" width="334" height="374" rx="14" fill="#11191c" stroke="#365156"/>
   <text x="48" y="220" fill="#59d6c5" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="700" text-anchor="start">LANGUAGES</text>
   <text x="48" y="262" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="600" text-anchor="start">Go</text>

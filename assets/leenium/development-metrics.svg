@@ -8,7 +8,7 @@
   <circle cx="47" cy="27" r="5" fill="#d9c76b"/>
   <circle cx="66" cy="27" r="5" fill="#4dba7a"/>
   <text x="88" y="33" fill="#59d6c5" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="14" font-weight="700" text-anchor="start">DEVELOPMENT TELEMETRY</text>
-  <text x="1176" y="33" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="500" text-anchor="end">Europe/Berlin · 27 NOV 2026</text>
+  <text x="1176" y="33" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="500" text-anchor="end">Europe/Berlin · 28 NOV 2026</text>
   <text x="52" y="105" fill="#33b8a8" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="12" font-weight="700" text-anchor="start">LAST 7 DAYS</text>
   <text x="52" y="145" fill="#d8e3e0" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="31" font-weight="750" text-anchor="start">Development telemetry</text>
   <text x="52" y="176" fill="#718688" fill-opacity="1.0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace" font-size="13" font-weight="400" text-anchor="start">Language time includes provider-attributed assisted development; unclassified activity stays Other.</text>
